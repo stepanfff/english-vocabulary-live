@@ -1,0 +1,2954 @@
+[
+  {
+    "id": 1,
+    "en": "to accept",
+    "pron": "ту эксэ́пт",
+    "ru": "принимать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      },
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "en": "to accept digital data as input",
+    "pron": "ту эксэ́пт ди́джитэл дэ́йта эз и́нпут",
+    "ru": "принимать цифровую информацию на вход",
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "en": "according to instructions",
+    "pron": "эко́рдинг ту инстра́кшэнз",
+    "ru": "согласно инструкциям",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "en": "according to the instructions given to it",
+    "pron": "эко́рдинг ту зи инстра́кшэнз ги́вэн ту ит",
+    "ru": "в соответствии с данными ему инструкциями",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "en": "addition, subtraction, division, multiplication",
+    "pron": "эди́шэн, сэбтрэ́кшэн, диви́жэн, малтипликэ́йшэн",
+    "ru": "сложение, вычитание, деление, умножение",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "en": "advent",
+    "pron": "э́двэнт",
+    "ru": "появление, наступление",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "en": "appliance",
+    "pron": "эпла́йэнс",
+    "ru": "прибор, бытовое устройство",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "en": "application",
+    "pron": "эпликэ́йшэн",
+    "ru": "применение, приложение",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "en": "applied part",
+    "pron": "эпла́йд парт",
+    "ru": "прикладная часть",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "en": "applied physics",
+    "pron": "эпла́йд фи́зикс",
+    "ru": "прикладная физика",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "en": "assemble",
+    "pron": "эсэ́мбл",
+    "ru": "собирать, монтировать",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "en": "assembly of discrete components on a chip",
+    "pron": "эсэ́мбли эв дискри́т кэмпо́унэнтс он э чип",
+    "ru": "сборка дискретных компонентов на кристалле",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "en": "to assist",
+    "pron": "ту эси́ст",
+    "ru": "помогать, содействовать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "en": "at a rate",
+    "pron": "эт э рэйт",
+    "ru": "со скоростью, с темпом",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "en": "at the speed of light",
+    "pron": "эт зэ спид эв лайт",
+    "ru": "со скоростью света",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "en": "basic",
+    "pron": "бэ́йсик",
+    "ru": "основной",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "en": "basic capabilities",
+    "pron": "бэ́йсик кэйпэби́литиз",
+    "ru": "основные возможности",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "en": "basics",
+    "pron": "бэ́йсикс",
+    "ru": "основы",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "en": "batch processing",
+    "pron": "бэч про́усэсинг",
+    "ru": "пакетная обработка",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "en": "to be aware",
+    "pron": "ту би эуэ́р",
+    "ru": "осознавать, быть в курсе",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "en": "to be on the way of becoming computer-literate",
+    "pron": "ту би он зэ уэй эв бика́минг кэмпью́тэр-ли́тэрэт",
+    "ru": "быть на пути к освоению компьютерной грамотности",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "en": "to become possible",
+    "pron": "ту бика́м по́сибл",
+    "ru": "стать возможным",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "en": "binary",
+    "pron": "ба́йнэри",
+    "ru": "двоичный",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "en": "binary numerical system",
+    "pron": "ба́йнэри ньюмэ́рикэл си́стэм",
+    "ru": "двоичная система счисления",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "en": "by inputting signals",
+    "pron": "бай и́нпутинг си́гнэлз",
+    "ru": "посредством ввода сигналов",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "en": "to calculate the trajectories of spacecraft",
+    "pron": "ту кэ́лкьюлэйт зэ трэджэ́ктэриз эв спэ́йскрафт",
+    "ru": "вычислять траектории космических кораблей",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "en": "to call",
+    "pron": "ту кол",
+    "ru": "называть, звонить",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "en": "capabilities",
+    "pron": "кэйпэби́литиз",
+    "ru": "возможности",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "en": "carry out",
+    "pron": "кэ́ри аут",
+    "ru": "выполнять, осуществлять",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец"
+      },
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "en": "to carry out great numbers of arithmetic-logical operations almost instantaneously",
+    "pron": "ту кэ́ри аут грэйт на́мбэрз эв эри́смэтик-ло́джикэл опэрэ́йшэнз о́лмоуст инстэнтэ́йниэсли",
+    "ru": "почти мгновенно выполнять огромное количество арифметико-логических операций",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "en": "a cathode-ray-tube display",
+    "pron": "э кэ́соуд-рэй-тьюб дисплэ́й",
+    "ru": "дисплей с электронно-лучевой трубкой",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "en": "cellular phones",
+    "pron": "сэ́льюлэр фо́унз",
+    "ru": "сотовые телефоны",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "en": "central processing unit",
+    "pron": "сэ́нтрэл про́усэсинг ю́нит",
+    "ru": "центральное процессорное устройство",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "en": "character",
+    "pron": "кэ́рэктэр",
+    "ru": "символ, знак",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "en": "characters called data",
+    "pron": "кэ́рэктэрз колд дэ́йта",
+    "ru": "символы, называемые данными",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "en": "command",
+    "pron": "кэма́нд",
+    "ru": "команда",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "en": "common",
+    "pron": "ко́мэн",
+    "ru": "общий, распространённый",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "en": "to communicate",
+    "pron": "ту кэмью́никэйт",
+    "ru": "общаться, передавать информацию",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "en": "complex",
+    "pron": "ко́мплэкс",
+    "ru": "сложный",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "en": "a computer-literate citizen",
+    "pron": "э кэмпью́тэр-ли́тэрэт си́тизэн",
+    "ru": "компьютерно грамотный гражданин",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "en": "computers on integrated circuits",
+    "pron": "кэмпью́тэрз он и́нтигрэйтид сёркитс",
+    "ru": "компьютеры на интегральных схемах",
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "en": "concept",
+    "pron": "ко́нсэпт",
+    "ru": "понятие, концепция",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "en": "consumption",
+    "pron": "кэнса́мпшэн",
+    "ru": "потребление",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "en": "contain",
+    "pron": "кэнтэ́йн",
+    "ru": "содержать",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "en": "data",
+    "pron": "дэ́йта",
+    "ru": "данные",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      },
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "en": "a data processing system",
+    "pron": "э дэ́йта про́усэсинг си́стэм",
+    "ru": "система обработки данных",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "en": "to decide",
+    "pron": "ту диса́йд",
+    "ru": "решать, принимать решение",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "en": "decision",
+    "pron": "диси́жэн",
+    "ru": "решение",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "en": "to demagnetize the cores",
+    "pron": "ту димэ́гнэтайз зэ ко́рз",
+    "ru": "размагничивать сердечники",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "en": "the development of the first computers",
+    "pron": "зэ дивэ́лэпмэнт эв зэ фёрст кэмпью́тэрз",
+    "ru": "создание первых компьютеров",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "en": "device",
+    "pron": "дива́йс",
+    "ru": "устройство",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "en": "digital",
+    "pron": "ди́джитэл",
+    "ru": "цифровой",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "en": "digital data",
+    "pron": "ди́джитэл дэ́йта",
+    "ru": "цифровые данные",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "en": "to direct the operations of a computer",
+    "pron": "ту дирэ́кт зи опэрэ́йшэнз эв э кэмпью́тэр",
+    "ru": "управлять работой компьютера",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "en": "to discover natural phenomena",
+    "pron": "ту диска́вэр нэ́чэрэл фино́минэ",
+    "ru": "обнаруживать явления природы",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "en": "discrete components",
+    "pron": "дискри́т кэмпо́унэнтс",
+    "ru": "дискретные компоненты",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "en": "discrete logic gates",
+    "pron": "дискри́т ло́джик гэйтс",
+    "ru": "дискретные логические элементы",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "en": "a disk drive",
+    "pron": "э диск драйв",
+    "ru": "дисковод",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "en": "display",
+    "pron": "дисплэ́й",
+    "ru": "дисплей, экран",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "en": "due to",
+    "pron": "дью ту",
+    "ru": "благодаря, вследствие",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "en": "due to electronics",
+    "pron": "дью ту илэктро́никс",
+    "ru": "благодаря электронике",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "en": "due to the effects",
+    "pron": "дью ту зи ифэ́ктс",
+    "ru": "из-за воздействия, вследствие эффектов",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "en": "dull, routine tasks",
+    "pron": "дал, рути́н таскс",
+    "ru": "скучная рутинная работа",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "en": "effort",
+    "pron": "э́фэрт",
+    "ru": "усилие",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "en": "electric pulses",
+    "pron": "илэ́ктрик па́лсиз",
+    "ru": "электрические импульсы",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "en": "embed",
+    "pron": "имбэ́д",
+    "ru": "встраивать",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "en": "embedded system",
+    "pron": "имбэ́дид си́стэм",
+    "ru": "встроенная система",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "en": "to embrace computer literacy",
+    "pron": "ту имбрэ́йс кэмпью́тэр ли́тэраси",
+    "ru": "овладеть компьютерной грамотностью",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "en": "essential circuit functions",
+    "pron": "исэ́ншэл сёркит фа́нкшэнз",
+    "ru": "основные функции электрической схемы",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "en": "an everyday problem-solving device",
+    "pron": "эн э́вридэй про́блэм-со́лвинг дива́йс",
+    "ru": "устройство для решения повседневных задач",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "en": "to exercise",
+    "pron": "ту э́ксэрсайз",
+    "ru": "осуществлять, применять",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "en": "expert",
+    "pron": "э́кспёрт",
+    "ru": "эксперт",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "en": "exponentiation",
+    "pron": "экспоунэншиэ́йшэн",
+    "ru": "возведение в степень",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "en": "to facilitate signal control",
+    "pron": "ту фэси́литэйт си́гнэл кэнтро́ул",
+    "ru": "способствовать управлению сигналами",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "en": "fairly fast, but much slower",
+    "pron": "фэ́рли фаст, бат мач сло́уэр",
+    "ru": "довольно быстро, но гораздо медленнее",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "en": "to feed",
+    "pron": "ту фид",
+    "ru": "вводить, подавать (данные)",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "en": "to find the solution to a problem",
+    "pron": "ту файнд зэ сэлю́шэн ту э про́блэм",
+    "ru": "находить решение задачи",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "en": "to form one's own judgments",
+    "pron": "ту форм уанз оун джа́джмэнтс",
+    "ru": "вырабатывать собственные суждения",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "en": "fundamentals",
+    "pron": "фандэмэ́нтэлз",
+    "ru": "основы",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "en": "general",
+    "pron": "джэ́нэрэл",
+    "ru": "общий",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "en": "general purpose",
+    "pron": "джэ́нэрэл пёрпэс",
+    "ru": "общего назначения",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "en": "generation",
+    "pron": "джэнэрэ́йшэн",
+    "ru": "поколение",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "en": "to give the necessary information",
+    "pron": "ту гив зэ нэ́сэсэри информэ́йшэн",
+    "ru": "дать необходимую информацию",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "en": "hard to imagine",
+    "pron": "хард ту имэ́джин",
+    "ru": "трудно представить",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "en": "to have an opportunity",
+    "pron": "ту хэв эн опэртью́нити",
+    "ru": "иметь возможность",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "en": "to have much in common",
+    "pron": "ту хэв мач ин ко́мэн",
+    "ru": "иметь много общего",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "en": "to have remarkable powers",
+    "pron": "ту хэв рима́ркэбл па́уэрз",
+    "ru": "иметь замечательные возможности",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "en": "to help",
+    "pron": "ту хэлп",
+    "ru": "помогать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "en": "high reliability",
+    "pron": "хай рилайэби́лити",
+    "ru": "высокая надёжность",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "en": "a human being",
+    "pron": "э хью́мэн би́инг",
+    "ru": "человек",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      },
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "en": "idea",
+    "pron": "айди́э",
+    "ru": "идея",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "en": "important",
+    "pron": "импо́ртэнт",
+    "ru": "важный",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "en": "in a fraction of the time",
+    "pron": "ин э фрэ́кшэн эв зэ тайм",
+    "ru": "за значительно меньшее время",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "en": "in a moment",
+    "pron": "ин э мо́умэнт",
+    "ru": "через мгновение",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adverbs"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "en": "incorporate",
+    "pron": "инко́рпэрэйт",
+    "ru": "включать в состав, внедрять",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "en": "increase",
+    "pron": "инкри́с",
+    "ru": "увеличивать",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "en": "industrial design",
+    "pron": "инда́стриэл диза́йн",
+    "ru": "промышленное проектирование",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "en": "industrial process control",
+    "pron": "инда́стриэл про́усэс кэнтро́ул",
+    "ru": "управление промышленными процессами",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "en": "to influence the quality of life",
+    "pron": "ту и́нфлуэнс зэ кво́лити эв лайф",
+    "ru": "влиять на качество жизни",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "en": "information",
+    "pron": "информэ́йшэн",
+    "ru": "информация",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "en": "an information-dependent society",
+    "pron": "эн информэ́йшэн-дипе́ндэнт сэса́йэти",
+    "ru": "общество, зависящее от информации",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "en": "information in the form of instructions",
+    "pron": "информэ́йшэн ин зэ форм эв инстра́кшэнз",
+    "ru": "информация в виде команд",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "en": "input / to input",
+    "pron": "ту и́нпут",
+    "ru": "ввод; вводить данные",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      },
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "en": "an input device",
+    "pron": "эн и́нпут дива́йс",
+    "ru": "устройство ввода",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "en": "instantaneously",
+    "pron": "инстэнтэ́йниэсли",
+    "ru": "мгновенно",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adverbs"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "en": "instruction",
+    "pron": "инстра́кшэн",
+    "ru": "инструкция, команда",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "en": "integrated circuit",
+    "pron": "и́нтигрэйтид сёркит",
+    "ru": "интегральная схема",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      },
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "en": "integrated electronics",
+    "pron": "и́нтигрэйтид илэктро́никс",
+    "ru": "интегральная электроника",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "en": "to interconnect",
+    "pron": "ту интэркэнэ́кт",
+    "ru": "соединять друг с другом, обеспечивать взаимосвязь",
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "en": "internal",
+    "pron": "интёрнэл",
+    "ru": "внутренний",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "en": "intricate",
+    "pron": "и́нтрикэт",
+    "ru": "сложный, запутанный",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "en": "an intricate network of electronic circuits",
+    "pron": "эн и́нтрикэт нэ́туёрк эв илэктро́ник сёркитс",
+    "ru": "сложная сеть электронных цепей",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "en": "its achievements are limited by the minds of human beings",
+    "pron": "итс эчи́вмэнтс ар ли́митид бай зэ майндз эв хью́мэн би́ингз",
+    "ru": "его достижения ограничены интеллектом людей",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "en": "job",
+    "pron": "джоб",
+    "ru": "работа, задание",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "en": "journal",
+    "pron": "джёрнэл",
+    "ru": "журнал (научный)",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "en": "to keep",
+    "pron": "ту кип",
+    "ru": "хранить, держать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "en": "to learn",
+    "pron": "ту лёрн",
+    "ru": "учить, изучать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "en": "to learn computing",
+    "pron": "ту лёрн кэмпью́тинг",
+    "ru": "изучать вычислительную технику",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "en": "to learn the basics",
+    "pron": "ту лёрн зэ бэ́йсикс",
+    "ru": "изучить основы",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "en": "to limit a computer's operating speed",
+    "pron": "ту ли́мит э кэмпью́тэрз о́пэрэйтинг спид",
+    "ru": "ограничивать скорость работы компьютера",
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "en": "little",
+    "pron": "ли́тл",
+    "ru": "маленький",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "en": "to lower manufacturing costs",
+    "pron": "ту ло́уэр мэньюфэ́кчэринг костс",
+    "ru": "снизить производственные затраты",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "en": "machine",
+    "pron": "мэши́н",
+    "ru": "машина, механизм",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "en": "magazine",
+    "pron": "мэгэзи́н",
+    "ru": "журнал (популярный)",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "en": "main",
+    "pron": "мэйн",
+    "ru": "главный",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "en": "to make decisions",
+    "pron": "ту мэйк диси́жэнз",
+    "ru": "принимать решения",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "en": "to make thousands of logical decisions",
+    "pron": "ту мэйк са́узэндз эв ло́джикэл диси́жэнз",
+    "ru": "принимать тысячи логических решений (в задании: выполнять тысячи логических операций)",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "en": "a man",
+    "pron": "э мэн",
+    "ru": "человек, мужчина",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "en": "to manipulate characters",
+    "pron": "ту мэни́пьюлэйт кэ́рэктэрз",
+    "ru": "обрабатывать символы",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "en": "manipulation",
+    "pron": "мэнипьюлэ́йшэн",
+    "ru": "манипулирование, обработка",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "en": "a means of communicating with the user",
+    "pron": "э минз эв кэмью́никэйтинг уиз зэ ю́зэр",
+    "ru": "средство общения с пользователем",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "en": "memory",
+    "pron": "мэ́мэри",
+    "ru": "память",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      },
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "en": "micro-prefix",
+    "pron": "ма́йкроу-пре́фикс",
+    "ru": "приставка «микро-»",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "en": "microprocessor",
+    "pron": "ма́йкроупро́усэсэр",
+    "ru": "микропроцессор",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      },
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "en": "microwave communication system",
+    "pron": "ма́йкроувэйв кэмьюникэ́йшэн си́стэм",
+    "ru": "микроволновая система связи",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "en": "the most significant technical achievements",
+    "pron": "зэ моуст сигни́фикэнт тэ́кникэл эчи́вмэнтс",
+    "ru": "самые значительные технические достижения",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "en": "multipurpose",
+    "pron": "малтипёрпэс",
+    "ru": "многоцелевой",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "en": "a multipurpose, programmable device",
+    "pron": "э малтипёрпэс про́угрэмэбл дива́йс",
+    "ru": "многоцелевое программируемое устройство",
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "en": "myriad",
+    "pron": "ми́риэд",
+    "ru": "несметное множество",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "en": "myriad objects",
+    "pron": "ми́риэд о́бджектс",
+    "ru": "огромное количество объектов",
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "en": "to name",
+    "pron": "ту нэйм",
+    "ru": "называть",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "en": "numbers and symbols represented in the binary numeral system",
+    "pron": "на́мбэрз энд си́мбэлз рэпризэ́нтид ин зэ ба́йнэри нью́мэрэл си́стэм",
+    "ru": "числа и символы, представленные в двоичной системе счисления",
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "en": "to observe",
+    "pron": "ту эбзёрв",
+    "ru": "наблюдать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "en": "onboard computations",
+    "pron": "о́нборд компью́тэйшэнз",
+    "ru": "бортовые вычисления",
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "en": "to operate switches",
+    "pron": "ту о́пэрэйт сви́чиз",
+    "ru": "управлять переключателями",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "en": "output",
+    "pron": "а́утпут",
+    "ru": "вывод, выходные данные",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "en": "outputting information",
+    "pron": "а́утпутинг информэ́йшэн",
+    "ru": "вывод информации",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "en": "to perform",
+    "pron": "ту пэрфо́рм",
+    "ru": "выполнять",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "en": "to perform mathematical operations",
+    "pron": "ту пэрфо́рм мэсэмэ́тикэл опэрэ́йшэнз",
+    "ru": "выполнять математические операции",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "en": "perhaps",
+    "pron": "пэрхэ́пс",
+    "ru": "возможно",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adverbs"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "en": "a person",
+    "pron": "э пёрсэн",
+    "ru": "человек",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "en": "a person would be dead long before the job was finished",
+    "pron": "э пёрсэн вуд би дэд лонг бифо́р зэ джоб уоз фи́ништ",
+    "ru": "человеку не хватило бы всей жизни, чтобы закончить работу",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "en": "a piece of semiconductor",
+    "pron": "э пис эв сэмикэнда́ктэр",
+    "ru": "кусочек полупроводника",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "en": "position",
+    "pron": "пэзи́шэн",
+    "ru": "положение, позиция",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "en": "possible states",
+    "pron": "по́сибл стэ́йтс",
+    "ru": "возможные состояния",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "en": "power consumption",
+    "pron": "па́уэр кэнса́мпшэн",
+    "ru": "энергопотребление",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "en": "powers",
+    "pron": "па́уэрз",
+    "ru": "способности, возможности",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "en": "to prepare programs",
+    "pron": "ту припэ́р про́угрэмз",
+    "ru": "составлять программы",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "en": "primary guidance",
+    "pron": "пра́ймэри га́йдэнс",
+    "ru": "основное наведение (космического корабля)",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "en": "to print",
+    "pron": "ту принт",
+    "ru": "печатать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "en": "printed circuit board",
+    "pron": "при́нтид сёркит борд",
+    "ru": "печатная плата",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "en": "probably",
+    "pron": "про́бэбли",
+    "ru": "вероятно",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adverbs"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "en": "process",
+    "pron": "про́усэс",
+    "ru": "обрабатывать",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "en": "to process information",
+    "pron": "ту про́усэс информэ́йшэн",
+    "ru": "обрабатывать информацию",
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "en": "to process it according to instructions",
+    "pron": "ту про́усэс ит эко́рдинг ту инстра́кшэнз",
+    "ru": "обрабатывать её согласно инструкциям",
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "en": "processing",
+    "pron": "про́усэсинг",
+    "ru": "обработка",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "en": "processing of information",
+    "pron": "про́усэсинг эв информэ́йшэн",
+    "ru": "обработка информации",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "en": "programmable",
+    "pron": "про́угрэмэбл",
+    "ru": "программируемый",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "en": "provide",
+    "pron": "прова́йд",
+    "ru": "обеспечивать, предоставлять",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      },
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "en": "to provide high speed",
+    "pron": "ту прова́йд хай спид",
+    "ru": "обеспечить высокую скорость",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "en": "to provide results as output",
+    "pron": "ту прова́йд риза́лтс эз а́утпут",
+    "ru": "выдавать результаты на выходе",
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "en": "to provide the information needed to solve the problem",
+    "pron": "ту прова́йд зи информэ́йшэн ни́дид ту солв зэ про́блэм",
+    "ru": "предоставлять информацию, необходимую для решения задачи",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "en": "quickly",
+    "pron": "кви́кли",
+    "ru": "быстро",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adverbs"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "en": "rapidly",
+    "pron": "рэ́пидли",
+    "ru": "быстро",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adverbs"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "en": "to read information into the computer",
+    "pron": "ту рид информэ́йшэн и́нту зэ кэмпью́тэр",
+    "ru": "считывать информацию в компьютер",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "en": "to receive",
+    "pron": "ту риси́в",
+    "ru": "получать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "en": "reduce",
+    "pron": "ридью́с",
+    "ru": "уменьшать, сокращать",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "en": "to reduce costs",
+    "pron": "ту ридью́с костс",
+    "ru": "сократить стоимость",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "en": "reduced weight",
+    "pron": "ридью́ст уэйт",
+    "ru": "уменьшенный вес",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "en": "redundant",
+    "pron": "рида́ндэнт",
+    "ru": "избыточный, ненужный",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "en": "to relate",
+    "pron": "ту рилэ́йт",
+    "ru": "относиться, связывать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "en": "reliability",
+    "pron": "рилайэби́лити",
+    "ru": "надёжность",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "en": "remarkable",
+    "pron": "рима́ркэбл",
+    "ru": "замечательный, выдающийся",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "en": "replace",
+    "pron": "риплэ́йс",
+    "ru": "заменять",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "en": "to replace completely",
+    "pron": "ту риплэ́йс кэмпли́тли",
+    "ru": "полностью заменить",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "en": "to replace vacuum tubes",
+    "pron": "ту риплэ́йс вэ́кьюм тьюбз",
+    "ru": "заменять электронные лампы",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "en": "represent",
+    "pron": "рэпри зэ́нт",
+    "ru": "представлять, обозначать",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "en": "research",
+    "pron": "ри́сёрч",
+    "ru": "исследование",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "en": "respond",
+    "pron": "риспо́нд",
+    "ru": "реагировать, отвечать",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "en": "routine",
+    "pron": "рути́н",
+    "ru": "рутинный",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "en": "to say",
+    "pron": "ту сэй",
+    "ru": "сказать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "en": "scientific research",
+    "pron": "сайэнти́фик ри́сёрч",
+    "ru": "научные исследования",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "en": "screen",
+    "pron": "скрин",
+    "ru": "экран",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "en": "semiconductor",
+    "pron": "сэмикэнда́ктэр",
+    "ru": "полупроводник",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "en": "a semiconductor crystal",
+    "pron": "э сэмикэнда́ктэр кри́стэл",
+    "ru": "полупроводниковый кристалл",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "en": "semiconductor technology",
+    "pron": "сэмикэнда́ктэр тэкно́лэджи",
+    "ru": "полупроводниковая технология",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "en": "sequential",
+    "pron": "сиквэ́ншэл",
+    "ru": "последовательный",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "en": "sequential digital logic",
+    "pron": "сиквэ́ншэл ди́джитэл ло́джик",
+    "ru": "последовательная цифровая логика",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "en": "significant",
+    "pron": "сигни́фикэнт",
+    "ru": "значительный",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "en": "small",
+    "pron": "смол",
+    "ru": "маленький",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "en": "small and medium scale",
+    "pron": "смол энд ми́диэм скэйл",
+    "ru": "малого и среднего масштаба",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "en": "solder",
+    "pron": "со́лдэр",
+    "ru": "паять",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "en": "solid body",
+    "pron": "со́лид бо́ди",
+    "ru": "твёрдое тело",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Word Combinations"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "en": "solid-state components",
+    "pron": "со́лид-стэйт кэмпо́унэнтс",
+    "ru": "твердотельные компоненты",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "en": "solution",
+    "pron": "сэлю́шэн",
+    "ru": "решение",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "en": "to solve",
+    "pron": "ту солв",
+    "ru": "решать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "en": "specialist",
+    "pron": "спэ́шэлист",
+    "ru": "специалист",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "en": "a starting point",
+    "pron": "э ста́ртинг пойнт",
+    "ru": "отправная точка",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "en": "state",
+    "pron": "стэйт",
+    "ru": "состояние",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "en": "storage",
+    "pron": "сто́ридж",
+    "ru": "хранение, накопитель",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "en": "to store",
+    "pron": "ту стор",
+    "ru": "хранить",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      },
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "en": "to store numbers",
+    "pron": "ту стор на́мбэрз",
+    "ru": "хранить числа",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "en": "stored in its memory",
+    "pron": "сторд ин итс мэ́мэри",
+    "ru": "хранящийся в его памяти",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "en": "a stream of electrons",
+    "pron": "э стрим эв илэ́ктронз",
+    "ru": "поток электронов",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "en": "to study",
+    "pron": "ту ста́ди",
+    "ru": "изучать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "en": "to supply",
+    "pron": "ту сэпла́й",
+    "ru": "поставлять, снабжать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "en": "to supply results",
+    "pron": "ту сэпла́й риза́лтс",
+    "ru": "выдавать результаты",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "en": "to switch off",
+    "pron": "ту свич оф",
+    "ru": "выключать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "en": "to switch on",
+    "pron": "ту свич он",
+    "ru": "включать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "en": "symbol",
+    "pron": "си́мбэл",
+    "ru": "символ, знак",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "en": "to tell",
+    "pron": "ту тэл",
+    "ru": "говорить, сообщать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "en": "text editing",
+    "pron": "тэкст э́дитинг",
+    "ru": "редактирование текстов",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Word Combinations"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "en": "tiny",
+    "pron": "та́йни",
+    "ru": "крошечный",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "en": "transform",
+    "pron": "трэнсфо́рм",
+    "ru": "преобразовывать",
+    "locations": [
+      {
+        "page": "156",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "en": "transmission and reception of information",
+    "pron": "трэнзми́шэн энд рисэ́пшэн эв информэ́йшэн",
+    "ru": "передача и приём информации",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "en": "to turn off",
+    "pron": "ту тёрн оф",
+    "ru": "выключать",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      },
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "en": "to turn on",
+    "pron": "ту тёрн он",
+    "ru": "включать",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      },
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "en": "to type",
+    "pron": "ту тайп",
+    "ru": "печатать на клавиатуре",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "en": "uninterested",
+    "pron": "ани́нтэрэстид",
+    "ru": "незаинтересованный",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "en": "use",
+    "pron": "юс",
+    "ru": "использование, польза",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "en": "a variety of tubes",
+    "pron": "э вэра́йэти эв тьюбз",
+    "ru": "разнообразие электронных ламп",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "en": "to watch",
+    "pron": "ту уотч",
+    "ru": "смотреть, наблюдать",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Verbs"
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "en": "weight",
+    "pron": "уэйт",
+    "ru": "вес",
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Под текстом — Essential Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "en": "without becoming tired",
+    "pron": "уиза́ут бика́минг та́йэрд",
+    "ru": "без устали, не уставая",
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты"
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "en": "wonderful",
+    "pron": "уа́ндэрфул",
+    "ru": "замечательный, прекрасный",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Adjectives"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "en": "work",
+    "pron": "уёрк",
+    "ru": "работа",
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — Nouns"
+      }
+    ]
+  }
+]
