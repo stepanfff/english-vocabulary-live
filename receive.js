@@ -19,6 +19,11 @@ fetch('/dictionary.json').then(resp=>{if(!resp.ok)throw Error('Нет файла
  setText('searchStatus','Загружено '+data.length+' слов и выражений');
  renderSearch();
  if(latestMessage)renderLatest(latestMessage);
+ if(currentFullscreenMessage)populateFullscreen(currentFullscreenMessage);
+ if(pendingSoundMessage && autoSoundOn){
+  const pending=pendingSoundMessage;pendingSoundMessage=null;
+  playMessage(pending);
+ }
 }).catch(()=>setText('searchStatus','Не удалось загрузить словарь. Обнови страницу.'));
 
 function renderMatch(el,entry){
@@ -64,6 +69,176 @@ function showToast(message){
  const area=document.getElementById('toastArea');area.prepend(el);
  while(area.children.length>3)area.lastChild.remove();
  setTimeout(()=>el.remove(),14000);
+}
+
+// Speech uses the phone/browser's speech-synthesis engine, not our Render server.
+// Mobile browsers usually require a user tap to unlock sound. We intentionally
+// start OFF on every page load, rather than promising unattended autoplay.
+const soundSupported=('speechSynthesis' in window && 'SpeechSynthesisUtterance' in window);
+const soundMode=document.getElementById('soundMode');
+const previewSound=document.getElementById('previewSound');
+let autoSoundOn=false;
+let pendingSoundMessage=null;
+function syncSoundControls(){
+ soundMode.setAttribute('aria-pressed',String(autoSoundOn));
+ soundMode.textContent=autoSoundOn?'🔊 Автозвук · ВКЛ':'🔊 Включить звук';
+ soundMode.classList.toggle('primary',autoSoundOn);
+ soundMode.classList.toggle('ghost',!autoSoundOn);
+ if(!soundSupported){
+  soundMode.disabled=true;previewSound.disabled=true;
+  setText('soundStatus','Этот браузер не поддерживает озвучивание текста.');
+ }else if(autoSoundOn){
+  setText('soundStatus','Автозвук включён. Новые слова читаются вслух, пока страница открыта.');
+ }else{
+  setText('soundStatus','Автозвук выключен. Нажми «Включить звук» перед занятием.');
+ }
+}
+function pickVoice(lang){
+ const all=window.speechSynthesis.getVoices();
+ if(!all.length)return null;
+ const target=lang.toLowerCase();
+ return all.find(v=>v.lang.toLowerCase()===target)
+  ||all.find(v=>v.lang.toLowerCase().startsWith(target.slice(0,2)))
+  ||null;
+}
+function pronounce(text,lang='en-US'){
+ if(!soundSupported || !text)return false;
+ try{
+  const synth=window.speechSynthesis;
+  synth.cancel(); // New message gets priority; never build up an audio queue.
+  const utterance=new SpeechSynthesisUtterance(text);
+  utterance.lang=lang;
+  utterance.rate=0.90; utterance.pitch=1; utterance.volume=1;
+  const voice=pickVoice(lang);if(voice)utterance.voice=voice;
+  utterance.onerror=event=>{
+   if(event.error==='canceled'||event.error==='interrupted')return;
+   setText('soundStatus','Не удалось воспроизвести звук ('+event.error+'). Попробуй нажать «Проверить звук» и проверь громкость.');
+  };
+  synth.speak(utterance);
+  return true;
+ }catch(_){
+  setText('soundStatus','Не удалось запустить озвучивание в этом браузере.');
+  return false;
+ }
+}
+function textToPronounce(message){
+ const match=searchDictionary(lexicon,message.word,1)[0];
+ return match ? {text:match.en,lang:'en-US'} : {text:message.word,lang:'ru-RU'};
+}
+function playMessage(message){
+ if(!message || !soundSupported)return;
+ const {text,lang}=textToPronounce(message);
+ pronounce(text,lang);
+}
+function handleIncomingSpeech(message){
+ if(!autoSoundOn)return;
+ if(!lexicon.length){pendingSoundMessage=message;return;}
+ playMessage(message);
+}
+syncSoundControls();
+soundMode.addEventListener('click',()=>{
+ if(!soundSupported)return;
+ autoSoundOn=!autoSoundOn;
+ pendingSoundMessage=null;
+ syncSoundControls();
+ if(autoSoundOn){
+  // A direct tap authorizes sound on mobile browsers where background autoplay is blocked.
+  pronounce('integrated circuit','en-US');
+ }else{
+  window.speechSynthesis.cancel();
+ }
+});
+previewSound.addEventListener('click',()=>{
+ if(!soundSupported)return;
+ // Even if auto mode is OFF, a user tap can play a test phrase.
+ pronounce('integrated circuit','en-US');
+});
+document.getElementById('repeatSound').addEventListener('click',()=>{
+ if(currentFullscreenMessage)playMessage(currentFullscreenMessage);
+});
+
+// Display an in-page viewport-covering alert by default. Browsers cannot show
+// this over other apps or the lock screen; the receive page must remain open.
+const FULLSCREEN_KEY='voc_fullscreen_v1';
+let fullscreenEnabled=true;
+try {const v=localStorage.getItem(FULLSCREEN_KEY);if(v!==null)fullscreenEnabled=v==='true';}catch(_){}
+const fullscreenAlert=document.getElementById('fullscreenAlert');
+const fullscreenMode=document.getElementById('fullscreenMode');
+let currentFullscreenMessage=null;
+let queuedFullscreenMessages=[];
+let previousFocus=null;
+function syncFullscreenMode(){
+ fullscreenMode.setAttribute('aria-pressed',String(fullscreenEnabled));
+ fullscreenMode.textContent=fullscreenEnabled?'На весь экран · ВКЛ':'На весь экран · ВЫКЛ';
+ fullscreenMode.classList.toggle('primary',fullscreenEnabled);
+ fullscreenMode.classList.toggle('ghost',!fullscreenEnabled);
+}
+syncFullscreenMode();
+fullscreenMode.addEventListener('click',()=>{
+ fullscreenEnabled=!fullscreenEnabled;
+ try{localStorage.setItem(FULLSCREEN_KEY,String(fullscreenEnabled));}catch(_){}
+ syncFullscreenMode();
+ if(!fullscreenEnabled)closeFullscreen(true);
+});
+function populateFullscreen(message){
+ setText('alertHeading',message.preview?'ПРОВЕРКА УВЕДОМЛЕНИЯ':'НОВОЕ СООБЩЕНИЕ ОТ ДРУГА');
+ setText('alertRu',message.word);
+ setText('alertTime',message.preview?'Пример отображения':new Date(message.at).toLocaleTimeString('ru-RU',{hour:'2-digit',minute:'2-digit'}));
+ const matches=searchDictionary(lexicon,message.word,1);
+ setText('alertEn',matches.length?matches[0].en:lexicon.length?'В словаре нет совпадения':'Загрузка словаря…');
+ setText('alertPron',matches.length?matches[0].pron:'');
+ setText('alertLocation',matches.length?(matches[0].locations||[]).map(x=>'стр. '+x.page+' · '+x.exercise).join('    |    '):'');
+ setText('alertQueue',queuedFullscreenMessages.length?'Осталось сообщений: '+queuedFullscreenMessages.length:'');
+ document.getElementById('dismissFullscreen').textContent=queuedFullscreenMessages.length?'Следующее сообщение':'Понятно · Закрыть';
+}
+function showFullscreen(message){
+ if(currentFullscreenMessage){
+  queuedFullscreenMessages.unshift(currentFullscreenMessage);
+  queuedFullscreenMessages=queuedFullscreenMessages.slice(0,25);
+ } else {
+  previousFocus=document.activeElement;
+ }
+ currentFullscreenMessage=message;
+ populateFullscreen(message);
+ fullscreenAlert.classList.remove('hidden');
+ document.body.classList.add('alert-open');
+ document.getElementById('dismissFullscreen').focus({preventScroll:true});
+}
+function closeFullscreen(all=false){
+ if(!all && queuedFullscreenMessages.length){
+  currentFullscreenMessage=queuedFullscreenMessages.shift();
+  populateFullscreen(currentFullscreenMessage);
+  if(autoSoundOn)playMessage(currentFullscreenMessage);
+  return;
+ }
+ queuedFullscreenMessages=[];
+ currentFullscreenMessage=null;
+ fullscreenAlert.classList.add('hidden');
+ document.body.classList.remove('alert-open');
+ if(previousFocus && previousFocus.isConnected)previousFocus.focus({preventScroll:true});
+ previousFocus=null;
+ if(soundSupported)window.speechSynthesis.cancel();
+}
+document.getElementById('dismissFullscreen').addEventListener('click',()=>closeFullscreen());
+document.getElementById('dismissFullscreenTop').addEventListener('click',()=>closeFullscreen());
+document.getElementById('previewFullscreen').addEventListener('click',()=>{
+ const demo={word:'интегральная схема',at:new Date().toISOString(),preview:true};
+ showFullscreen(demo);
+ if(autoSoundOn)playMessage(demo);
+});
+document.addEventListener('keydown',event=>{
+ if(fullscreenAlert.classList.contains('hidden'))return;
+ if(event.key==='Escape'){event.preventDefault();closeFullscreen();}
+ if(event.key==='Tab'){
+  const buttons=[document.getElementById('dismissFullscreenTop'),document.getElementById('repeatSound'),document.getElementById('dismissFullscreen')];
+  if(event.shiftKey&&document.activeElement===buttons[0]){event.preventDefault();buttons[buttons.length-1].focus();}
+  else if(!event.shiftKey&&document.activeElement===buttons[buttons.length-1]){event.preventDefault();buttons[0].focus();}
+ }
+});
+function incomingAlert(message){
+ if(fullscreenEnabled)showFullscreen(message);
+ else showToast(message);
+ handleIncomingSpeech(message);
  if(document.visibilityState==='hidden' && 'Notification' in window && Notification.permission==='granted'){
   try {const n=new Notification('Новое слово от друга',{body:message.word});n.onclick=()=>{window.focus();n.close();};}catch(_){}
  }
@@ -98,7 +273,7 @@ stream.addEventListener('error',()=>showConnection(false,'Переподключ
 stream.addEventListener('message',evt=>{
  let data;try{data=JSON.parse(evt.data);}catch(_){return;}
  if(!data || typeof data.word!=='string' || typeof data.at!=='string')return;
- renderLatest(data);showToast(data);
+ renderLatest(data);incomingAlert(data);
  historyItems.unshift(data);historyItems=historyItems.slice(0,25);storeHistory();drawHistory();
 });
 // A small incoming request periodically keeps free Render services awake while the page is open.

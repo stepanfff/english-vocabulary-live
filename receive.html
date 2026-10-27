@@ -5,6 +5,12 @@
 <label class="label" for="sendLink">Адрес страницы отправителя</label><div class="linkbox"><input id="sendLink" class="field" aria-label="Ссылка для друга" readonly><button id="copyLink" class="button primary" type="button">Скопировать</button></div>
 <div class="row"><span id="copyState" class="small" role="status"></span><button id="notifications" class="button ghost" type="button">Включить уведомления браузера</button></div>
 <div class="notice" style="margin-top:15px">Всплывающие сообщения работают, пока сайт открыт и подключён. Дополнительные уведомления браузера могут показываться при свёрнутой вкладке, но не являются фоновыми push-уведомлениями.</div></div>
+<div class="card alert-settings" aria-label="Настройки входящих уведомлений">
+<div class="row alert-settings-row"><div class="alert-settings-copy"><h2>Режим уведомлений</h2><p class="helper">Новая фраза может закрывать весь экран сайта, чтобы её было хорошо видно с телефона. Не закрывай вкладку получателя.</p></div>
+<div class="alert-settings-actions"><button id="fullscreenMode" type="button" class="button primary" aria-pressed="true">На весь экран · ВКЛ</button><button id="previewFullscreen" type="button" class="button ghost">Проверить экран</button></div></div>
+<div class="voice-settings"><div class="voice-heading"><h3>Автоматическая озвучка 🔊</h3><p class="helper">При получении сообщения телефон сразу произнесёт <strong>английский ответ</strong>. Если совпадение в словаре не найдено — прочитает русскую фразу. Один раз нажми «Включить звук» после открытия страницы, чтобы разрешить воспроизведение в браузере.</p></div>
+<div class="alert-settings-actions"><button id="soundMode" class="button primary" type="button" aria-pressed="false">🔊 Включить звук</button><button id="previewSound" class="button ghost" type="button">Проверить звук</button></div>
+<div class="small sound-status" id="soundStatus" role="status">Озвучка выключена. Звук включается только для этой открытой страницы.</div></div></div>
 <div class="columns"><section>
 <div class="card"><div class="row" style="justify-content:space-between;align-items:baseline"><h2>Последнее сообщение</h2><span id="lastTime" class="small">Ожидание</span></div>
 <div id="noMessage" class="muted">Пока сообщений нет. Открой ссылку на другом устройстве и отправь пробную фразу.</div>
@@ -14,4 +20,20 @@
 <div class="card"><h2>Если сообщение не приходит</h2><p class="helper">Проверь, что статус наверху зелёный, оба телефона открыли один и тот же сайт, а друг использует скопированную ссылку.</p><p class="helper">На бесплатном сервере иногда бывает задержка после простоя. Если статус красный, обнови страницу и попробуй ещё раз.</p></div></aside></div>
 <p class="footer-note">Комната защищена случайной ссылкой, но не требует пароля. Тот, кому известна ссылка, потенциально может открыть страницу получателя. Не пересылайте ссылку посторонним и не отправляйте личные данные.</p></main>
 <div id="toastArea" class="toast-area" aria-live="polite" aria-atomic="false"></div>
+<section id="fullscreenAlert" class="fullscreen-alert hidden" role="dialog" aria-modal="true" aria-labelledby="alertHeading" aria-describedby="alertRu" tabindex="-1">
+  <div class="alert-frame">
+    <div class="alert-header"><div class="alert-eyebrow" id="alertHeading">НОВОЕ СООБЩЕНИЕ</div><button type="button" id="dismissFullscreenTop" class="alert-close" aria-label="Закрыть полноэкранное уведомление">✕</button></div>
+    <div class="alert-center">
+      <div class="alert-time" id="alertTime"></div>
+      <div class="alert-label">НА РУССКОМ</div>
+      <div class="alert-russian" id="alertRu"></div>
+      <div class="alert-rule"></div>
+      <div class="alert-label">ПО-АНГЛИЙСКИ</div>
+      <div class="alert-english" id="alertEn"></div>
+      <div class="alert-pron" id="alertPron"></div>
+      <div class="alert-location" id="alertLocation"></div>
+    </div>
+    <div class="alert-footer"><div class="alert-queue" id="alertQueue" aria-live="polite"></div><div class="alert-footer-actions"><button type="button" id="repeatSound" class="alert-repeat">🔊 Повторить</button><button type="button" id="dismissFullscreen" class="alert-done">Понятно · Закрыть</button></div></div>
+  </div>
+</section>
 <script defer src="/common.js"></script><script defer src="/receive.js"></script></body></html>
