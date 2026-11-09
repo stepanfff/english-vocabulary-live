@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0d2033"><meta name="description" content="Быстрый обмен словами и изучение английского">
+<title>English Connect — слова без лишних действий</title>
+<link rel="stylesheet" href="/style.css">
+</head><body>
+<header class="topbar">
+  <a href="/" class="brand" aria-label="English Connect — главная"><span class="brand-mark">E<span>↗</span></span><span class="brand-copy"><strong>English Connect</strong><small>слова в реальном времени</small></span></a>
+  <span class="network-pill" id="networkPill"><i></i><span id="networkText">Проверяем соединение</span></span>
+</header>
+<main class="shell">
+  <section class="welcome" id="welcome">
+    <div class="intro-badge">СЛОВАРЬ · 236 ВЫРАЖЕНИЙ</div>
+    <h1>Подключайтесь.<br><em>Подсказывайте быстрее.</em></h1>
+    <p class="intro-text">Два телефона, одна комната. Выберите роль и подключитесь по короткому коду — без длинных ссылок.</p>
+    <div class="step-label">01 / ВЫБЕРИ СВОЮ РОЛЬ</div>
+    <div class="role-choices" id="roleChoices">
+      <button class="role-tile" type="button" data-role="sender" aria-pressed="false"><span class="role-icon send-icon">↗</span><strong>Отправитель</strong><span>Ищу слово и отправляю другу</span><span class="tile-indicator">Выбрать <b>→</b></span></button>
+      <button class="role-tile" type="button" data-role="receiver" aria-pressed="false"><span class="role-icon receive-icon">↓</span><strong>Получатель</strong><span>Вижу ответ и слушаю произношение</span><span class="tile-indicator">Выбрать <b>→</b></span></button>
+    </div>
+    <div class="setup-grid">
+      <section class="setup-card">
+        <div class="step-label">02 / НАЧАТЬ</div>
+        <h2>Создать комнату</h2>
+        <p>Получишь 6 цифр. Друг введёт их на своём телефоне.</p>
+        <button class="btn btn-primary btn-wide" id="createRoom" disabled>Создать комнату <span>→</span></button>
+      </section>
+      <section class="setup-card">
+        <div class="step-label">ИЛИ ПОДКЛЮЧИТЬСЯ</div>
+        <h2>Есть код друга?</h2>
+        <p>Введи код комнаты и присоединись со своей ролью.</p>
+        <form id="joinForm" class="join-form"><label class="visually-hidden" for="joinCode">Код комнаты из 6 цифр</label><input id="joinCode" type="text" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" placeholder="000000" autocomplete="one-time-code" aria-label="Код комнаты, 6 цифр"><button class="btn btn-dark" id="joinRoom" type="submit" disabled>Войти →</button></form>
+      </section>
+    </div>
+    <div id="lobbyError" class="error-message" role="alert"></div>
+    <p class="bottom-tip">Оба открывают один и тот же сайт. Один выбирает «Отправитель», другой — «Получатель». Роли можно менять внутри комнаты.</p>
+  </section>
+
+  <section class="session hidden" id="session">
+    <div class="session-header">
+      <div><div class="eyebrow">ВАША КОМНАТА</div><h1 id="sessionTitle">На связи.</h1><p class="session-subtitle" id="sessionSubtitle">Подключение к комнате…</p></div>
+      <div class="code-card"><div class="code-caption">КОД КОМНАТЫ</div><div class="big-code" id="roomCode">------</div><button id="copyCode" class="code-copy" type="button">⧉ Копировать код</button></div>
+    </div>
+    <div class="session-toolbar">
+      <span class="role-pill" id="myRole">Отправитель</span>
+      <span class="peer-pill" id="peerState">Ожидаем друга</span>
+      <div class="toolbar-spacer"></div>
+      <button id="swapRoles" class="btn btn-outline" type="button">⇄ Поменяться ролями</button>
+      <button id="leaveRoom" class="btn btn-subtle" type="button">Выйти</button>
+    </div>
+    <div class="session-error" id="sessionError" role="alert"></div>
+
+    <div id="senderView" class="role-view hidden">
+      <div class="editor-layout">
+        <section class="workspace-card">
+          <div class="section-top"><span class="micro-tag">РЕЖИМ ОТПРАВКИ</span><span class="saved-note">Поиск на твоём телефоне · без задержки</span></div>
+          <h2>Что спросили на русском?</h2>
+          <p>Начни вводить слово или фразу. Нажатие на вариант отправляет его сразу.</p>
+          <form id="sendForm"><label class="visually-hidden" for="word">Слово или фраза</label><textarea id="word" rows="2" maxlength="220" placeholder="Например: интегральная схемма…" enterkeyhint="send" autocomplete="off" spellcheck="true"></textarea>
+          <div class="search-meta"><span id="suggestionStatus">Загружаем словарь…</span><span id="wordCount">0 / 220</span></div>
+          <div class="suggestion-list" id="suggestions"></div>
+          <button type="submit" id="sendWord" class="btn btn-primary btn-wide send-direct">Отправить написанное <span>↗</span></button></form>
+          <div class="send-feedback" id="sendFeedback" role="status"></div>
+        </section>
+        <aside class="aside-card"><div class="aside-icon">⚡</div><h3>Быстрый поиск</h3><p>Можно писать часть слова, с ошибкой или немного другими словами. Проверь предложенный вариант перед отправкой.</p><div class="aside-rule"></div><strong>236 слов и выражений</strong><span>Из вашего учебника</span></aside>
+      </div>
+    </div>
+
+    <div id="receiverView" class="role-view hidden">
+      <div class="receiver-layout">
+        <section class="receiver-main">
+          <div class="answer-card"><div class="answer-head"><span class="micro-tag">ПОСЛЕДНЕЕ СООБЩЕНИЕ</span><time id="lastTime">Ожидание</time></div>
+          <div class="answer-empty" id="answerEmpty"><span class="answer-empty-icon">↓</span><strong>Ждём первое слово</strong><p>Когда друг отправит фразу, ответ появится здесь и на весь экран.</p></div>
+          <div id="answerData" class="hidden"><div class="answer-caption">НА РУССКОМ</div><div class="answer-ru" id="latestRu"></div><div class="answer-rule"></div><div class="answer-caption">АНГЛИЙСКИЙ ВАРИАНТ</div><div class="answer-en" id="latestEn"></div><div class="answer-pron" id="latestPron"></div><div class="answer-location" id="latestLocation"></div><div class="answer-note" id="latestWarning"></div><div class="answer-options" id="latestOptions"></div></div>
+          <div class="answer-actions"><button type="button" id="speakLatest" class="btn btn-outline">🔊 Повторить</button><button type="button" id="showLatest" class="btn btn-primary">Развернуть ↗</button></div>
+          </div>
+          <div class="settings-card"><div><h3>Режим уведомлений</h3><p>Озвучивание работает на самом телефоне.</p></div><div class="setting-buttons"><button type="button" id="soundToggle" class="btn btn-outline">🔊 Включить звук</button><button type="button" id="fullscreenToggle" class="btn btn-outline">На весь экран · ВКЛ</button></div><small id="soundHint">Один раз включи звук после открытия страницы.</small></div>
+          <section class="search-card"><div class="section-top"><h3>Быстрый поиск в словаре</h3><a href="/dictionary" target="_blank" rel="noopener">Весь словарь ↗</a></div><label class="visually-hidden" for="receiverSearch">Найти английский вариант</label><input id="receiverSearch" type="search" placeholder="Начни вводить слово на русском…" autocomplete="off"><div id="receiverResults" class="receiver-results"></div></section>
+        </section>
+        <aside class="history-card"><div class="section-top"><h3>История комнаты</h3><span class="history-count" id="historyCount">0</span></div><p>Последние сообщения доступны после возвращения на страницу.</p><ul id="historyList" class="history-list"></ul></aside>
+      </div>
+    </div>
+    <p class="session-footer">Комната действует 2 часа. После выхода из браузера вернись на этот адрес — подключение восстановится автоматически. Полноэкранное сообщение работает, пока приложение открыто.</p>
+  </section>
+  <section id="bootError" class="hidden error-message" role="alert"></section>
+</main>
+<div id="toastArea" class="toast-area" role="status" aria-live="polite"></div>
+<div id="alertLayer" class="alert-layer hidden" role="dialog" aria-modal="true" aria-labelledby="alertTitle">
+  <div class="alert-wrap"><div class="alert-top"><span id="alertTitle">НОВОЕ СЛОВО ОТ ДРУГА</span><button type="button" id="closeAlertTop" class="alert-close" aria-label="Закрыть">✕</button></div>
+  <div class="alert-content"><div class="alert-label">НА РУССКОМ</div><div id="alertRu" class="alert-ru"></div><div class="alert-line"></div><div class="alert-label">ПО-АНГЛИЙСКИ</div><div id="alertEn" class="alert-en"></div><div id="alertPron" class="alert-pron"></div><div id="alertLocation" class="alert-location"></div><div id="alertWarning" class="alert-warning"></div></div>
+  <div class="alert-bottom"><span id="alertQueue" class="alert-queue"></span><button type="button" id="repeatAlert" class="btn alert-sound">🔊 Повторить</button><button type="button" id="closeAlert" class="btn alert-next">Понятно · Закрыть</button></div></div>
+</div>
+<script defer src="/common.js"></script><script defer src="/app.js"></script>
+</body></html>
