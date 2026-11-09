@@ -15,6 +15,8 @@ const ROOM_CODE_RE = /^\d{6}$/;
 const SESSION_RE = /^[a-f0-9]{64}$/;
 const rooms = new Map();
 const tokenRoom = new Map();
+// Validate entry IDs against the actual dictionary rather than the previous 236-item limit.
+const validEntryIds = new Set(JSON.parse(require('node:fs').readFileSync(path.join(ROOT, 'dictionary.json'), 'utf8')).map(row => row.id));
 const hits = new Map();
 const assets = {
   '/': ['index.html','text/html; charset=utf-8'],
@@ -237,7 +239,7 @@ const server=http.createServer(async(req,res)=>{
       if(!word||word.length>220||/[\x00-\x08\x0b\x0c\x0e-\x1f]/.test(word)){
         json(res,400,{error:'Введи текст длиной до 220 символов'});return;
       }
-      const entryId=Number.isInteger(body.entryId)&&body.entryId>=1&&body.entryId<=236?body.entryId:null;
+      const entryId=Number.isInteger(body.entryId)&&validEntryIds.has(body.entryId)?body.entryId:null;
       const msg={id:crypto.randomUUID(),word,entryId,at:new Date().toISOString()};
       user.room.messages.push(msg);
       if(user.room.messages.length>MAX_MESSAGES)user.room.messages.shift();

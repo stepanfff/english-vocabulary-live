@@ -218,6 +218,8 @@ $('copyCode').addEventListener('click',async()=>{
 // Vocabulary lookup. No API calls on input; spellchecking/synonyms use common.js.
 fetch('/dictionary.json').then(r=>{if(!r.ok)throw Error();return r.json();}).then(rows=>{
   if(Array.isArray(rows))lexicon=rows;
+  text('dictionaryCount',lexicon.length+' ВЫРАЖЕНИЙ');
+  text('dictionaryCountSide',lexicon.length+' слов и выражений');
   renderSuggestions();renderReceiverSearch();
   if(latestMessage)renderAnswer(latestMessage);
   if(alertMessage)paintAlert(alertMessage);
@@ -231,7 +233,7 @@ function matchOptions(message){
   const hits=searchDictionaryDetailed(lexicon,message.word,3);
   if(!hits.length)return {match:null,options:[],exact:false};
   const best=hits[0];
-  const exact=normalizeRu(best.entry.ru)===normalizeRu(message.word);
+  const exact=[best.entry.ru,...(best.entry.ruVariants||[])].some(ru=>normalizeRu(ru)===normalizeRu(message.word));
   return {match:best.entry,options:hits.map(h=>h.entry),exact};
 }
 function contentFor(message){
@@ -239,9 +241,11 @@ function contentFor(message){
   return {...result,en:result.match?result.match.en:'Не найдено в словаре',pron:result.match?result.match.pron:'',locations:result.match?(result.match.locations||[]):[]};
 }
 function locationLabel(loc,short=false){
-  if(short){const pages=[...new Set(loc.map(x=>String(x.page)))];return pages.length?'Страницы: '+pages.join(' · '):'';}
+  if(short){const pages=[...new Set(loc.map(x=>String(x.page||'')).filter(Boolean))];
+    if(pages.length)return 'Страницы: '+pages.join(' · ');
+    return [...new Set(loc.map(x=>x.exercise).filter(Boolean))].join(' / ');}
   const unique=[];
-  for(const l of loc){const s='стр. '+l.page+(l.exercise?' · '+l.exercise:'');if(!unique.includes(s))unique.push(s);}
+  for(const l of loc){const s=(l.page?'стр. '+l.page+' · ':'')+(l.exercise||'');if(!unique.includes(s))unique.push(s);}
   return unique.join(' / ');
 }
 function markSeen(id){seenIds.add(id);while(seenIds.size>100)seenIds.delete(seenIds.values().next().value);
@@ -287,7 +291,7 @@ function renderAnswer(message){
   text('lastTime',fmtTime(message.at));text('latestRu',message.word);
   const c=contentFor(message);
   text('latestEn',c.en);text('latestPron',c.pron);text('latestLocation',locationLabel(c.locations));
-  text('latestWarning',!c.match?'Слова нет в словаре':c.exact?'':'Похожий вариант: проверь значение');
+  text('latestWarning',!c.match?'Слова нет в словаре':c.exact?'':'Подобрано по похожей формулировке — проверь английский ответ');
   const options=$('latestOptions');options.replaceChildren();
   if(!c.exact && c.options.length>1){
     for(const entry of c.options){
@@ -359,7 +363,7 @@ function paintAlert(message){
   const c=contentFor(message);
   text('alertRu',message.word);text('alertEn',c.en);text('alertPron',c.pron);
   text('alertLocation',locationLabel(c.locations,true));
-  text('alertWarning',c.match&&!c.exact?'Похожий вариант — проверь значение':'');
+  text('alertWarning',c.match&&!c.exact?'Найден похожий вариант — проверь соответствие':'');
   text('alertQueue',alertQueue.length?'Ещё сообщений: '+alertQueue.length:'');
   text('closeAlert',alertQueue.length?'Следующее сообщение':'Понятно · Закрыть');
 }
@@ -386,7 +390,7 @@ function pronounce(en){
 }
 function playMessage(message){
   const {match}=contentFor(message);
-  if(match)pronounce(match.en);
+  if(match)pronounce(match.speak||match.en);
   else toast('Нет английского соответствия для озвучивания','warn');
 }
 function syncToggles(){
