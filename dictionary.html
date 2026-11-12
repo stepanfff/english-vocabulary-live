@@ -1,21 +1,22 @@
 <!doctype html>
 <html lang="ru"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0d2033"><title>Новый словарь · English Connect</title>
+<meta name="theme-color" content="#0d2033"><title>Все словари · English Connect</title>
 <style>
 :root{color-scheme:light;--bg:#f1f5f8;--paper:#fff;--navy:#102739;--blue:#187e9b;--soft:#607787;--line:#dce6ee;--green:#168a70}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--navy);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
 .container{max-width:1160px;margin:auto;padding:25px 18px 90px}.top{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:24px}.brand{text-decoration:none;color:var(--navy);font-weight:850;font-size:17px}.back{color:var(--blue);text-decoration:none;font-weight:700;font-size:13px}.kicker{font-size:11px;color:var(--blue);font-weight:850;letter-spacing:.11em;text-transform:uppercase}h1{font-size:clamp(26px,4vw,43px);line-height:1.12;letter-spacing:-.04em;margin:9px 0 11px}p{margin:0}.muted{color:var(--soft)}.lead{max-width:690px;margin-bottom:22px}
-.filters{position:sticky;top:0;background:rgba(241,245,248,.96);z-index:5;display:flex;gap:10px;flex-wrap:wrap;align-items:center;padding:12px 0 15px;backdrop-filter:blur(12px)}.field{background:white;border:1px solid #cbdce8;padding:12px 13px;border-radius:11px;color:var(--navy);font:inherit;min-height:45px}#search{flex:2;min-width:210px}#group{flex:1;min-width:200px}button{font:inherit;cursor:pointer}.toggle{border:1px solid #cbdce8;border-radius:11px;padding:12px;background:white;font-size:13px;font-weight:700}.toggle[aria-pressed="true"]{border-color:var(--blue);background:#e2f2f5}.counters{display:flex;justify-content:space-between;gap:14px;margin:4px 0 16px;color:var(--soft);font-size:13px}.counters strong{color:var(--navy)}.group{background:white;border:1px solid var(--line);border-radius:18px;margin-bottom:18px;overflow:hidden;box-shadow:0 6px 22px #0b29350a}.group-header{padding:21px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:14px;background:#fff}.group-header h2{margin:4px 0 0;font-size:19px;line-height:1.25}.count{color:var(--blue);font-size:12px;font-weight:750;white-space:nowrap}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed}th{background:#163247;color:#fff;text-align:left;text-transform:uppercase;letter-spacing:.075em;font-size:10px;padding:12px 15px}td{padding:14px 15px;border-top:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}tr:nth-child(even) td{background:#f8fafc}th:first-child{width:5%}th:nth-child(2){width:34%}th:nth-child(3){width:27%}th:nth-child(4){width:34%}.num{font-size:12px;color:#8293a1}.en{font-weight:800}.pron{color:#496575}.ru{color:#354a5c}.alias{font-size:11px;margin-top:6px;color:#7890a0}.alias b{font-weight:600}body.hide-ru .ru{filter:blur(5px);user-select:none}body.hide-pron .pron{filter:blur(5px);user-select:none}.empty{padding:32px;background:white;border:1px dashed var(--line);border-radius:14px;text-align:center}.info{font-size:12px;color:var(--soft);margin:25px 0}.chip{border-radius:999px;background:#e6f3f7;color:#1c7899;padding:3px 9px;font-size:10px;font-weight:800;white-space:nowrap}
-@media(max-width:720px){.container{padding:19px 12px 40px}.top{margin-bottom:19px}.filters{gap:7px}#search,#group{flex:1 1 100%;min-width:0}.toggle{flex:1;white-space:nowrap;font-size:12px}.counters{font-size:12px}.group-header{padding:17px}.group-header h2{font-size:17px}thead{display:none}table,tbody,tr,td{display:block;width:100%}tbody{padding:10px}tr{border:1px solid var(--line);border-radius:12px;padding:13px;margin-bottom:9px;background:#fff!important}td,tr:nth-child(even) td{padding:0;border:0;background:transparent}td.num{margin-bottom:3px}td.en{font-size:17px;margin-bottom:4px}td.pron{font-size:13px;margin-bottom:4px}td.ru{font-size:14px}.group{overflow:visible}}
+.filters{position:sticky;top:0;background:rgba(241,245,248,.96);z-index:5;display:flex;gap:10px;flex-wrap:wrap;align-items:center;padding:12px 0 15px;backdrop-filter:blur(12px)}.field{background:white;border:1px solid #cbdce8;padding:12px 13px;border-radius:11px;color:var(--navy);font:inherit;min-height:45px}#search{flex:2;min-width:190px}#group{flex:1;min-width:190px}#setFilter{flex:1;min-width:150px}button{font:inherit;cursor:pointer}.toggle{border:1px solid #cbdce8;border-radius:11px;padding:12px;background:white;font-size:13px;font-weight:700}.toggle[aria-pressed="true"]{border-color:var(--blue);background:#e2f2f5}.counters{display:flex;justify-content:space-between;gap:14px;margin:4px 0 16px;color:var(--soft);font-size:13px}.counters strong{color:var(--navy)}.group{background:white;border:1px solid var(--line);border-radius:18px;margin-bottom:18px;overflow:hidden;box-shadow:0 6px 22px #0b29350a}.group-header{padding:21px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:14px;background:#fff}.group-header h2{margin:4px 0 0;font-size:19px;line-height:1.25}.count{color:var(--blue);font-size:12px;font-weight:750;white-space:nowrap}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed}th{background:#163247;color:#fff;text-align:left;text-transform:uppercase;letter-spacing:.075em;font-size:10px;padding:12px 15px}td{padding:14px 15px;border-top:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}tr:nth-child(even) td{background:#f8fafc}th:first-child{width:5%}th:nth-child(2){width:34%}th:nth-child(3){width:27%}th:nth-child(4){width:34%}.num{font-size:12px;color:#8293a1}.en{font-weight:800}.pron{color:#496575}.ru{color:#354a5c}.alias{font-size:11px;margin-top:6px;color:#7890a0}.alias b{font-weight:600}body.hide-ru .ru{filter:blur(5px);user-select:none}body.hide-pron .pron{filter:blur(5px);user-select:none}.collection-label{margin:25px 4px 12px;font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#187e9b;font-weight:850}.empty{padding:32px;background:white;border:1px dashed var(--line);border-radius:14px;text-align:center}.info{font-size:12px;color:var(--soft);margin:25px 0}.chip{border-radius:999px;background:#e6f3f7;color:#1c7899;padding:3px 9px;font-size:10px;font-weight:800;white-space:nowrap}
+@media(max-width:720px){.container{padding:19px 12px 40px}.top{margin-bottom:19px}.filters{gap:7px}#search,#group,#setFilter{flex:1 1 100%;min-width:0}.toggle{flex:1;white-space:nowrap;font-size:12px}.counters{font-size:12px}.group-header{padding:17px}.group-header h2{font-size:17px}thead{display:none}table,tbody,tr,td{display:block;width:100%}tbody{padding:10px}tr{border:1px solid var(--line);border-radius:12px;padding:13px;margin-bottom:9px;background:#fff!important}td,tr:nth-child(even) td{padding:0;border:0;background:transparent}td.num{margin-bottom:3px}td.en{font-size:17px;margin-bottom:4px}td.pron{font-size:13px;margin-bottom:4px}td.ru{font-size:14px}.group{overflow:visible}}
 @media print{body{background:white;font-size:11px}.container{max-width:none;padding:0}.filters,.top,.info{display:none}.group{box-shadow:none;break-inside:avoid;border-radius:0}.group-header{padding:6px}.group-header h2{font-size:14px}td,th{padding:5px 8px}body.hide-ru .ru,body.hide-pron .pron{filter:none}}
 </style></head><body>
 <main class="container">
   <div class="top"><a href="/" class="brand">E↗ English Connect</a><a href="/" class="back">← На главную</a></div>
   <div class="kicker">СЛОВАРЬ ДЛЯ ЗАНЯТИЙ</div><h1>Слова по упражнениям.</h1>
-  <p class="lead muted">Новый список из учебника. Повторы отображаются в каждом разделе, а поиск понимает близкие русские формулировки и опечатки. Произношение русскими буквами — приблизительная подсказка.</p>
+  <p class="lead muted">Старый и новый списки вместе. Повторяющиеся слова объединены, но остаются в каждом своём упражнении. Поиск понимает опечатки и русские синонимы. Произношение русскими буквами — приблизительная подсказка.</p>
   <div class="filters">
     <input id="search" type="search" class="field" aria-label="Поиск слова" placeholder="Найти русское или английское выражение…" autocomplete="off">
+    <select id="setFilter" class="field" aria-label="Выбрать набор"><option value="all">Все словари</option><option value="new">Новый (142–143, 156–157)</option><option value="old">Старый (135–138, 156–157)</option></select>
     <select id="group" class="field" aria-label="Выбрать раздел"><option value="all">Все разделы</option></select>
     <button id="toggleRu" class="toggle" type="button" aria-pressed="false">Скрыть перевод</button>
     <button id="togglePron" class="toggle" type="button" aria-pressed="false">Скрыть произношение</button>
@@ -23,52 +24,82 @@
   </div>
   <div class="counters"><span id="status">Загрузка словаря…</span><span id="uniqueCount"></span></div>
   <div id="groups"></div><div id="empty" class="empty" hidden>Нет совпадений. Попробуйте другой вариант формулировки.</div>
-  <p class="info">Варианты по смыслу следует проверять: автоматический поиск может ошибаться. Синонимы не добавлены в учебный список как отдельные слова.</p>
+  <p class="info">В обоих наборах 331 уникальное выражение и 420 позиций по упражнениям. Варианты по смыслу следует проверять: автоматический поиск может ошибаться. Синонимы не добавлены в учебный список как отдельные слова.</p>
 </main>
 <script src="/common.js"></script><script>
 (()=>{
  const SECTIONS=[
-  ['ev142','142–143','Essential Vocabulary · слова'],
-  ['wc142','142–143','Word combinations'],
-  ['ex_computers','','Ex. 1 · COMPUTERS'],
-  ['ex_hardware','','Ex. 3 · HARDWARE, SOFTWARE, AND FIRMWARE'],
-  ['ev156','156–157','Essential Vocabulary · слова'],
-  ['wc156','156–157','Word combinations'],
-  ['ex_micro','157','Ex. 1 · MICROPROCESSOR']
+  {id:'ev142',page:'142–143',label:'Essential Vocabulary · слова',set:'new'},
+  {id:'wc142',page:'142–143',label:'Word Combinations',set:'new'},
+  {id:'ex_computers',page:'',label:'Ex. 1 · COMPUTERS',set:'new'},
+  {id:'ex_hardware',page:'',label:'Ex. 3 · HARDWARE, SOFTWARE, AND FIRMWARE',set:'new'},
+  {id:'ev156',page:'156–157',label:'Essential Vocabulary · слова',set:'new'},
+  {id:'wc156',page:'156–157',label:'Word Combinations',set:'new'},
+  {id:'ex_micro',page:'157',label:'Ex. 1 · MICROPROCESSOR',set:'new'},
+  {id:'old135_literacy',page:'135',label:'Ex. 1 · выражения',set:'old'},
+  {id:'old136_equiv',page:'136',label:'Ex. 4 · английские эквиваленты',set:'old'},
+  {id:'old137_example',page:'137',label:'Ex. 5 · образец',set:'old'},
+  {id:'old137_verbs',page:'137',label:'Ex. 5 · глаголы',set:'old'},
+  {id:'old137_nouns',page:'137',label:'Ex. 5 · существительные',set:'old'},
+  {id:'old137_adj',page:'137',label:'Ex. 5 · прилагательные',set:'old'},
+  {id:'old137_adv',page:'137',label:'Ex. 5 · наречия',set:'old'},
+  {id:'old138_ev',page:'138',label:'Essential Vocabulary · слова',set:'old'},
+  {id:'old138_wc',page:'138',label:'Word Combinations',set:'old'},
+  {id:'old138_ex1',page:'138',label:'Ex. 1 · английские эквиваленты',set:'old'},
+  {id:'old156_ev',page:'156',label:'Essential Vocabulary · слова',set:'old'},
+  {id:'old156_wc',page:'156–157',label:'Word Combinations',set:'old'},
+  {id:'old157_ex1',page:'157',label:'Ex. 1 · MICROPROCESSOR',set:'old'}
  ];
  const $=id=>document.getElementById(id);
  let lexicon=[];
  function div(cls,text){const n=document.createElement('div');if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;}
  function cell(cls,text){const el=document.createElement('td');el.className=cls;el.textContent=text||'';return el;}
+ function fillGroups(){
+  const active=$('setFilter').value,chosen=$('group').value;
+  $('group').replaceChildren(new Option('Все упражнения','all'));
+  for(const sec of SECTIONS){
+   if(active!=='all'&&active!==sec.set)continue;
+   const label=(sec.set==='old'?'Старый · ':'Новый · ')+(sec.page?'стр. '+sec.page+' · ':'')+sec.label;
+   $('group').append(new Option(label,sec.id));
+  }
+  $('group').value=[...$('group').options].some(x=>x.value===chosen)?chosen:'all';
+ }
  function render(){
-  const q=$('search').value.trim(),group=$('group').value;
-  const matches=q.length>=2?new Set(searchDictionaryDetailed(lexicon,q,300).map(r=>r.entry.id)):null;
-  $('groups').replaceChildren();let shown=0,sectionShown=0;
-  for(const [id,page,label] of SECTIONS){
-   if(group!=='all'&&group!==id)continue;
-   const rows=lexicon.filter(x=>x.locations.some(l=>l.group===id)).sort((a,b)=>a.locations.find(l=>l.group===id).order-b.locations.find(l=>l.group===id).order).filter(x=>!matches||matches.has(x.id));
-   if(!rows.length)continue;sectionShown++;shown+=rows.length;
+  const q=$('search').value.trim(),group=$('group').value,set=$('setFilter').value;
+  const matches=q.length>=2?new Set(searchDictionaryDetailed(lexicon,q,500).map(r=>r.entry.id)):null;
+  $('groups').replaceChildren();let shown=0,sectionShown=0,previousSet='';
+  const hasSet=x=>x.sets?.includes(set)||x.locations.some(l=>l.set===set);
+  for(const sec of SECTIONS){
+   if(set!=='all'&&set!==sec.set || group!=='all'&&group!==sec.id)continue;
+   const rows=lexicon.filter(x=>x.locations.some(l=>l.group===sec.id))
+    .sort((a,b)=>a.locations.find(l=>l.group===sec.id).order-b.locations.find(l=>l.group===sec.id).order)
+    .filter(x=>!matches||matches.has(x.id));
+   if(!rows.length)continue;
+   if(previousSet!==sec.set){$('groups').append(div('collection-label',sec.set==='new'?'НОВЫЙ СЛОВАРЬ':'СТАРЫЙ СЛОВАРЬ'));previousSet=sec.set;}
+   sectionShown++;shown+=rows.length;
    const section=document.createElement('section');section.className='group';
-   const head=div('group-header'),title=div();title.append(div('kicker',page?'СТР. '+page:'УПРАЖНЕНИЕ'));
-   const h2=document.createElement('h2');h2.textContent=label;title.append(h2);head.append(title,div('count',rows.length+' слов'));section.append(head);
+   const head=div('group-header'),title=div();title.append(div('kicker',sec.page?'СТР. '+sec.page:'УПРАЖНЕНИЕ'));
+   const h2=document.createElement('h2');h2.textContent=sec.label;title.append(h2);head.append(title,div('count',rows.length+' позиций'));section.append(head);
    const wrap=div('table-wrap'),table=document.createElement('table'),thead=document.createElement('thead'),trow=document.createElement('tr');
    ['№','English','Как читается','Перевод'].forEach(v=>{const th=document.createElement('th');th.textContent=v;trow.append(th);});thead.append(trow);table.append(thead);
    const tbody=document.createElement('tbody');
    for(const entry of rows){
-    const tr=document.createElement('tr');const loc=entry.locations.find(l=>l.group===id);
-    tr.append(cell('num',String(loc.order)),cell('en',entry.en),cell('pron',entry.pron),cell('ru',entry.ru));
-    if(entry.ruVariants?.length){const extra=div('alias','Также в другом разделе: '+entry.ruVariants.join(' · '));tr.lastChild.append(extra);}
+    const tr=document.createElement('tr'),loc=entry.locations.find(l=>l.group===sec.id);
+    const localRu=loc.ruOverride||entry.ru,localPron=loc.pronOverride||entry.pron;
+    tr.append(cell('num',String(loc.order)),cell('en',entry.en),cell('pron',localPron),cell('ru',localRu));
     tbody.append(tr);
    }
    table.append(tbody);wrap.append(table);section.append(wrap);$('groups').append(section);
   }
+  const unique=set==='all'?lexicon.length:lexicon.filter(hasSet).length;
   $('status').textContent=`Показано ${shown} позиций в ${sectionShown} разделах`;
-  $('uniqueCount').textContent=`${lexicon.length} без повторов`;
+  $('uniqueCount').textContent=`${unique} без повторов`;
   $('empty').hidden=shown!==0;
  }
- for(const [id,page,label] of SECTIONS){const o=document.createElement('option');o.value=id;o.textContent=(page?'Стр. '+page+' · ':'')+label;$('group').append(o);}
+ fillGroups();
+ $('setFilter').addEventListener('change',()=>{fillGroups();render();});
  $('search').addEventListener('input',render);$('group').addEventListener('change',render);
- for(const [id,cls,label] of [['toggleRu','hide-ru','перевод'],['togglePron','hide-pron','произношение']])$(''+id).addEventListener('click',()=>{const on=document.body.classList.toggle(cls);$(id).textContent=(on?'Показать ':'Скрыть ')+label;$(id).setAttribute('aria-pressed',String(on));});
+ for(const [id,cls,label] of [['toggleRu','hide-ru','перевод'],['togglePron','hide-pron','произношение']])$(id).addEventListener('click',()=>{const on=document.body.classList.toggle(cls);$(id).textContent=(on?'Показать ':'Скрыть ')+label;$(id).setAttribute('aria-pressed',String(on));});
  $('print').addEventListener('click',()=>window.print());
  fetch('/dictionary.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Не удалось открыть файл словаря');return r.json();}).then(rows=>{lexicon=rows;render();}).catch(e=>{$('status').textContent=e.message;});
 })();

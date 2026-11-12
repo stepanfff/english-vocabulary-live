@@ -19,10 +19,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 1
+        "order": 1,
+        "set": "new"
       }
     ],
-    "speak": "conceive"
+    "speak": "conceive",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 2,
@@ -42,10 +46,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 2
+        "order": 2,
+        "set": "new"
       }
     ],
-    "speak": "perform"
+    "speak": "perform",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 3,
@@ -66,10 +74,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 3
+        "order": 3,
+        "set": "new"
       }
     ],
-    "speak": "involve"
+    "speak": "involve",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 4,
@@ -90,10 +102,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 4
+        "order": 4,
+        "set": "new"
       }
     ],
-    "speak": "addition"
+    "speak": "addition",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 5,
@@ -112,16 +128,29 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 5
+        "order": 5,
+        "set": "new"
       },
       {
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 9
+        "order": 9,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 9,
+        "set": "old"
       }
     ],
-    "speak": "process"
+    "speak": "process",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 6,
@@ -142,10 +171,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 6
+        "order": 6,
+        "set": "new"
       }
     ],
-    "speak": "enter"
+    "speak": "enter",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 7,
@@ -166,10 +199,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 7
+        "order": 7,
+        "set": "new"
       }
     ],
-    "speak": "identify"
+    "speak": "identify",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 8,
@@ -186,10 +223,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 8
+        "order": 8,
+        "set": "new"
       }
     ],
-    "speak": "access"
+    "speak": "access",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 9,
@@ -209,10 +250,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 9
+        "order": 9,
+        "set": "new"
       }
     ],
-    "speak": "division"
+    "speak": "division",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 10,
@@ -232,10 +277,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 10
+        "order": 10,
+        "set": "new"
       }
     ],
-    "speak": "manipulate"
+    "speak": "manipulate",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 11,
@@ -255,10 +304,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 11
+        "order": 11,
+        "set": "new"
       }
     ],
-    "speak": "condition"
+    "speak": "condition",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 12,
@@ -278,16 +331,29 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 12
+        "order": 12,
+        "set": "new"
       },
       {
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 5
+        "order": 5,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 5,
+        "set": "old"
       }
     ],
-    "speak": "represent"
+    "speak": "represent",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 13,
@@ -304,10 +370,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 13
+        "order": 13,
+        "set": "new"
       }
     ],
-    "speak": "multiplication"
+    "speak": "multiplication",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 14,
@@ -328,10 +398,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 14
+        "order": 14,
+        "set": "new"
       }
     ],
-    "speak": "appropriate"
+    "speak": "appropriate",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 15,
@@ -349,10 +423,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 15
+        "order": 15,
+        "set": "new"
       }
     ],
-    "speak": "auxiliary"
+    "speak": "auxiliary",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 16,
@@ -369,10 +447,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 16
+        "order": 16,
+        "set": "new"
       }
     ],
-    "speak": "punch"
+    "speak": "punch",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 17,
@@ -395,16 +477,30 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 17
+        "order": 17,
+        "set": "new"
       },
       {
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 3
+        "order": 3,
+        "set": "new"
+      },
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 26,
+        "set": "old",
+        "ruOverride": "устройство"
       }
     ],
-    "speak": "device"
+    "speak": "device",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 18,
@@ -424,10 +520,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 18
+        "order": 18,
+        "set": "new"
       }
     ],
-    "speak": "shift"
+    "speak": "shift",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 19,
@@ -448,10 +548,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 19
+        "order": 19,
+        "set": "new"
       }
     ],
-    "speak": "recognize"
+    "speak": "recognize",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 20,
@@ -469,10 +573,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 20
+        "order": 20,
+        "set": "new"
       }
     ],
-    "speak": "subtraction"
+    "speak": "subtraction",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 21,
@@ -492,17 +600,23 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 21
+        "order": 21,
+        "set": "new"
       }
     ],
-    "speak": "interpret"
+    "speak": "interpret",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 22,
     "en": "storage",
     "pron": "сто́ридж",
     "ru": "хранение, хранилище",
-    "ruVariants": [],
+    "ruVariants": [
+      "хранение, накопитель"
+    ],
     "aliases": [
       "хранение",
       "хранилище",
@@ -518,10 +632,23 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 22
+        "order": 22,
+        "set": "new"
+      },
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 8,
+        "set": "old",
+        "ruOverride": "хранение, накопитель"
       }
     ],
-    "speak": "storage"
+    "speak": "storage",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 23,
@@ -539,16 +666,29 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 23
+        "order": 23,
+        "set": "new"
       },
       {
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 19
+        "order": 19,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 19,
+        "set": "old"
       }
     ],
-    "speak": "sequential"
+    "speak": "sequential",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 24,
@@ -565,10 +705,14 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 24
+        "order": 24,
+        "set": "new"
       }
     ],
-    "speak": "floppy"
+    "speak": "floppy",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 25,
@@ -587,16 +731,21 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 25
+        "order": 25,
+        "set": "new"
       },
       {
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 23
+        "order": 23,
+        "set": "new"
       }
     ],
-    "speak": "software"
+    "speak": "software",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 26,
@@ -618,22 +767,28 @@
         "page": "142–143",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev142",
-        "order": 26
+        "order": 26,
+        "set": "new"
       },
       {
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 24
+        "order": 24,
+        "set": "new"
       },
       {
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 3
+        "order": 3,
+        "set": "new"
       }
     ],
-    "speak": "hardware"
+    "speak": "hardware",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 27,
@@ -650,10 +805,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 1
+        "order": 1,
+        "set": "new"
       }
     ],
-    "speak": "to solve problems"
+    "speak": "to solve problems",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 28,
@@ -670,10 +829,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 2
+        "order": 2,
+        "set": "new"
       }
     ],
-    "speak": "represented in numeric form"
+    "speak": "represented in numeric form",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 29,
@@ -692,17 +855,23 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 3
+        "order": 3,
+        "set": "new"
       }
     ],
-    "speak": "source data"
+    "speak": "source data",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 30,
     "en": "central processing unit",
     "pron": "сэ́нтрэл про́усэсинг ю́нит",
     "ru": "центральное процессорное устройство, центральный процессор",
-    "ruVariants": [],
+    "ruVariants": [
+      "центральное процессорное устройство"
+    ],
     "aliases": [
       "центральное процессорное устройство",
       "центральный процессор",
@@ -715,16 +884,38 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 4
+        "order": 4,
+        "set": "new"
       },
       {
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 1
+        "order": 1,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 1,
+        "set": "old",
+        "ruOverride": "центральное процессорное устройство"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 1,
+        "set": "old",
+        "ruOverride": "центральное процессорное устройство"
       }
     ],
-    "speak": "central processing unit"
+    "speak": "central processing unit",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 31,
@@ -738,16 +929,21 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 5
+        "order": 5,
+        "set": "new"
       },
       {
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 13
+        "order": 13,
+        "set": "new"
       }
     ],
-    "speak": "according to the conditions"
+    "speak": "according to the conditions",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 32,
@@ -764,10 +960,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 6
+        "order": 6,
+        "set": "new"
       }
     ],
-    "speak": "at appropriate times"
+    "speak": "at appropriate times",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 33,
@@ -781,10 +981,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 7
+        "order": 7,
+        "set": "new"
       }
     ],
-    "speak": "to be held within the system"
+    "speak": "to be held within the system",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 34,
@@ -800,10 +1004,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 8
+        "order": 8,
+        "set": "new"
       }
     ],
-    "speak": "sequential access memory"
+    "speak": "sequential access memory",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 35,
@@ -817,10 +1025,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 9
+        "order": 9,
+        "set": "new"
       }
     ],
-    "speak": "converting the data"
+    "speak": "converting the data",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 36,
@@ -834,10 +1046,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 10
+        "order": 10,
+        "set": "new"
       }
     ],
-    "speak": "capable of manipulating numbers"
+    "speak": "capable of manipulating numbers",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 37,
@@ -856,10 +1072,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 11
+        "order": 11,
+        "set": "new"
       }
     ],
-    "speak": "at least"
+    "speak": "at least",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 38,
@@ -876,10 +1096,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 12
+        "order": 12,
+        "set": "new"
       }
     ],
-    "speak": "orderly processing"
+    "speak": "orderly processing",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 39,
@@ -893,10 +1117,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 13
+        "order": 13,
+        "set": "new"
       }
     ],
-    "speak": "arithmetic/logic unit"
+    "speak": "arithmetic/logic unit",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 40,
@@ -914,10 +1142,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 14
+        "order": 14,
+        "set": "new"
       }
     ],
-    "speak": "stored program"
+    "speak": "stored program",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 41,
@@ -934,10 +1166,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 15
+        "order": 15,
+        "set": "new"
       }
     ],
-    "speak": "internal storage unit"
+    "speak": "internal storage unit",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 42,
@@ -956,10 +1192,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 16
+        "order": 16,
+        "set": "new"
       }
     ],
-    "speak": "auxiliary storage"
+    "speak": "auxiliary storage",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 43,
@@ -973,10 +1213,14 @@
         "page": "142–143",
         "exercise": "Word combinations",
         "group": "wc142",
-        "order": 17
+        "order": 17,
+        "set": "new"
       }
     ],
-    "speak": "to introduce data into the system"
+    "speak": "to introduce data into the system",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 44,
@@ -995,10 +1239,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 1
+        "order": 1,
+        "set": "new"
       }
     ],
-    "speak": "initially"
+    "speak": "initially",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 45,
@@ -1012,10 +1260,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 2
+        "order": 2,
+        "set": "new"
       }
     ],
-    "speak": "to conceive"
+    "speak": "to conceive",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 46,
@@ -1029,10 +1281,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 4
+        "order": 4,
+        "set": "new"
       }
     ],
-    "speak": "solve problems"
+    "speak": "solve problems",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 47,
@@ -1046,10 +1302,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 5
+        "order": 5,
+        "set": "new"
       }
     ],
-    "speak": "recognize"
+    "speak": "recognize",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 48,
@@ -1063,10 +1323,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 6
+        "order": 6,
+        "set": "new"
       }
     ],
-    "speak": "in numeric form"
+    "speak": "in numeric form",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 49,
@@ -1080,10 +1344,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 7
+        "order": 7,
+        "set": "new"
       }
     ],
-    "speak": "involve"
+    "speak": "involve",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 50,
@@ -1097,10 +1365,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 8
+        "order": 8,
+        "set": "new"
       }
     ],
-    "speak": "basic data"
+    "speak": "basic data",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 51,
@@ -1114,10 +1386,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 9
+        "order": 9,
+        "set": "new"
       }
     ],
-    "speak": "take place"
+    "speak": "take place",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 52,
@@ -1135,10 +1411,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 10
+        "order": 10,
+        "set": "new"
       }
     ],
-    "speak": "input/output (I/O) devices"
+    "speak": "input/output (I/O) devices",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 53,
@@ -1155,10 +1435,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 11
+        "order": 11,
+        "set": "new"
       }
     ],
-    "speak": "perform operations"
+    "speak": "perform operations",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 54,
@@ -1176,10 +1460,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 12
+        "order": 12,
+        "set": "new"
       }
     ],
-    "speak": "comparing data"
+    "speak": "comparing data",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 55,
@@ -1197,10 +1485,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 14
+        "order": 14,
+        "set": "new"
       }
     ],
-    "speak": "cause"
+    "speak": "cause",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 56,
@@ -1217,10 +1509,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 15
+        "order": 15,
+        "set": "new"
       }
     ],
-    "speak": "contains four elements"
+    "speak": "contains four elements",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 57,
@@ -1234,10 +1530,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 16
+        "order": 16,
+        "set": "new"
       }
     ],
-    "speak": "perform"
+    "speak": "perform",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 58,
@@ -1255,10 +1555,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 17
+        "order": 17,
+        "set": "new"
       }
     ],
-    "speak": "is identified by a particular address"
+    "speak": "is identified by a particular address",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 59,
@@ -1275,10 +1579,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 18
+        "order": 18,
+        "set": "new"
       }
     ],
-    "speak": "determines the amount of data and instructions"
+    "speak": "determines the amount of data and instructions",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 60,
@@ -1297,10 +1605,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 19
+        "order": 19,
+        "set": "new"
       }
     ],
-    "speak": "delete"
+    "speak": "delete",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 61,
@@ -1318,10 +1630,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 20
+        "order": 20,
+        "set": "new"
       }
     ],
-    "speak": "secondary memory devices"
+    "speak": "secondary memory devices",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 62,
@@ -1335,10 +1651,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 21
+        "order": 21,
+        "set": "new"
       }
     ],
-    "speak": "in an understandable form"
+    "speak": "in an understandable form",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 63,
@@ -1357,10 +1677,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 22
+        "order": 22,
+        "set": "new"
       }
     ],
-    "speak": "retain"
+    "speak": "retain",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 64,
@@ -1378,10 +1702,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 25
+        "order": 25,
+        "set": "new"
       }
     ],
-    "speak": "be divided into two categories"
+    "speak": "be divided into two categories",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 65,
@@ -1400,10 +1728,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 26
+        "order": 26,
+        "set": "new"
       }
     ],
-    "speak": "to check"
+    "speak": "to check",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 66,
@@ -1421,10 +1753,14 @@
         "page": "",
         "exercise": "Ex. 1 — COMPUTERS",
         "group": "ex_computers",
-        "order": 27
+        "order": 27,
+        "set": "new"
       }
     ],
-    "speak": "correcting errors"
+    "speak": "correcting errors",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 67,
@@ -1438,10 +1774,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 1
+        "order": 1,
+        "set": "new"
       }
     ],
-    "speak": "the units that are visible"
+    "speak": "the units that are visible",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 68,
@@ -1459,10 +1799,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 2
+        "order": 2,
+        "set": "new"
       }
     ],
-    "speak": "data processing system"
+    "speak": "data processing system",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 69,
@@ -1476,10 +1820,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 4
+        "order": 4,
+        "set": "new"
       }
     ],
-    "speak": "the set of computer programs"
+    "speak": "the set of computer programs",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 70,
@@ -1493,10 +1841,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 5
+        "order": 5,
+        "set": "new"
       }
     ],
-    "speak": "associated documentation"
+    "speak": "associated documentation",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 71,
@@ -1510,10 +1862,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 6
+        "order": 6,
+        "set": "new"
       }
     ],
-    "speak": "effective operation"
+    "speak": "effective operation",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 72,
@@ -1530,10 +1886,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 7
+        "order": 7,
+        "set": "new"
       }
     ],
-    "speak": "systems software"
+    "speak": "systems software",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 73,
@@ -1550,10 +1910,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 8
+        "order": 8,
+        "set": "new"
       }
     ],
-    "speak": "applications software"
+    "speak": "applications software",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 74,
@@ -1567,10 +1931,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 9
+        "order": 9,
+        "set": "new"
       }
     ],
-    "speak": "systems programmer"
+    "speak": "systems programmer",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 75,
@@ -1584,10 +1952,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 10
+        "order": 10,
+        "set": "new"
       }
     ],
-    "speak": "payroll"
+    "speak": "payroll",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 76,
@@ -1601,10 +1973,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 11
+        "order": 11,
+        "set": "new"
       }
     ],
-    "speak": "inventory control"
+    "speak": "inventory control",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 77,
@@ -1618,10 +1994,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 12
+        "order": 12,
+        "set": "new"
       }
     ],
-    "speak": "investment analysis"
+    "speak": "investment analysis",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 78,
@@ -1638,10 +2018,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 13
+        "order": 13,
+        "set": "new"
       }
     ],
-    "speak": "application program"
+    "speak": "application program",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 79,
@@ -1659,10 +2043,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 14
+        "order": 14,
+        "set": "new"
       }
     ],
-    "speak": "read-only"
+    "speak": "read-only",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 80,
@@ -1680,10 +2068,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 15
+        "order": 15,
+        "set": "new"
       }
     ],
-    "speak": "read-only memory (ROM)"
+    "speak": "read-only memory (ROM)",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 81,
@@ -1697,10 +2089,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 16
+        "order": 16,
+        "set": "new"
       }
     ],
-    "speak": "a sequence of instructions"
+    "speak": "a sequence of instructions",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 82,
@@ -1714,10 +2110,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 17
+        "order": 17,
+        "set": "new"
       }
     ],
-    "speak": "in an instance"
+    "speak": "in an instance",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 83,
@@ -1735,10 +2135,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 18
+        "order": 18,
+        "set": "new"
       }
     ],
-    "speak": "performance"
+    "speak": "performance",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 84,
@@ -1756,10 +2160,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 19
+        "order": 19,
+        "set": "new"
       }
     ],
-    "speak": "electronic circuits"
+    "speak": "electronic circuits",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 85,
@@ -1773,10 +2181,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 20
+        "order": 20,
+        "set": "new"
       }
     ],
-    "speak": "multiply two numbers"
+    "speak": "multiply two numbers",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 86,
@@ -1790,10 +2202,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 21
+        "order": 21,
+        "set": "new"
       }
     ],
-    "speak": "to cause the machine to accomplish the same function"
+    "speak": "to cause the machine to accomplish the same function",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 87,
@@ -1807,10 +2223,14 @@
         "page": "",
         "exercise": "Ex. 3 — HARDWARE, SOFTWARE, AND FIRMWARE",
         "group": "ex_hardware",
-        "order": 22
+        "order": 22,
+        "set": "new"
       }
     ],
-    "speak": "perform addition"
+    "speak": "perform addition",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 88,
@@ -1827,10 +2247,29 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 1
+        "order": 1,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 1,
+        "set": "old"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 9,
+        "set": "old"
       }
     ],
-    "speak": "microprocessor"
+    "speak": "microprocessor",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 89,
@@ -1847,17 +2286,23 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 2
+        "order": 2,
+        "set": "new"
       }
     ],
-    "speak": "store"
+    "speak": "store",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 90,
     "en": "memory",
     "pron": "мэ́мэри",
     "ru": "память, запоминающее устройство",
-    "ruVariants": [],
+    "ruVariants": [
+      "память"
+    ],
     "aliases": [
       "память",
       "запоминающее устройство",
@@ -1868,10 +2313,31 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 3
+        "order": 3,
+        "set": "new"
+      },
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 17,
+        "set": "old",
+        "ruOverride": "память"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 3,
+        "set": "old",
+        "ruOverride": "память"
       }
     ],
-    "speak": "memory"
+    "speak": "memory",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 91,
@@ -1888,10 +2354,22 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 4
+        "order": 4,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 4,
+        "set": "old"
       }
     ],
-    "speak": "programmable"
+    "speak": "programmable",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 92,
@@ -1905,17 +2383,38 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 6
+        "order": 6,
+        "set": "new"
+      },
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 24,
+        "set": "old"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 6,
+        "set": "old"
       }
     ],
-    "speak": "data"
+    "speak": "data",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 93,
     "en": "transform",
     "pron": "трэнсфо́рм",
     "ru": "преобразовывать, превращать",
-    "ruVariants": [],
+    "ruVariants": [
+      "преобразовывать"
+    ],
     "aliases": [
       "преобразовывать",
       "превращать"
@@ -1925,17 +2424,32 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 7
+        "order": 7,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 7,
+        "set": "old",
+        "ruOverride": "преобразовывать"
       }
     ],
-    "speak": "transform"
+    "speak": "transform",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 94,
     "en": "myriad",
     "pron": "ми́риэд",
     "ru": "множество, огромное количество",
-    "ruVariants": [],
+    "ruVariants": [
+      "несметное множество"
+    ],
     "aliases": [
       "множество",
       "огромное количество",
@@ -1947,17 +2461,32 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 8
+        "order": 8,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 8,
+        "set": "old",
+        "ruOverride": "несметное множество"
       }
     ],
-    "speak": "myriad"
+    "speak": "myriad",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 95,
     "en": "redundant",
     "pron": "рида́ндэнт",
     "ru": "избыточный, лишний",
-    "ruVariants": [],
+    "ruVariants": [
+      "избыточный, ненужный"
+    ],
     "aliases": [
       "избыточный",
       "лишний",
@@ -1969,17 +2498,32 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 10
+        "order": 10,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 10,
+        "set": "old",
+        "ruOverride": "избыточный, ненужный"
       }
     ],
-    "speak": "redundant"
+    "speak": "redundant",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 96,
     "en": "multipurpose",
     "pron": "малтипёрпэс",
     "ru": "многоцелевой, универсальный",
-    "ruVariants": [],
+    "ruVariants": [
+      "многоцелевой"
+    ],
     "aliases": [
       "многоцелевой",
       "универсальный",
@@ -1992,10 +2536,23 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 11
+        "order": 11,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 11,
+        "set": "old",
+        "ruOverride": "многоцелевой"
       }
     ],
-    "speak": "multipurpose"
+    "speak": "multipurpose",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 97,
@@ -2012,10 +2569,22 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 12
+        "order": 12,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 12,
+        "set": "old"
       }
     ],
-    "speak": "internal"
+    "speak": "internal",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 98,
@@ -2033,10 +2602,22 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 13
+        "order": 13,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 13,
+        "set": "old"
       }
     ],
-    "speak": "digital"
+    "speak": "digital",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 99,
@@ -2056,17 +2637,31 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 14
+        "order": 14,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 14,
+        "set": "old"
       }
     ],
-    "speak": "advent"
+    "speak": "advent",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 100,
     "en": "embed",
     "pron": "имбэ́д",
     "ru": "встраивать, внедрять",
-    "ruVariants": [],
+    "ruVariants": [
+      "встраивать"
+    ],
     "aliases": [
       "встраивать",
       "внедрять",
@@ -2079,17 +2674,32 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 15
+        "order": 15,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 15,
+        "set": "old",
+        "ruOverride": "встраивать"
       }
     ],
-    "speak": "embed"
+    "speak": "embed",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 101,
     "en": "solder",
     "pron": "со́лдэр",
     "ru": "паять, припаивать",
-    "ruVariants": [],
+    "ruVariants": [
+      "паять"
+    ],
     "aliases": [
       "паять",
       "припаивать"
@@ -2099,17 +2709,32 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 16
+        "order": 16,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 16,
+        "set": "old",
+        "ruOverride": "паять"
       }
     ],
-    "speak": "solder"
+    "speak": "solder",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 102,
     "en": "incorporate",
     "pron": "инко́рпэрэйт",
     "ru": "включать в себя, объединять",
-    "ruVariants": [],
+    "ruVariants": [
+      "включать в состав, внедрять"
+    ],
     "aliases": [
       "включать в себя",
       "объединять",
@@ -2122,10 +2747,31 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 17
+        "order": 17,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 17,
+        "set": "old",
+        "ruOverride": "включать в состав, внедрять"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 17,
+        "set": "old",
+        "ruOverride": "включать в состав, внедрять"
       }
     ],
-    "speak": "incorporate"
+    "speak": "incorporate",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 103,
@@ -2148,16 +2794,36 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 18
+        "order": 18,
+        "set": "new"
       },
       {
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 6
+        "order": 6,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 18,
+        "set": "old"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 6,
+        "set": "old"
       }
     ],
-    "speak": "output"
+    "speak": "output",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 104,
@@ -2176,10 +2842,14 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 20
+        "order": 20,
+        "set": "new"
       }
     ],
-    "speak": "accept"
+    "speak": "accept",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 105,
@@ -2196,10 +2866,22 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 21
+        "order": 21,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 21,
+        "set": "old"
       }
     ],
-    "speak": "binary"
+    "speak": "binary",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 106,
@@ -2221,23 +2903,30 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 22
+        "order": 22,
+        "set": "new"
       },
       {
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 5
+        "order": 5,
+        "set": "new"
       }
     ],
-    "speak": "input"
+    "speak": "input",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 107,
     "en": "appliance",
     "pron": "эпла́йэнс",
     "ru": "устройство, прибор",
-    "ruVariants": [],
+    "ruVariants": [
+      "прибор, бытовое устройство"
+    ],
     "aliases": [
       "устройство",
       "прибор",
@@ -2250,17 +2939,32 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 23
+        "order": 23,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 23,
+        "set": "old",
+        "ruOverride": "прибор, бытовое устройство"
       }
     ],
-    "speak": "appliance"
+    "speak": "appliance",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 108,
     "en": "contain",
     "pron": "кэнтэ́йн",
     "ru": "содержать, включать в себя",
-    "ruVariants": [],
+    "ruVariants": [
+      "содержать"
+    ],
     "aliases": [
       "содержать",
       "включать в себя",
@@ -2273,17 +2977,40 @@
         "page": "156–157",
         "exercise": "Essential Vocabulary — слова",
         "group": "ev156",
-        "order": 24
+        "order": 24,
+        "set": "new"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 24,
+        "set": "old",
+        "ruOverride": "содержать"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 18,
+        "set": "old",
+        "ruOverride": "содержать"
       }
     ],
-    "speak": "contain"
+    "speak": "contain",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 109,
     "en": "integrated circuit",
     "pron": "и́нтигрэйтид сёркит",
     "ru": "интегральная схема, микросхема",
-    "ruVariants": [],
+    "ruVariants": [
+      "интегральная схема"
+    ],
     "aliases": [
       "интегральная схема",
       "микросхема",
@@ -2295,10 +3022,47 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 2
+        "order": 2,
+        "set": "new"
+      },
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 13,
+        "set": "old",
+        "ruOverride": "интегральная схема"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 23,
+        "set": "old",
+        "ruOverride": "интегральная схема"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 2,
+        "set": "old",
+        "ruOverride": "интегральная схема"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 2,
+        "set": "old",
+        "ruOverride": "интегральная схема"
       }
     ],
-    "speak": "integrated circuit"
+    "speak": "integrated circuit",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 110,
@@ -2312,10 +3076,22 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 3
+        "order": 3,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 3,
+        "set": "old"
       }
     ],
-    "speak": "micro-prefix"
+    "speak": "micro-prefix",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 111,
@@ -2332,17 +3108,31 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 4
+        "order": 4,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 4,
+        "set": "old"
       }
     ],
-    "speak": "digital data"
+    "speak": "digital data",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 112,
     "en": "according to instructions",
     "pron": "эко́рдинг ту инстра́кшэнз",
     "ru": "согласно инструкциям, в соответствии с указаниями",
-    "ruVariants": [],
+    "ruVariants": [
+      "согласно инструкциям"
+    ],
     "aliases": [
       "согласно инструкциям",
       "в соответствии с указаниями"
@@ -2352,10 +3142,23 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 5
+        "order": 5,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 5,
+        "set": "old",
+        "ruOverride": "согласно инструкциям"
       }
     ],
-    "speak": "according to instructions"
+    "speak": "according to instructions",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 113,
@@ -2363,7 +3166,8 @@
     "pron": "сторд ин итс мэ́мэри",
     "ru": "хранящийся в его памяти, сохранённый в его памяти",
     "ruVariants": [
-      "хранить в памяти"
+      "хранить в памяти",
+      "хранящийся в его памяти"
     ],
     "aliases": [
       "хранящийся в его памяти",
@@ -2374,16 +3178,38 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 6
+        "order": 6,
+        "set": "new"
       },
       {
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 8
+        "order": 8,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 6,
+        "set": "old",
+        "ruOverride": "хранящийся в его памяти"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 8,
+        "set": "old",
+        "ruOverride": "хранящийся в его памяти"
       }
     ],
-    "speak": "stored in its memory"
+    "speak": "stored in its memory",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 114,
@@ -2400,16 +3226,36 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 7
+        "order": 7,
+        "set": "new"
       },
       {
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 10
+        "order": 10,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 7,
+        "set": "old"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 10,
+        "set": "old"
       }
     ],
-    "speak": "sequential digital logic"
+    "speak": "sequential digital logic",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 115,
@@ -2427,10 +3273,14 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 8
+        "order": 8,
+        "set": "new"
       }
     ],
-    "speak": "general-purpose microprocessors"
+    "speak": "general-purpose microprocessors",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 116,
@@ -2444,23 +3294,45 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 9
+        "order": 9,
+        "set": "new"
       },
       {
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 13
+        "order": 13,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 10,
+        "set": "old"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 13,
+        "set": "old"
       }
     ],
-    "speak": "text editing"
+    "speak": "text editing",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 117,
     "en": "embedded system",
     "pron": "имбэ́дид си́стэм",
     "ru": "встроенная система, встраиваемая система",
-    "ruVariants": [],
+    "ruVariants": [
+      "встроенная система"
+    ],
     "aliases": [
       "встроенная система",
       "встраиваемая система",
@@ -2471,10 +3343,31 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 10
+        "order": 10,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 11,
+        "set": "old",
+        "ruOverride": "встроенная система"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 14,
+        "set": "old",
+        "ruOverride": "встроенная система"
       }
     ],
-    "speak": "embedded system"
+    "speak": "embedded system",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 118,
@@ -2495,16 +3388,38 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 11
+        "order": 11,
+        "set": "new"
       },
       {
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 16
+        "order": 16,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 12,
+        "set": "old",
+        "ruOverride": "сотовые телефоны"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 16,
+        "set": "old",
+        "ruOverride": "сотовые телефоны"
       }
     ],
-    "speak": "cellular phones"
+    "speak": "cellular phones",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 119,
@@ -2521,17 +3436,31 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 12
+        "order": 12,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 13,
+        "set": "old"
       }
     ],
-    "speak": "industrial process control"
+    "speak": "industrial process control",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 120,
     "en": "small and medium scale",
     "pron": "смол энд ми́диэм скэйл",
     "ru": "малый и средний масштаб, малая и средняя степень интеграции",
-    "ruVariants": [],
+    "ruVariants": [
+      "малого и среднего масштаба"
+    ],
     "aliases": [
       "малый и средний масштаб",
       "малая и средняя степень интеграции"
@@ -2541,10 +3470,23 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 13
+        "order": 13,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 14,
+        "set": "old",
+        "ruOverride": "малого и среднего масштаба"
       }
     ],
-    "speak": "small and medium scale"
+    "speak": "small and medium scale",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 121,
@@ -2558,17 +3500,31 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 14
+        "order": 14,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 15,
+        "set": "old"
       }
     ],
-    "speak": "binary numerical system"
+    "speak": "binary numerical system",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 122,
     "en": "discrete logic gates",
     "pron": "дискри́т ло́джик гэйтс",
     "ru": "дискретные логические элементы, логические вентили",
-    "ruVariants": [],
+    "ruVariants": [
+      "дискретные логические элементы"
+    ],
     "aliases": [
       "дискретные логические элементы",
       "логические вентили"
@@ -2578,10 +3534,23 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 15
+        "order": 15,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 16,
+        "set": "old",
+        "ruOverride": "дискретные логические элементы"
       }
     ],
-    "speak": "discrete logic gates"
+    "speak": "discrete logic gates",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 123,
@@ -2598,17 +3567,31 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 16
+        "order": 16,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 17,
+        "set": "old"
       }
     ],
-    "speak": "printed circuit board"
+    "speak": "printed circuit board",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 124,
     "en": "primary guidance",
     "pron": "пра́ймэри га́йдэнс",
     "ru": "основное наведение, основное управление",
-    "ruVariants": [],
+    "ruVariants": [
+      "основное наведение (космического корабля)"
+    ],
     "aliases": [
       "основное наведение",
       "основное управление"
@@ -2618,10 +3601,23 @@
         "page": "156–157",
         "exercise": "Word combinations",
         "group": "wc156",
-        "order": 17
+        "order": 17,
+        "set": "new"
+      },
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 18,
+        "set": "old",
+        "ruOverride": "основное наведение (космического корабля)"
       }
     ],
-    "speak": "primary guidance"
+    "speak": "primary guidance",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 125,
@@ -2639,10 +3635,14 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 1
+        "order": 1,
+        "set": "new"
       }
     ],
-    "speak": "central processing unit (CPU)"
+    "speak": "central processing unit (CPU)",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 126,
@@ -2660,27 +3660,46 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 2
+        "order": 2,
+        "set": "new"
       }
     ],
-    "speak": "integrated circuit (IC)"
+    "speak": "integrated circuit (IC)",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 127,
     "en": "a multipurpose, programmable device",
     "pron": "э малтипёрпэс про́угрэмэбл дива́йс",
     "ru": "многоцелевое программирующее устройство",
-    "ruVariants": [],
+    "ruVariants": [
+      "многоцелевое программируемое устройство"
+    ],
     "aliases": [],
     "locations": [
       {
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 3
+        "order": 3,
+        "set": "new"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 3,
+        "set": "old",
+        "ruOverride": "многоцелевое программируемое устройство"
       }
     ],
-    "speak": "a multipurpose, programmable device"
+    "speak": "a multipurpose, programmable device",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 128,
@@ -2697,10 +3716,14 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 4
+        "order": 4,
+        "set": "new"
       }
     ],
-    "speak": "accepts digital data"
+    "speak": "accepts digital data",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 129,
@@ -2714,10 +3737,14 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 7
+        "order": 7,
+        "set": "new"
       }
     ],
-    "speak": "processes it according to instructions"
+    "speak": "processes it according to instructions",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 130,
@@ -2735,17 +3762,23 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 9
+        "order": 9,
+        "set": "new"
       }
     ],
-    "speak": "provides results"
+    "speak": "provides results",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 131,
     "en": "numbers and symbols represented in the binary numeral system",
     "pron": "на́мбэрз энд си́мбэлз рэпризэ́нтид ин зэ ба́йнэри нью́мэрэл си́стэм",
     "ru": "цифры и символы, представленные в двоичной цифровой системе",
-    "ruVariants": [],
+    "ruVariants": [
+      "числа и символы, представленные в двоичной системе счисления"
+    ],
     "aliases": [
       "цифры и символы",
       "представленные в двоичной цифровой системе"
@@ -2755,10 +3788,23 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 11
+        "order": 11,
+        "set": "new"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 11,
+        "set": "old",
+        "ruOverride": "числа и символы, представленные в двоичной системе счисления"
       }
     ],
-    "speak": "numbers and symbols represented in the binary numeral system"
+    "speak": "numbers and symbols represented in the binary numeral system",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 132,
@@ -2772,10 +3818,22 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 12
+        "order": 12,
+        "set": "new"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 12,
+        "set": "old"
       }
     ],
-    "speak": "computers on integrated circuits"
+    "speak": "computers on integrated circuits",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 133,
@@ -2792,10 +3850,14 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 14
+        "order": 14,
+        "set": "new"
       }
     ],
-    "speak": "embedded systems"
+    "speak": "embedded systems",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 134,
@@ -2809,10 +3871,22 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 15
+        "order": 15,
+        "set": "new"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 15,
+        "set": "old"
       }
     ],
-    "speak": "myriad objects"
+    "speak": "myriad objects",
+    "sets": [
+      "new",
+      "old"
+    ]
   },
   {
     "id": 135,
@@ -2826,10 +3900,14 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 17
+        "order": 17,
+        "set": "new"
       }
     ],
-    "speak": "introduced"
+    "speak": "introduced",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 136,
@@ -2843,10 +3921,14 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 18
+        "order": 18,
+        "set": "new"
       }
     ],
-    "speak": "containing"
+    "speak": "containing",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 137,
@@ -2864,10 +3946,14 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 19
+        "order": 19,
+        "set": "new"
       }
     ],
-    "speak": "were interconnected"
+    "speak": "were interconnected",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 138,
@@ -2884,10 +3970,14 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 20
+        "order": 20,
+        "set": "new"
       }
     ],
-    "speak": "limited a computer's operating speed"
+    "speak": "limited a computer's operating speed",
+    "sets": [
+      "new"
+    ]
   },
   {
     "id": 139,
@@ -2904,9 +3994,4158 @@
         "page": "157",
         "exercise": "Ex. 1 — MICROPROCESSOR",
         "group": "ex_micro",
-        "order": 21
+        "order": 21,
+        "set": "new"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 21,
+        "set": "old"
       }
     ],
-    "speak": "onboard computations"
+    "speak": "onboard computations",
+    "sets": [
+      "new",
+      "old"
+    ]
+  },
+  {
+    "id": 140,
+    "en": "an information-dependent society",
+    "pron": "эн информэ́йшэн-дипе́ндэнт сэса́йэти",
+    "ru": "общество, зависящее от информации",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 1,
+        "set": "old"
+      }
+    ],
+    "speak": "an information-dependent society",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 141,
+    "en": "a computer-literate citizen",
+    "pron": "э кэмпью́тэр-ли́тэрэт си́тизэн",
+    "ru": "компьютерно грамотный гражданин",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 2,
+        "set": "old"
+      }
+    ],
+    "speak": "a computer-literate citizen",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 142,
+    "en": "an everyday problem-solving device",
+    "pron": "эн э́вридэй про́блэм-со́лвинг дива́йс",
+    "ru": "устройство для решения повседневных задач",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 3,
+        "set": "old"
+      }
+    ],
+    "speak": "an everyday problem-solving device",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 143,
+    "en": "to be aware",
+    "pron": "ту би эуэ́р",
+    "ru": "осознавать, быть в курсе",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 4,
+        "set": "old"
+      }
+    ],
+    "speak": "to be aware",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 144,
+    "en": "to influence the quality of life",
+    "pron": "ту и́нфлуэнс зэ кво́лити эв лайф",
+    "ru": "влиять на качество жизни",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 5,
+        "set": "old"
+      }
+    ],
+    "speak": "to influence the quality of life",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 145,
+    "en": "to have an opportunity",
+    "pron": "ту хэв эн опэртью́нити",
+    "ru": "иметь возможность",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 6,
+        "set": "old"
+      }
+    ],
+    "speak": "to have an opportunity",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 146,
+    "en": "to learn the basics",
+    "pron": "ту лёрн зэ бэ́йсикс",
+    "ru": "изучить основы",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 7,
+        "set": "old"
+      }
+    ],
+    "speak": "to learn the basics",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 147,
+    "en": "to learn computing",
+    "pron": "ту лёрн кэмпью́тинг",
+    "ru": "изучать вычислительную технику",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 8,
+        "set": "old"
+      }
+    ],
+    "speak": "to learn computing",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 148,
+    "en": "the most significant technical achievements",
+    "pron": "зэ моуст сигни́фикэнт тэ́кникэл эчи́вмэнтс",
+    "ru": "самые значительные технические достижения",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 9,
+        "set": "old"
+      }
+    ],
+    "speak": "the most significant technical achievements",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 149,
+    "en": "to embrace computer literacy",
+    "pron": "ту имбрэ́йс кэмпью́тэр ли́тэраси",
+    "ru": "овладеть компьютерной грамотностью",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 10,
+        "set": "old"
+      }
+    ],
+    "speak": "to embrace computer literacy",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 150,
+    "en": "to prepare programs",
+    "pron": "ту припэ́р про́угрэмз",
+    "ru": "составлять программы",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 11,
+        "set": "old"
+      }
+    ],
+    "speak": "to prepare programs",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 151,
+    "en": "to direct the operations of a computer",
+    "pron": "ту дирэ́кт зи опэрэ́йшэнз эв э кэмпью́тэр",
+    "ru": "управлять работой компьютера",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 12,
+        "set": "old"
+      }
+    ],
+    "speak": "to direct the operations of a computer",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 152,
+    "en": "to be on the way of becoming computer-literate",
+    "pron": "ту би он зэ уэй эв бика́минг кэмпью́тэр-ли́тэрэт",
+    "ru": "быть на пути к освоению компьютерной грамотности",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 13,
+        "set": "old"
+      }
+    ],
+    "speak": "to be on the way of becoming computer-literate",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 153,
+    "en": "to process information",
+    "pron": "ту про́усэс информэ́йшэн",
+    "ru": "обрабатывать информацию",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 14,
+        "set": "old"
+      }
+    ],
+    "speak": "to process information",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 154,
+    "en": "to have much in common",
+    "pron": "ту хэв мач ин ко́мэн",
+    "ru": "иметь много общего",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 15,
+        "set": "old"
+      }
+    ],
+    "speak": "to have much in common",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 155,
+    "en": "a data processing system",
+    "pron": "э дэ́йта про́усэсинг си́стэм",
+    "ru": "система обработки данных",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "135",
+        "exercise": "Ex. 1 — выражения",
+        "group": "old135_literacy",
+        "order": 16,
+        "set": "old"
+      }
+    ],
+    "speak": "a data processing system",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 156,
+    "en": "an intricate network of electronic circuits",
+    "pron": "эн и́нтрикэт нэ́туёрк эв илэктро́ник сёркитс",
+    "ru": "сложная сеть электронных цепей",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 1,
+        "set": "old"
+      }
+    ],
+    "speak": "an intricate network of electronic circuits",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 157,
+    "en": "to operate switches",
+    "pron": "ту о́пэрэйт сви́чиз",
+    "ru": "управлять переключателями",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 2,
+        "set": "old"
+      }
+    ],
+    "speak": "to operate switches",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 158,
+    "en": "possible states",
+    "pron": "по́сибл стэ́йтс",
+    "ru": "возможные состояния",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 3,
+        "set": "old"
+      }
+    ],
+    "speak": "possible states",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 159,
+    "en": "to store numbers",
+    "pron": "ту стор на́мбэрз",
+    "ru": "хранить числа",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 4,
+        "set": "old"
+      }
+    ],
+    "speak": "to store numbers",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 160,
+    "en": "to manipulate characters",
+    "pron": "ту мэни́пьюлэйт кэ́рэктэрз",
+    "ru": "обрабатывать символы",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 5,
+        "set": "old"
+      }
+    ],
+    "speak": "to manipulate characters",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 161,
+    "en": "by inputting signals",
+    "pron": "бай и́нпутинг си́гнэлз",
+    "ru": "посредством ввода сигналов",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 6,
+        "set": "old"
+      }
+    ],
+    "speak": "by inputting signals",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 162,
+    "en": "to turn on",
+    "pron": "ту тёрн он",
+    "ru": "включать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 7,
+        "set": "old"
+      },
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 1,
+        "set": "old"
+      }
+    ],
+    "speak": "to turn on",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 163,
+    "en": "to turn off",
+    "pron": "ту тёрн оф",
+    "ru": "выключать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 8,
+        "set": "old"
+      },
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 23,
+        "set": "old"
+      }
+    ],
+    "speak": "to turn off",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 164,
+    "en": "to demagnetize the cores",
+    "pron": "ту димэ́гнэтайз зэ ко́рз",
+    "ru": "размагничивать сердечники",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 9,
+        "set": "old"
+      }
+    ],
+    "speak": "to demagnetize the cores",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 165,
+    "en": "processing of information",
+    "pron": "про́усэсинг эв информэ́йшэн",
+    "ru": "обработка информации",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 10,
+        "set": "old"
+      }
+    ],
+    "speak": "processing of information",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 166,
+    "en": "information in the form of instructions",
+    "pron": "информэ́йшэн ин зэ форм эв инстра́кшэнз",
+    "ru": "информация в виде команд",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 11,
+        "set": "old"
+      }
+    ],
+    "speak": "information in the form of instructions",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 167,
+    "en": "characters called data",
+    "pron": "кэ́рэктэрз колд дэ́йта",
+    "ru": "символы, называемые данными",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 12,
+        "set": "old"
+      }
+    ],
+    "speak": "characters called data",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 168,
+    "en": "to perform mathematical operations",
+    "pron": "ту пэрфо́рм мэсэмэ́тикэл опэрэ́йшэнз",
+    "ru": "выполнять математические операции",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 13,
+        "set": "old"
+      }
+    ],
+    "speak": "to perform mathematical operations",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 169,
+    "en": "to supply results",
+    "pron": "ту сэпла́й риза́лтс",
+    "ru": "выдавать результаты",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 14,
+        "set": "old"
+      }
+    ],
+    "speak": "to supply results",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 170,
+    "en": "to provide the information needed to solve the problem",
+    "pron": "ту прова́йд зи информэ́йшэн ни́дид ту солв зэ про́блэм",
+    "ru": "предоставлять информацию, необходимую для решения задачи",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 15,
+        "set": "old"
+      }
+    ],
+    "speak": "to provide the information needed to solve the problem",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 171,
+    "en": "to have remarkable powers",
+    "pron": "ту хэв рима́ркэбл па́уэрз",
+    "ru": "иметь замечательные возможности",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 16,
+        "set": "old"
+      }
+    ],
+    "speak": "to have remarkable powers",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 172,
+    "en": "basic capabilities",
+    "pron": "бэ́йсик кэйпэби́литиз",
+    "ru": "основные возможности",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 17,
+        "set": "old"
+      }
+    ],
+    "speak": "basic capabilities",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 173,
+    "en": "addition, subtraction, division, multiplication",
+    "pron": "эди́шэн, сэбтрэ́кшэн, диви́жэн, малтипликэ́йшэн",
+    "ru": "сложение, вычитание, деление, умножение",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 18,
+        "set": "old"
+      }
+    ],
+    "speak": "addition, subtraction, division, multiplication",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 174,
+    "en": "exponentiation",
+    "pron": "экспоунэншиэ́йшэн",
+    "ru": "возведение в степень",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 19,
+        "set": "old"
+      }
+    ],
+    "speak": "exponentiation",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 175,
+    "en": "a means of communicating with the user",
+    "pron": "э минз эв кэмью́никэйтинг уиз зэ ю́зэр",
+    "ru": "средство общения с пользователем",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 20,
+        "set": "old"
+      }
+    ],
+    "speak": "a means of communicating with the user",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 176,
+    "en": "an input device",
+    "pron": "эн и́нпут дива́йс",
+    "ru": "устройство ввода",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 21,
+        "set": "old"
+      }
+    ],
+    "speak": "an input device",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 177,
+    "en": "a disk drive",
+    "pron": "э диск драйв",
+    "ru": "дисковод",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 22,
+        "set": "old"
+      }
+    ],
+    "speak": "a disk drive",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 178,
+    "en": "to read information into the computer",
+    "pron": "ту рид информэ́йшэн и́нту зэ кэмпью́тэр",
+    "ru": "считывать информацию в компьютер",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 23,
+        "set": "old"
+      }
+    ],
+    "speak": "to read information into the computer",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 179,
+    "en": "outputting information",
+    "pron": "а́утпутинг информэ́йшэн",
+    "ru": "вывод информации",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 24,
+        "set": "old"
+      }
+    ],
+    "speak": "outputting information",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 180,
+    "en": "a cathode-ray-tube display",
+    "pron": "э кэ́соуд-рэй-тьюб дисплэ́й",
+    "ru": "дисплей с электронно-лучевой трубкой",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 25,
+        "set": "old"
+      }
+    ],
+    "speak": "a cathode-ray-tube display",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 181,
+    "en": "to make decisions",
+    "pron": "ту мэйк диси́жэнз",
+    "ru": "принимать решения",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 26,
+        "set": "old"
+      }
+    ],
+    "speak": "to make decisions",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 182,
+    "en": "to make thousands of logical decisions",
+    "pron": "ту мэйк са́узэндз эв ло́джикэл диси́жэнз",
+    "ru": "принимать тысячи логических решений (в задании: выполнять тысячи логических операций)",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 27,
+        "set": "old"
+      }
+    ],
+    "speak": "to make thousands of logical decisions",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 183,
+    "en": "without becoming tired",
+    "pron": "уиза́ут бика́минг та́йэрд",
+    "ru": "без устали, не уставая",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 28,
+        "set": "old"
+      }
+    ],
+    "speak": "without becoming tired",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 184,
+    "en": "to find the solution to a problem",
+    "pron": "ту файнд зэ сэлю́шэн ту э про́блэм",
+    "ru": "находить решение задачи",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 29,
+        "set": "old"
+      }
+    ],
+    "speak": "to find the solution to a problem",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 185,
+    "en": "in a fraction of the time",
+    "pron": "ин э фрэ́кшэн эв зэ тайм",
+    "ru": "за значительно меньшее время",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 30,
+        "set": "old"
+      }
+    ],
+    "speak": "in a fraction of the time",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 186,
+    "en": "a human being",
+    "pron": "э хью́мэн би́инг",
+    "ru": "человек",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 31,
+        "set": "old"
+      },
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец",
+        "group": "old137_example",
+        "order": 6,
+        "set": "old"
+      }
+    ],
+    "speak": "a human being",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 187,
+    "en": "dull, routine tasks",
+    "pron": "дал, рути́н таскс",
+    "ru": "скучная рутинная работа",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 32,
+        "set": "old"
+      }
+    ],
+    "speak": "dull, routine tasks",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 188,
+    "en": "according to the instructions given to it",
+    "pron": "эко́рдинг ту зи инстра́кшэнз ги́вэн ту ит",
+    "ru": "в соответствии с данными ему инструкциями",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 33,
+        "set": "old"
+      }
+    ],
+    "speak": "according to the instructions given to it",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 189,
+    "en": "to form one's own judgments",
+    "pron": "ту форм уанз оун джа́джмэнтс",
+    "ru": "вырабатывать собственные суждения",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 34,
+        "set": "old"
+      }
+    ],
+    "speak": "to form one's own judgments",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 190,
+    "en": "its achievements are limited by the minds of human beings",
+    "pron": "итс эчи́вмэнтс ар ли́митид бай зэ майндз эв хью́мэн би́ингз",
+    "ru": "его достижения ограничены интеллектом людей",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 35,
+        "set": "old"
+      }
+    ],
+    "speak": "its achievements are limited by the minds of human beings",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 191,
+    "en": "to give the necessary information",
+    "pron": "ту гив зэ нэ́сэсэри информэ́йшэн",
+    "ru": "дать необходимую информацию",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 36,
+        "set": "old"
+      }
+    ],
+    "speak": "to give the necessary information",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 192,
+    "en": "electric pulses",
+    "pron": "илэ́ктрик па́лсиз",
+    "ru": "электрические импульсы",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 37,
+        "set": "old"
+      }
+    ],
+    "speak": "electric pulses",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 193,
+    "en": "at the speed of light",
+    "pron": "эт зэ спид эв лайт",
+    "ru": "со скоростью света",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 38,
+        "set": "old"
+      }
+    ],
+    "speak": "at the speed of light",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 194,
+    "en": "to carry out great numbers of arithmetic-logical operations almost instantaneously",
+    "pron": "ту кэ́ри аут грэйт на́мбэрз эв эри́смэтик-ло́джикэл опэрэ́йшэнз о́лмоуст инстэнтэ́йниэсли",
+    "ru": "почти мгновенно выполнять огромное количество арифметико-логических операций",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 39,
+        "set": "old"
+      }
+    ],
+    "speak": "to carry out great numbers of arithmetic-logical operations almost instantaneously",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 195,
+    "en": "a person would be dead long before the job was finished",
+    "pron": "э пёрсэн вуд би дэд лонг бифо́р зэ джоб уоз фи́ништ",
+    "ru": "человеку не хватило бы всей жизни, чтобы закончить работу",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "136",
+        "exercise": "Ex. 4 — английские эквиваленты",
+        "group": "old136_equiv",
+        "order": 40,
+        "set": "old"
+      }
+    ],
+    "speak": "a person would be dead long before the job was finished",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 196,
+    "en": "to perform",
+    "pron": "ту пэрфо́рм",
+    "ru": "выполнять",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец",
+        "group": "old137_example",
+        "order": 1,
+        "set": "old"
+      }
+    ],
+    "speak": "to perform",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 197,
+    "en": "to exercise",
+    "pron": "ту э́ксэрсайз",
+    "ru": "осуществлять, применять",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец",
+        "group": "old137_example",
+        "order": 2,
+        "set": "old"
+      }
+    ],
+    "speak": "to exercise",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 198,
+    "en": "carry out",
+    "pron": "кэ́ри аут",
+    "ru": "выполнять, осуществлять",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец",
+        "group": "old137_example",
+        "order": 3,
+        "set": "old"
+      },
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 14,
+        "set": "old"
+      }
+    ],
+    "speak": "carry out",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 199,
+    "en": "a man",
+    "pron": "э мэн",
+    "ru": "человек, мужчина",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец",
+        "group": "old137_example",
+        "order": 4,
+        "set": "old"
+      }
+    ],
+    "speak": "a man",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 200,
+    "en": "a person",
+    "pron": "э пёрсэн",
+    "ru": "человек",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — образец",
+        "group": "old137_example",
+        "order": 5,
+        "set": "old"
+      }
+    ],
+    "speak": "a person",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 201,
+    "en": "provide",
+    "pron": "прова́йд",
+    "ru": "обеспечивать, предоставлять",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 2,
+        "set": "old"
+      },
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 18,
+        "set": "old"
+      }
+    ],
+    "speak": "provide",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 202,
+    "en": "to type",
+    "pron": "ту тайп",
+    "ru": "печатать на клавиатуре",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 3,
+        "set": "old"
+      }
+    ],
+    "speak": "to type",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 203,
+    "en": "to accept",
+    "pron": "ту эксэ́пт",
+    "ru": "принимать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 4,
+        "set": "old"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 20,
+        "set": "old"
+      }
+    ],
+    "speak": "to accept",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 204,
+    "en": "to help",
+    "pron": "ту хэлп",
+    "ru": "помогать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 5,
+        "set": "old"
+      }
+    ],
+    "speak": "to help",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 205,
+    "en": "to learn",
+    "pron": "ту лёрн",
+    "ru": "учить, изучать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 6,
+        "set": "old"
+      }
+    ],
+    "speak": "to learn",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 206,
+    "en": "to observe",
+    "pron": "ту эбзёрв",
+    "ru": "наблюдать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 7,
+        "set": "old"
+      }
+    ],
+    "speak": "to observe",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 207,
+    "en": "to call",
+    "pron": "ту кол",
+    "ru": "называть, звонить",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 8,
+        "set": "old"
+      }
+    ],
+    "speak": "to call",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 208,
+    "en": "to tell",
+    "pron": "ту тэл",
+    "ru": "говорить, сообщать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 9,
+        "set": "old"
+      }
+    ],
+    "speak": "to tell",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 209,
+    "en": "to keep",
+    "pron": "ту кип",
+    "ru": "хранить, держать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 10,
+        "set": "old"
+      }
+    ],
+    "speak": "to keep",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 210,
+    "en": "to feed",
+    "pron": "ту фид",
+    "ru": "вводить, подавать (данные)",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 11,
+        "set": "old"
+      }
+    ],
+    "speak": "to feed",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 211,
+    "en": "to solve",
+    "pron": "ту солв",
+    "ru": "решать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 12,
+        "set": "old"
+      }
+    ],
+    "speak": "to solve",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 212,
+    "en": "to relate",
+    "pron": "ту рилэ́йт",
+    "ru": "относиться, связывать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 13,
+        "set": "old"
+      }
+    ],
+    "speak": "to relate",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 213,
+    "en": "to switch off",
+    "pron": "ту свич оф",
+    "ru": "выключать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 14,
+        "set": "old"
+      }
+    ],
+    "speak": "to switch off",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 214,
+    "en": "to communicate",
+    "pron": "ту кэмью́никэйт",
+    "ru": "общаться, передавать информацию",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 15,
+        "set": "old"
+      }
+    ],
+    "speak": "to communicate",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 215,
+    "en": "to receive",
+    "pron": "ту риси́в",
+    "ru": "получать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 16,
+        "set": "old"
+      }
+    ],
+    "speak": "to receive",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 216,
+    "en": "to supply",
+    "pron": "ту сэпла́й",
+    "ru": "поставлять, снабжать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 17,
+        "set": "old"
+      }
+    ],
+    "speak": "to supply",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 217,
+    "en": "to switch on",
+    "pron": "ту свич он",
+    "ru": "включать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 18,
+        "set": "old"
+      }
+    ],
+    "speak": "to switch on",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 218,
+    "en": "to assist",
+    "pron": "ту эси́ст",
+    "ru": "помогать, содействовать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 19,
+        "set": "old"
+      }
+    ],
+    "speak": "to assist",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 219,
+    "en": "to print",
+    "pron": "ту принт",
+    "ru": "печатать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 20,
+        "set": "old"
+      }
+    ],
+    "speak": "to print",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 220,
+    "en": "to study",
+    "pron": "ту ста́ди",
+    "ru": "изучать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 21,
+        "set": "old"
+      }
+    ],
+    "speak": "to study",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 221,
+    "en": "input / to input",
+    "pron": "ту и́нпут",
+    "ru": "ввод; вводить данные",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 22,
+        "set": "old"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 22,
+        "set": "old"
+      },
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 5,
+        "set": "old"
+      }
+    ],
+    "speak": "input / to input",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 222,
+    "en": "to decide",
+    "pron": "ту диса́йд",
+    "ru": "решать, принимать решение",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 24,
+        "set": "old"
+      }
+    ],
+    "speak": "to decide",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 223,
+    "en": "to store",
+    "pron": "ту стор",
+    "ru": "хранить",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 25,
+        "set": "old"
+      },
+      {
+        "page": "156",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old156_ev",
+        "order": 2,
+        "set": "old"
+      }
+    ],
+    "speak": "to store",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 224,
+    "en": "to say",
+    "pron": "ту сэй",
+    "ru": "сказать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 26,
+        "set": "old"
+      }
+    ],
+    "speak": "to say",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 225,
+    "en": "to name",
+    "pron": "ту нэйм",
+    "ru": "называть",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 27,
+        "set": "old"
+      }
+    ],
+    "speak": "to name",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 226,
+    "en": "to watch",
+    "pron": "ту уотч",
+    "ru": "смотреть, наблюдать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — глаголы",
+        "group": "old137_verbs",
+        "order": 28,
+        "set": "old"
+      }
+    ],
+    "speak": "to watch",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 227,
+    "en": "work",
+    "pron": "уёрк",
+    "ru": "работа",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 1,
+        "set": "old"
+      }
+    ],
+    "speak": "work",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 228,
+    "en": "machine",
+    "pron": "мэши́н",
+    "ru": "машина, механизм",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 2,
+        "set": "old"
+      }
+    ],
+    "speak": "machine",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 229,
+    "en": "fundamentals",
+    "pron": "фандэмэ́нтэлз",
+    "ru": "основы",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 3,
+        "set": "old"
+      }
+    ],
+    "speak": "fundamentals",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 230,
+    "en": "display",
+    "pron": "дисплэ́й",
+    "ru": "дисплей, экран",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 4,
+        "set": "old"
+      }
+    ],
+    "speak": "display",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 231,
+    "en": "application",
+    "pron": "эпликэ́йшэн",
+    "ru": "применение, приложение",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 5,
+        "set": "old"
+      }
+    ],
+    "speak": "application",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 232,
+    "en": "capabilities",
+    "pron": "кэйпэби́литиз",
+    "ru": "возможности",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 6,
+        "set": "old"
+      }
+    ],
+    "speak": "capabilities",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 233,
+    "en": "job",
+    "pron": "джоб",
+    "ru": "работа, задание",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 7,
+        "set": "old"
+      }
+    ],
+    "speak": "job",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 234,
+    "en": "screen",
+    "pron": "скрин",
+    "ru": "экран",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 9,
+        "set": "old"
+      }
+    ],
+    "speak": "screen",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 235,
+    "en": "state",
+    "pron": "стэйт",
+    "ru": "состояние",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 10,
+        "set": "old"
+      }
+    ],
+    "speak": "state",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 236,
+    "en": "basics",
+    "pron": "бэ́йсикс",
+    "ru": "основы",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 11,
+        "set": "old"
+      }
+    ],
+    "speak": "basics",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 237,
+    "en": "use",
+    "pron": "юс",
+    "ru": "использование, польза",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 12,
+        "set": "old"
+      }
+    ],
+    "speak": "use",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 238,
+    "en": "concept",
+    "pron": "ко́нсэпт",
+    "ru": "понятие, концепция",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 13,
+        "set": "old"
+      }
+    ],
+    "speak": "concept",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 239,
+    "en": "specialist",
+    "pron": "спэ́шэлист",
+    "ru": "специалист",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 14,
+        "set": "old"
+      }
+    ],
+    "speak": "specialist",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 240,
+    "en": "journal",
+    "pron": "джёрнэл",
+    "ru": "журнал (научный)",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 15,
+        "set": "old"
+      }
+    ],
+    "speak": "journal",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 241,
+    "en": "character",
+    "pron": "кэ́рэктэр",
+    "ru": "символ, знак",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 16,
+        "set": "old"
+      }
+    ],
+    "speak": "character",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 242,
+    "en": "idea",
+    "pron": "айди́э",
+    "ru": "идея",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 18,
+        "set": "old"
+      }
+    ],
+    "speak": "idea",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 243,
+    "en": "expert",
+    "pron": "э́кспёрт",
+    "ru": "эксперт",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 19,
+        "set": "old"
+      }
+    ],
+    "speak": "expert",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 244,
+    "en": "magazine",
+    "pron": "мэгэзи́н",
+    "ru": "журнал (популярный)",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 20,
+        "set": "old"
+      }
+    ],
+    "speak": "magazine",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 245,
+    "en": "position",
+    "pron": "пэзи́шэн",
+    "ru": "положение, позиция",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 21,
+        "set": "old"
+      }
+    ],
+    "speak": "position",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 246,
+    "en": "symbol",
+    "pron": "си́мбэл",
+    "ru": "символ, знак",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 22,
+        "set": "old"
+      }
+    ],
+    "speak": "symbol",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 247,
+    "en": "command",
+    "pron": "кэма́нд",
+    "ru": "команда",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 23,
+        "set": "old"
+      }
+    ],
+    "speak": "command",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 248,
+    "en": "solution",
+    "pron": "сэлю́шэн",
+    "ru": "решение",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 25,
+        "set": "old"
+      }
+    ],
+    "speak": "solution",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 249,
+    "en": "instruction",
+    "pron": "инстра́кшэн",
+    "ru": "инструкция, команда",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 27,
+        "set": "old"
+      }
+    ],
+    "speak": "instruction",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 250,
+    "en": "powers",
+    "pron": "па́уэрз",
+    "ru": "способности, возможности",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 28,
+        "set": "old"
+      }
+    ],
+    "speak": "powers",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 251,
+    "en": "information",
+    "pron": "информэ́йшэн",
+    "ru": "информация",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 29,
+        "set": "old"
+      }
+    ],
+    "speak": "information",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 252,
+    "en": "decision",
+    "pron": "диси́жэн",
+    "ru": "решение",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — существительные",
+        "group": "old137_nouns",
+        "order": 30,
+        "set": "old"
+      }
+    ],
+    "speak": "decision",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 253,
+    "en": "basic",
+    "pron": "бэ́йсик",
+    "ru": "основной",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 1,
+        "set": "old"
+      }
+    ],
+    "speak": "basic",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 254,
+    "en": "tiny",
+    "pron": "та́йни",
+    "ru": "крошечный",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 2,
+        "set": "old"
+      }
+    ],
+    "speak": "tiny",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 255,
+    "en": "common",
+    "pron": "ко́мэн",
+    "ru": "общий, распространённый",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 3,
+        "set": "old"
+      }
+    ],
+    "speak": "common",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 256,
+    "en": "small",
+    "pron": "смол",
+    "ru": "маленький",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 4,
+        "set": "old"
+      }
+    ],
+    "speak": "small",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 257,
+    "en": "main",
+    "pron": "мэйн",
+    "ru": "главный",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 5,
+        "set": "old"
+      }
+    ],
+    "speak": "main",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 258,
+    "en": "significant",
+    "pron": "сигни́фикэнт",
+    "ru": "значительный",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 6,
+        "set": "old"
+      }
+    ],
+    "speak": "significant",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 259,
+    "en": "routine",
+    "pron": "рути́н",
+    "ru": "рутинный",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 7,
+        "set": "old"
+      }
+    ],
+    "speak": "routine",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 260,
+    "en": "general",
+    "pron": "джэ́нэрэл",
+    "ru": "общий",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 8,
+        "set": "old"
+      }
+    ],
+    "speak": "general",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 261,
+    "en": "remarkable",
+    "pron": "рима́ркэбл",
+    "ru": "замечательный, выдающийся",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 9,
+        "set": "old"
+      }
+    ],
+    "speak": "remarkable",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 262,
+    "en": "uninterested",
+    "pron": "ани́нтэрэстид",
+    "ru": "незаинтересованный",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 10,
+        "set": "old"
+      }
+    ],
+    "speak": "uninterested",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 263,
+    "en": "intricate",
+    "pron": "и́нтрикэт",
+    "ru": "сложный, запутанный",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 11,
+        "set": "old"
+      }
+    ],
+    "speak": "intricate",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 264,
+    "en": "important",
+    "pron": "импо́ртэнт",
+    "ru": "важный",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 12,
+        "set": "old"
+      }
+    ],
+    "speak": "important",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 265,
+    "en": "wonderful",
+    "pron": "уа́ндэрфул",
+    "ru": "замечательный, прекрасный",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 13,
+        "set": "old"
+      }
+    ],
+    "speak": "wonderful",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 266,
+    "en": "complex",
+    "pron": "ко́мплэкс",
+    "ru": "сложный",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 14,
+        "set": "old"
+      }
+    ],
+    "speak": "complex",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 267,
+    "en": "little",
+    "pron": "ли́тл",
+    "ru": "маленький",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — прилагательные",
+        "group": "old137_adj",
+        "order": 15,
+        "set": "old"
+      }
+    ],
+    "speak": "little",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 268,
+    "en": "rapidly",
+    "pron": "рэ́пидли",
+    "ru": "быстро",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — наречия",
+        "group": "old137_adv",
+        "order": 1,
+        "set": "old"
+      }
+    ],
+    "speak": "rapidly",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 269,
+    "en": "probably",
+    "pron": "про́бэбли",
+    "ru": "вероятно",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — наречия",
+        "group": "old137_adv",
+        "order": 2,
+        "set": "old"
+      }
+    ],
+    "speak": "probably",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 270,
+    "en": "instantaneously",
+    "pron": "инстэнтэ́йниэсли",
+    "ru": "мгновенно",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — наречия",
+        "group": "old137_adv",
+        "order": 3,
+        "set": "old"
+      }
+    ],
+    "speak": "instantaneously",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 271,
+    "en": "in a moment",
+    "pron": "ин э мо́умэнт",
+    "ru": "через мгновение",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — наречия",
+        "group": "old137_adv",
+        "order": 4,
+        "set": "old"
+      }
+    ],
+    "speak": "in a moment",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 272,
+    "en": "quickly",
+    "pron": "кви́кли",
+    "ru": "быстро",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — наречия",
+        "group": "old137_adv",
+        "order": 5,
+        "set": "old"
+      }
+    ],
+    "speak": "quickly",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 273,
+    "en": "perhaps",
+    "pron": "пэрхэ́пс",
+    "ru": "возможно",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "137",
+        "exercise": "Ex. 5 — наречия",
+        "group": "old137_adv",
+        "order": 6,
+        "set": "old"
+      }
+    ],
+    "speak": "perhaps",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 274,
+    "en": "applied part",
+    "pron": "эпла́йд парт",
+    "ru": "прикладная часть",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 1,
+        "set": "old"
+      }
+    ],
+    "speak": "applied part",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 275,
+    "en": "consumption",
+    "pron": "кэнса́мпшэн",
+    "ru": "потребление",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 2,
+        "set": "old"
+      }
+    ],
+    "speak": "consumption",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 276,
+    "en": "effort",
+    "pron": "э́фэрт",
+    "ru": "усилие",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 3,
+        "set": "old"
+      }
+    ],
+    "speak": "effort",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 277,
+    "en": "processing",
+    "pron": "про́усэсинг",
+    "ru": "обработка",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 4,
+        "set": "old"
+      }
+    ],
+    "speak": "processing",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 278,
+    "en": "replace",
+    "pron": "риплэ́йс",
+    "ru": "заменять",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 5,
+        "set": "old"
+      }
+    ],
+    "speak": "replace",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 279,
+    "en": "weight",
+    "pron": "уэйт",
+    "ru": "вес",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 6,
+        "set": "old"
+      }
+    ],
+    "speak": "weight",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 280,
+    "en": "semiconductor",
+    "pron": "сэмикэнда́ктэр",
+    "ru": "полупроводник",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 7,
+        "set": "old"
+      }
+    ],
+    "speak": "semiconductor",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 281,
+    "en": "due to",
+    "pron": "дью ту",
+    "ru": "благодаря, вследствие",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 8,
+        "set": "old"
+      }
+    ],
+    "speak": "due to",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 282,
+    "en": "respond",
+    "pron": "риспо́нд",
+    "ru": "реагировать, отвечать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 9,
+        "set": "old"
+      }
+    ],
+    "speak": "respond",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 283,
+    "en": "manipulation",
+    "pron": "мэнипьюлэ́йшэн",
+    "ru": "манипулирование, обработка",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 10,
+        "set": "old"
+      }
+    ],
+    "speak": "manipulation",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 284,
+    "en": "reduce",
+    "pron": "ридью́с",
+    "ru": "уменьшать, сокращать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 11,
+        "set": "old"
+      }
+    ],
+    "speak": "reduce",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 285,
+    "en": "reliability",
+    "pron": "рилайэби́лити",
+    "ru": "надёжность",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 12,
+        "set": "old"
+      }
+    ],
+    "speak": "reliability",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 286,
+    "en": "generation",
+    "pron": "джэнэрэ́йшэн",
+    "ru": "поколение",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 13,
+        "set": "old"
+      }
+    ],
+    "speak": "generation",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 287,
+    "en": "research",
+    "pron": "ри́сёрч",
+    "ru": "исследование",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 15,
+        "set": "old"
+      }
+    ],
+    "speak": "research",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 288,
+    "en": "assemble",
+    "pron": "эсэ́мбл",
+    "ru": "собирать, монтировать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 16,
+        "set": "old"
+      }
+    ],
+    "speak": "assemble",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 289,
+    "en": "increase",
+    "pron": "инкри́с",
+    "ru": "увеличивать",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Essential Vocabulary — слова",
+        "group": "old138_ev",
+        "order": 17,
+        "set": "old"
+      }
+    ],
+    "speak": "increase",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 290,
+    "en": "applied physics",
+    "pron": "эпла́йд фи́зикс",
+    "ru": "прикладная физика",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 1,
+        "set": "old"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 1,
+        "set": "old"
+      }
+    ],
+    "speak": "applied physics",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 291,
+    "en": "scientific research",
+    "pron": "сайэнти́фик ри́сёрч",
+    "ru": "научные исследования",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 2,
+        "set": "old"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 5,
+        "set": "old"
+      }
+    ],
+    "speak": "scientific research",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 292,
+    "en": "due to the effects",
+    "pron": "дью ту зи ифэ́ктс",
+    "ru": "из-за воздействия, вследствие эффектов",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 3,
+        "set": "old"
+      }
+    ],
+    "speak": "due to the effects",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 293,
+    "en": "to replace vacuum tubes",
+    "pron": "ту риплэ́йс вэ́кьюм тьюбз",
+    "ru": "заменять электронные лампы",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 4,
+        "set": "old"
+      }
+    ],
+    "speak": "to replace vacuum tubes",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 294,
+    "en": "a piece of semiconductor",
+    "pron": "э пис эв сэмикэнда́ктэр",
+    "ru": "кусочек полупроводника",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 5,
+        "set": "old"
+      }
+    ],
+    "speak": "a piece of semiconductor",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 295,
+    "en": "reduced weight",
+    "pron": "ридью́ст уэйт",
+    "ru": "уменьшенный вес",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 6,
+        "set": "old"
+      }
+    ],
+    "speak": "reduced weight",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 296,
+    "en": "to become possible",
+    "pron": "ту бика́м по́сибл",
+    "ru": "стать возможным",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 7,
+        "set": "old"
+      }
+    ],
+    "speak": "to become possible",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 297,
+    "en": "integrated electronics",
+    "pron": "и́нтигрэйтид илэктро́никс",
+    "ru": "интегральная электроника",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 8,
+        "set": "old"
+      }
+    ],
+    "speak": "integrated electronics",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 298,
+    "en": "discrete components",
+    "pron": "дискри́т кэмпо́унэнтс",
+    "ru": "дискретные компоненты",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 9,
+        "set": "old"
+      }
+    ],
+    "speak": "discrete components",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 299,
+    "en": "power consumption",
+    "pron": "па́уэр кэнса́мпшэн",
+    "ru": "энергопотребление",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 10,
+        "set": "old"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 17,
+        "set": "old"
+      }
+    ],
+    "speak": "power consumption",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 300,
+    "en": "solid body",
+    "pron": "со́лид бо́ди",
+    "ru": "твёрдое тело",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 11,
+        "set": "old"
+      }
+    ],
+    "speak": "solid body",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 301,
+    "en": "at a rate",
+    "pron": "эт э рэйт",
+    "ru": "со скоростью, с темпом",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 12,
+        "set": "old"
+      }
+    ],
+    "speak": "at a rate",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 302,
+    "en": "batch processing",
+    "pron": "бэч про́усэсинг",
+    "ru": "пакетная обработка",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 14,
+        "set": "old"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 24,
+        "set": "old"
+      }
+    ],
+    "speak": "batch processing",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 303,
+    "en": "to lower manufacturing costs",
+    "pron": "ту ло́уэр мэньюфэ́кчэринг костс",
+    "ru": "снизить производственные затраты",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 15,
+        "set": "old"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 26,
+        "set": "old"
+      }
+    ],
+    "speak": "to lower manufacturing costs",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 304,
+    "en": "essential circuit functions",
+    "pron": "исэ́ншэл сёркит фа́нкшэнз",
+    "ru": "основные функции электрической схемы",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 16,
+        "set": "old"
+      }
+    ],
+    "speak": "essential circuit functions",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 305,
+    "en": "microwave communication system",
+    "pron": "ма́йкроувэйв кэмьюникэ́йшэн си́стэм",
+    "ru": "микроволновая система связи",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Word Combinations",
+        "group": "old138_wc",
+        "order": 17,
+        "set": "old"
+      },
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 21,
+        "set": "old"
+      }
+    ],
+    "speak": "microwave communication system",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 306,
+    "en": "transmission and reception of information",
+    "pron": "трэнзми́шэн энд рисэ́пшэн эв информэ́йшэн",
+    "ru": "передача и приём информации",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 2,
+        "set": "old"
+      }
+    ],
+    "speak": "transmission and reception of information",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 307,
+    "en": "a stream of electrons",
+    "pron": "э стрим эв илэ́ктронз",
+    "ru": "поток электронов",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 3,
+        "set": "old"
+      }
+    ],
+    "speak": "a stream of electrons",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 308,
+    "en": "hard to imagine",
+    "pron": "хард ту имэ́джин",
+    "ru": "трудно представить",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 4,
+        "set": "old"
+      }
+    ],
+    "speak": "hard to imagine",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 309,
+    "en": "industrial design",
+    "pron": "инда́стриэл диза́йн",
+    "ru": "промышленное проектирование",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 6,
+        "set": "old"
+      }
+    ],
+    "speak": "industrial design",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 310,
+    "en": "to calculate the trajectories of spacecraft",
+    "pron": "ту кэ́лкьюлэйт зэ трэджэ́ктэриз эв спэ́йскрафт",
+    "ru": "вычислять траектории космических кораблей",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 7,
+        "set": "old"
+      }
+    ],
+    "speak": "to calculate the trajectories of spacecraft",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 311,
+    "en": "to discover natural phenomena",
+    "pron": "ту диска́вэр нэ́чэрэл фино́минэ",
+    "ru": "обнаруживать явления природы",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 8,
+        "set": "old"
+      }
+    ],
+    "speak": "to discover natural phenomena",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 312,
+    "en": "due to electronics",
+    "pron": "дью ту илэктро́никс",
+    "ru": "благодаря электронике",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 9,
+        "set": "old"
+      }
+    ],
+    "speak": "due to electronics",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 313,
+    "en": "a starting point",
+    "pron": "э ста́ртинг пойнт",
+    "ru": "отправная точка",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 10,
+        "set": "old"
+      }
+    ],
+    "speak": "a starting point",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 314,
+    "en": "to facilitate signal control",
+    "pron": "ту фэси́литэйт си́гнэл кэнтро́ул",
+    "ru": "способствовать управлению сигналами",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 11,
+        "set": "old"
+      }
+    ],
+    "speak": "to facilitate signal control",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 315,
+    "en": "a variety of tubes",
+    "pron": "э вэра́йэти эв тьюбз",
+    "ru": "разнообразие электронных ламп",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 12,
+        "set": "old"
+      }
+    ],
+    "speak": "a variety of tubes",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 316,
+    "en": "the development of the first computers",
+    "pron": "зэ дивэ́лэпмэнт эв зэ фёрст кэмпью́тэрз",
+    "ru": "создание первых компьютеров",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 13,
+        "set": "old"
+      }
+    ],
+    "speak": "the development of the first computers",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 317,
+    "en": "to replace completely",
+    "pron": "ту риплэ́йс кэмпли́тли",
+    "ru": "полностью заменить",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 14,
+        "set": "old"
+      }
+    ],
+    "speak": "to replace completely",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 318,
+    "en": "a semiconductor crystal",
+    "pron": "э сэмикэнда́ктэр кри́стэл",
+    "ru": "полупроводниковый кристалл",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 15,
+        "set": "old"
+      }
+    ],
+    "speak": "a semiconductor crystal",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 319,
+    "en": "to reduce costs",
+    "pron": "ту ридью́с костс",
+    "ru": "сократить стоимость",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 16,
+        "set": "old"
+      }
+    ],
+    "speak": "to reduce costs",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 320,
+    "en": "high reliability",
+    "pron": "хай рилайэби́лити",
+    "ru": "высокая надёжность",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 18,
+        "set": "old"
+      }
+    ],
+    "speak": "high reliability",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 321,
+    "en": "solid-state components",
+    "pron": "со́лид-стэйт кэмпо́унэнтс",
+    "ru": "твердотельные компоненты",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 19,
+        "set": "old"
+      }
+    ],
+    "speak": "solid-state components",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 322,
+    "en": "fairly fast, but much slower",
+    "pron": "фэ́рли фаст, бат мач сло́уэр",
+    "ru": "довольно быстро, но гораздо медленнее",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 20,
+        "set": "old"
+      }
+    ],
+    "speak": "fairly fast, but much slower",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 323,
+    "en": "semiconductor technology",
+    "pron": "сэмикэнда́ктэр тэкно́лэджи",
+    "ru": "полупроводниковая технология",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 22,
+        "set": "old"
+      }
+    ],
+    "speak": "semiconductor technology",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 324,
+    "en": "assembly of discrete components on a chip",
+    "pron": "эсэ́мбли эв дискри́т кэмпо́унэнтс он э чип",
+    "ru": "сборка дискретных компонентов на кристалле",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 25,
+        "set": "old"
+      }
+    ],
+    "speak": "assembly of discrete components on a chip",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 325,
+    "en": "to provide high speed",
+    "pron": "ту прова́йд хай спид",
+    "ru": "обеспечить высокую скорость",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "138",
+        "exercise": "Ex. 1 — английские эквиваленты",
+        "group": "old138_ex1",
+        "order": 27,
+        "set": "old"
+      }
+    ],
+    "speak": "to provide high speed",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 326,
+    "en": "general purpose",
+    "pron": "джэ́нэрэл пёрпэс",
+    "ru": "общего назначения",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "156–157",
+        "exercise": "Word Combinations",
+        "group": "old156_wc",
+        "order": 8,
+        "set": "old"
+      }
+    ],
+    "speak": "general purpose",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 327,
+    "en": "to accept digital data as input",
+    "pron": "ту эксэ́пт ди́джитэл дэ́йта эз и́нпут",
+    "ru": "принимать цифровую информацию на вход",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 4,
+        "set": "old"
+      }
+    ],
+    "speak": "to accept digital data as input",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 328,
+    "en": "to process it according to instructions",
+    "pron": "ту про́усэс ит эко́рдинг ту инстра́кшэнз",
+    "ru": "обрабатывать её согласно инструкциям",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 7,
+        "set": "old"
+      }
+    ],
+    "speak": "to process it according to instructions",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 329,
+    "en": "to provide results as output",
+    "pron": "ту прова́йд риза́лтс эз а́утпут",
+    "ru": "выдавать результаты на выходе",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 9,
+        "set": "old"
+      }
+    ],
+    "speak": "to provide results as output",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 330,
+    "en": "to interconnect",
+    "pron": "ту интэркэнэ́кт",
+    "ru": "соединять друг с другом, обеспечивать взаимосвязь",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 19,
+        "set": "old"
+      }
+    ],
+    "speak": "to interconnect",
+    "sets": [
+      "old"
+    ]
+  },
+  {
+    "id": 331,
+    "en": "to limit a computer's operating speed",
+    "pron": "ту ли́мит э кэмпью́тэрз о́пэрэйтинг спид",
+    "ru": "ограничивать скорость работы компьютера",
+    "ruVariants": [],
+    "aliases": [],
+    "locations": [
+      {
+        "page": "157",
+        "exercise": "Ex. 1 — MICROPROCESSOR",
+        "group": "old157_ex1",
+        "order": 20,
+        "set": "old"
+      }
+    ],
+    "speak": "to limit a computer's operating speed",
+    "sets": [
+      "old"
+    ]
   }
 ]

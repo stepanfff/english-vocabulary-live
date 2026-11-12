@@ -6,6 +6,13 @@ let chosenRole=null;
 let session=null;
 let channel=null;
 let lexicon=[];
+let vocabularySets={all:[],new:[],old:[]};
+const lookupSet=(id)=>vocabularySets[$(id)?.value||'all']||lexicon;
+function shownVariant(entry, set){
+  if(set==='all')return {ru:entry.ru,pron:entry.pron};
+  const loc=entry.locations?.find(l=>l.set===set);
+  return {ru:loc?.ruOverride||entry.ru,pron:loc?.pronOverride||entry.pron};
+}
 let sending=false;
 let changing=false;
 let connected=false;
@@ -217,8 +224,8 @@ $('copyCode').addEventListener('click',async()=>{
 
 // Vocabulary lookup. No API calls on input; spellchecking/synonyms use common.js.
 fetch('/dictionary.json').then(r=>{if(!r.ok)throw Error();return r.json();}).then(rows=>{
-  if(Array.isArray(rows))lexicon=rows;
-  text('dictionaryCount',lexicon.length+' ВЫРАЖЕНИЙ');
+  if(Array.isArray(rows)){lexicon=rows;vocabularySets={all:rows,new:rows.filter(x=>x.sets?.includes('new')),old:rows.filter(x=>x.sets?.includes('old'))};}
+  text('dictionaryCount',lexicon.length+' УНИКАЛЬНЫХ ВЫРАЖЕНИЙ');
   text('dictionaryCountSide',lexicon.length+' слов и выражений');
   renderSuggestions();renderReceiverSearch();
   if(latestMessage)renderAnswer(latestMessage);
@@ -306,18 +313,19 @@ function renderSuggestions(){
   const q=$('word').value.trim();
   if(!lexicon.length){text('suggestionStatus','Словарь загружается или недоступен…');return;}
   if(q.length<2){text('suggestionStatus','Введи 2–3 буквы для подсказок');return;}
-  const hits=searchDictionaryDetailed(lexicon,q,6);
+  const hits=searchDictionaryDetailed(lookupSet('senderSetFilter'),q,6);
   text('suggestionStatus',hits.length?'Нажми на вариант — он сразу отправится':'Не найдено. Можно отправить свой текст.');
   for(const {entry,kind} of hits){
     const b=document.createElement('button');b.type='button';b.className='suggestion-option';b.disabled=sending;
     const top=document.createElement('span');top.className='suggestion-top';
-    const ru=document.createElement('span');ru.className='suggestion-russian';ru.textContent=entry.ru;
+    const ruText=shownVariant(entry,$('senderSetFilter').value);
+    const ru=document.createElement('span');ru.className='suggestion-russian';ru.textContent=ruText.ru;
     const k=document.createElement('span');k.className='suggestion-type';k.textContent=kind;
     top.append(ru,k);
     const en=document.createElement('span');en.className='suggestion-english';en.textContent=entry.en;
-    const pron=document.createElement('span');pron.className='suggestion-pron';pron.textContent=entry.pron;
+    const pron=document.createElement('span');pron.className='suggestion-pron';pron.textContent=ruText.pron;
     b.append(top,en,pron);
-    b.addEventListener('click',()=>sendWord(entry.ru,entry.id));wrap.append(b);
+    b.addEventListener('click',()=>sendWord(ruText.ru,entry.id));wrap.append(b);
   }
 }
 $('word').addEventListener('input',()=>{text('wordCount',$('word').value.length+' / 220');renderSuggestions();});
@@ -337,17 +345,20 @@ async function sendWord(word,entryId){
   }catch(e){text('sendFeedback','Ошибка: '+e.message);toast(e.message,'error');}
   finally{sending=false;$('sendWord').disabled=false;if($('word').value.trim())renderSuggestions();}
 }
+$('senderSetFilter').addEventListener('change',renderSuggestions);
+$('receiverSetFilter').addEventListener('change',renderReceiverSearch);
 const receiverSearch=$('receiverSearch');
 receiverSearch.addEventListener('input',renderReceiverSearch);
 function renderReceiverSearch(){
   const target=$('receiverResults');target.replaceChildren();
   const q=receiverSearch.value.trim();if(q.length<2||!lexicon.length)return;
-  const hits=searchDictionaryDetailed(lexicon,q,6);
+  const hits=searchDictionaryDetailed(lookupSet('receiverSetFilter'),q,6);
   for(const {entry} of hits){
     const div=document.createElement('div');div.className='receiver-hit';
-    const ru=document.createElement('div');ru.textContent=entry.ru;
+    const ruText=shownVariant(entry,$('receiverSetFilter').value);
+    const ru=document.createElement('div');ru.textContent=ruText.ru;
     const en=document.createElement('b');en.textContent=entry.en;
-    const pron=document.createElement('div');pron.textContent=entry.pron;
+    const pron=document.createElement('div');pron.textContent=ruText.pron;
     div.append(ru,en,pron);target.append(div);
   }
 }
