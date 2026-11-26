@@ -26,6 +26,7 @@ let chosenMatches=new Map();
 let soundEnabled=false;
 const speechOkay='speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 let fullscreenEnabled=true;
+let voiceController=null;
 try{const saved=localStorage.getItem('ec_fullscreen_v2');if(saved!==null)fullscreenEnabled=saved==='true';}catch(_){}
 
 function text(id,v){const el=$(id);if(el)el.textContent=v==null?'':String(v);}
@@ -81,6 +82,7 @@ $('joinForm').addEventListener('submit',async e=>{
 
 function displayRole(){
   if(!session)return;
+  if(session.role!=='sender' && voiceController)voiceController.stop('Роль изменена. Прослушивание остановлено.');
   const receiver=session.role==='receiver';
   text('myRole',receiver?'↓ Получатель':'↗ Отправитель');
   text('sessionTitle',receiver?'Твои ответы.':'Быстрая отправка.');
@@ -115,6 +117,7 @@ function enterSession(data){
   beginStream();
 }
 function returnLobby(message){
+  if(voiceController)voiceController.stop('Комната закрыта. Микрофон выключен.');
   if(channel){channel.close();channel=null;}
   session=null;historyItems=[];latestMessage=null;alertQueue=[];
   closeAlert(true);
@@ -334,15 +337,16 @@ $('word').addEventListener('keydown',e=>{
 });
 $('sendForm').addEventListener('submit',e=>{e.preventDefault();sendWord($('word').value.trim(),null);});
 async function sendWord(word,entryId){
-  if(sending||!session||session.role!=='sender'||!word)return;
+  if(sending||!session||session.role!=='sender'||!word)return false;
   sending=true;$('sendWord').disabled=true;for(const b of $('suggestions').children)b.disabled=true;
   text('sendFeedback','Отправка…');
   try{
     const data=await api('/api/messages',{word,entryId});
     text('sendFeedback',data.delivered?'✓ Передано другу онлайн':'✓ Сохранено в комнате. Друг увидит при возвращении.');
     $('word').value='';text('wordCount','0 / 220');renderSuggestions();
-    $('word').focus({preventScroll:true});
-  }catch(e){text('sendFeedback','Ошибка: '+e.message);toast(e.message,'error');}
+    if(!voiceController || !voiceController.isEnabled())$('word').focus({preventScroll:true});
+    return true;
+  }catch(e){text('sendFeedback','Ошибка: '+e.message);toast(e.message,'error');return false;}
   finally{sending=false;$('sendWord').disabled=false;if($('word').value.trim())renderSuggestions();}
 }
 $('senderSetFilter').addEventListener('change',renderSuggestions);
@@ -422,4 +426,13 @@ $('fullscreenToggle').addEventListener('click',()=>{
   try{localStorage.setItem('ec_fullscreen_v2',String(fullscreenEnabled));}catch(_){}
   syncToggles();if(!fullscreenEnabled)closeAlert(true);
 });
+// Voice recognition is optional: the old manual search and sender transport stay intact.
+if(window.ECVoice){
+  voiceController=window.ECVoice.createController({
+    canListen:()=>!!session && session.role==='sender' && document.visibilityState==='visible',
+    rows:()=>lookupSet('senderSetFilter'),
+    send:(entry,spokenRu)=>sendWord(spokenRu,entry.id)
+  });
+  voiceController.init();
+}
 syncToggles();renderHistory();restore();

@@ -22,6 +22,7 @@ const assets = {
   '/': ['index.html','text/html; charset=utf-8'],
   '/index.html': ['index.html','text/html; charset=utf-8'],
   '/app.js': ['app.js','application/javascript; charset=utf-8'],
+  '/voice.js': ['voice.js','application/javascript; charset=utf-8'],
   '/common.js': ['common.js','application/javascript; charset=utf-8'],
   '/style.css': ['style.css','text/css; charset=utf-8'],
   '/dictionary.json': ['dictionary.json','application/json; charset=utf-8'],
@@ -36,7 +37,7 @@ function headers(res,pathname) {
   res.setHeader('X-Content-Type-Options','nosniff');
   res.setHeader('X-Frame-Options','DENY');
   res.setHeader('Referrer-Policy','no-referrer');
-  res.setHeader('Permissions-Policy','camera=(), microphone=(), geolocation=()');
+  res.setHeader('Permissions-Policy','camera=(), microphone=(self), geolocation=()');
   res.setHeader('Cache-Control','no-store');
   if(pathname !== '/dictionary' && pathname !== '/dictionary.html') {
     res.setHeader('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'");

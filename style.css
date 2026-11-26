@@ -9,3 +9,30 @@
 .vocab-select{display:block;width:100%;max-width:440px;min-height:44px;margin:0 0 13px;padding:10px 12px;border:1px solid #c7d8e4;border-radius:12px;background:#fff;color:#193647;font:inherit;font-size:14px;cursor:pointer}
 .vocab-select:focus-visible{outline:2px solid #1685ac;outline-offset:2px}
 #receiverSetFilter{margin:8px 0 12px}
+
+
+/* Voice recognition. Fully optional; does not affect sender text search. */
+.voice-card{margin:18px 0 20px;border:1px solid #b9e0d6;background:linear-gradient(135deg,#effbf7 0%,#f6fafc 100%);border-radius:18px;padding:18px}
+.voice-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap}
+.voice-card h3{font-size:20px;margin:6px 0 1px;letter-spacing:-.025em}
+.voice-card>p{margin:7px 0 15px;font-size:13px;color:#5b7986;line-height:1.55}
+.voice-badge{font-size:11px;background:#e3eeec;border:1px solid #c1d9d3;color:#417066;padding:6px 9px;border-radius:100px;font-weight:760}
+.voice-controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.btn-voice{border:1px solid #117f75;background:#0d796b;color:#fff;font-size:14px;min-height:46px;flex:1}
+.btn-voice:hover{background:#095f57;color:white}
+.btn-voice.is-listening{background:#9a3440;border-color:#9a3440;animation:voice-pulse 1.75s infinite}
+@keyframes voice-pulse{50%{box-shadow:0 0 0 5px #e6b9bc}}
+.voice-mode{color:#54717d;font-size:12px;display:flex;align-items:center;gap:5px}
+.voice-mode select{padding:9px 8px;border-radius:10px;background:#fff;border:1px solid #b8d6d6;color:#1d3946;font:inherit;font-size:12px}
+.voice-status{font-size:12px;color:#276d5c;min-height:20px;margin:13px 0 9px;font-weight:700}
+.voice-status.voice-error{color:#ad4d4d}
+.voice-live{border:1px solid #cbdfe0;background:#fff;border-radius:12px;padding:12px 14px}
+.voice-live>span{display:block;color:#7a9aa5;letter-spacing:.11em;font-size:10px;font-weight:850;margin-bottom:5px}
+#voiceTranscript{font-size:14px;min-height:20px;overflow-wrap:anywhere;color:#254352}
+.voice-options{display:grid;gap:7px;margin-top:10px}
+.voice-options:empty{display:none}
+.voice-choice{width:100%;border:1px solid #b9d9d1;background:#fff;color:#136e5e;border-radius:11px;padding:10px 12px;text-align:left;font-size:13px;font-weight:700;cursor:pointer}
+.voice-choice:hover{background:#e5f8ef}
+.voice-privacy{display:block;margin-top:12px;color:#81949f;font-size:11px;line-height:1.5}
+@media(max-width:600px){.voice-card{padding:14px;border-radius:15px}.voice-top{display:block}.voice-badge{display:inline-block;margin-top:7px}.voice-controls{align-items:stretch}.voice-mode{width:100%;justify-content:space-between}}
+@media(prefers-reduced-motion:reduce){.btn-voice.is-listening{animation:none}}

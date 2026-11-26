@@ -58,6 +58,16 @@
           <h2>Что спросили на русском?</h2>
           <p>Начни вводить слово или фразу. Нажатие на вариант отправляет его сразу.</p>
           <label class="vocab-label" for="senderSetFilter">Искать в наборе</label><select id="senderSetFilter" class="vocab-select"><option value="all">Все словари</option><option value="new">Новый словарь · 142–157</option><option value="old">Старый словарь · 135–157</option><option value="lex3">Лексика № 3 · 153–169</option></select>
+          <section class="voice-card" aria-labelledby="voiceHeader">
+            <div class="voice-top"><div><span class="micro-tag">НОВОЕ · ГОЛОСОВОЙ ПОИСК</span><h3 id="voiceHeader">Слушать русскую речь</h3></div><span id="voiceBadge" class="voice-badge">○ Микрофон выключен</span></div>
+            <p>Включи микрофон один раз. Услышим точную фразу из словаря — отправим её другу. Похожие варианты нужно подтвердить.</p>
+            <div class="voice-controls"><button class="btn btn-voice" type="button" id="voiceToggle" aria-pressed="false">🎙 Включить микрофон</button>
+              <label class="voice-mode">Режим <select id="voiceSpeed" aria-label="Скорость голосового поиска"><option value="fast">Быстрый</option><option value="accurate">Точный</option></select></label></div>
+            <div id="voiceStatus" class="voice-status" role="status">Распознавание выключено.</div>
+            <div class="voice-live"><span>УСЛЫШАНО</span><div id="voiceTranscript">Здесь появится распознанная фраза…</div></div>
+            <div id="voiceOptions" class="voice-options" aria-label="Найденные варианты"></div>
+            <small class="voice-privacy">Микрофон активен только на этом устройстве. В некоторых браузерах речь обрабатывается внешней службой распознавания; наш сервер получает только выбранное слово. При сворачивании страницы прослушивание останавливается.</small>
+          </section>
           <form id="sendForm"><label class="visually-hidden" for="word">Слово или фраза</label><textarea id="word" rows="2" maxlength="220" placeholder="Начни вводить фразу из учебника…" enterkeyhint="send" autocomplete="off" spellcheck="true"></textarea>
           <div class="search-meta"><span id="suggestionStatus">Загружаем словарь…</span><span id="wordCount">0 / 220</span></div>
           <div class="suggestion-list" id="suggestions"></div>
@@ -92,5 +102,5 @@
   <div class="alert-content"><div class="alert-label">НА РУССКОМ</div><div id="alertRu" class="alert-ru"></div><div class="alert-line"></div><div class="alert-label">ПО-АНГЛИЙСКИ</div><div id="alertEn" class="alert-en"></div><div id="alertPron" class="alert-pron"></div><div id="alertLocation" class="alert-location"></div><div id="alertWarning" class="alert-warning"></div></div>
   <div class="alert-bottom"><span id="alertQueue" class="alert-queue"></span><button type="button" id="repeatAlert" class="btn alert-sound">🔊 Повторить</button><button type="button" id="closeAlert" class="btn alert-next">Понятно · Закрыть</button></div></div>
 </div>
-<script defer src="/common.js"></script><script defer src="/app.js"></script>
+<script defer src="/common.js"></script><script defer src="/voice.js"></script><script defer src="/app.js"></script>
 </body></html>
