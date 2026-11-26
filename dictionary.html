@@ -13,10 +13,10 @@
 <main class="container">
   <div class="top"><a href="/" class="brand">E↗ English Connect</a><a href="/" class="back">← На главную</a></div>
   <div class="kicker">СЛОВАРЬ ДЛЯ ЗАНЯТИЙ</div><h1>Слова по упражнениям.</h1>
-  <p class="lead muted">Старый и новый списки вместе. Повторяющиеся слова объединены, но остаются в каждом своём упражнении. Поиск понимает опечатки и русские синонимы. Произношение русскими буквами — приблизительная подсказка.</p>
+  <p class="lead muted">Все три набора вместе, включая «Лексику № 3». Повторяющиеся слова объединены, но остаются в каждом своём упражнении. Поиск понимает опечатки и русские синонимы. Произношение русскими буквами — приблизительная подсказка.</p>
   <div class="filters">
     <input id="search" type="search" class="field" aria-label="Поиск слова" placeholder="Найти русское или английское выражение…" autocomplete="off">
-    <select id="setFilter" class="field" aria-label="Выбрать набор"><option value="all">Все словари</option><option value="new">Новый (142–143, 156–157)</option><option value="old">Старый (135–138, 156–157)</option></select>
+    <select id="setFilter" class="field" aria-label="Выбрать набор"><option value="all">Все словари</option><option value="new">Новый (142–143, 156–157)</option><option value="old">Старый (135–138, 156–157)</option><option value="lex3">Лексика № 3 (153–169)</option></select>
     <select id="group" class="field" aria-label="Выбрать раздел"><option value="all">Все разделы</option></select>
     <button id="toggleRu" class="toggle" type="button" aria-pressed="false">Скрыть перевод</button>
     <button id="togglePron" class="toggle" type="button" aria-pressed="false">Скрыть произношение</button>
@@ -24,7 +24,7 @@
   </div>
   <div class="counters"><span id="status">Загрузка словаря…</span><span id="uniqueCount"></span></div>
   <div id="groups"></div><div id="empty" class="empty" hidden>Нет совпадений. Попробуйте другой вариант формулировки.</div>
-  <p class="info">В обоих наборах 331 уникальное выражение и 420 позиций по упражнениям. Варианты по смыслу следует проверять: автоматический поиск может ошибаться. Синонимы не добавлены в учебный список как отдельные слова.</p>
+  <p class="info">Во всех трёх наборах 541 уникальных выражений и 638 позиций по упражнениям. Варианты по смыслу следует проверять: автоматический поиск может ошибаться. Синонимы не добавлены в учебный список как отдельные слова.</p>
 </main>
 <script src="/common.js"></script><script>
 (()=>{
@@ -48,7 +48,16 @@
   {id:'old138_ex1',page:'138',label:'Ex. 1 · английские эквиваленты',set:'old'},
   {id:'old156_ev',page:'156',label:'Essential Vocabulary · слова',set:'old'},
   {id:'old156_wc',page:'156–157',label:'Word Combinations',set:'old'},
-  {id:'old157_ex1',page:'157',label:'Ex. 1 · MICROPROCESSOR',set:'old'}
+  {id:'old157_ex1',page:'157',label:'Ex. 1 · MICROPROCESSOR',set:'old'},
+  {id:'l3_net',page:'153–154',label:'Network Classification',set:'lex3'},
+  {id:'l3_ether_ex1',page:'159–160',label:'The Ethernet · Ex. 1',set:'lex3'},
+  {id:'l3_ether_vocab',page:'159–160',label:'The Ethernet · слова под текстом',set:'lex3'},
+  {id:'l3_terms_ex1',page:'162–163',label:'Ethernet Terminology · Ex. 1',set:'lex3'},
+  {id:'l3_terms_vocab',page:'162–163',label:'Ethernet Terminology · слова под текстом',set:'lex3'},
+  {id:'l3_internet_ex1',page:'165–166',label:'How Does the Internet Work? · Ex. 1',set:'lex3'},
+  {id:'l3_internet_vocab',page:'166',label:'How Does the Internet Work? · слова под текстом',set:'lex3'},
+  {id:'l3_viruses',page:'168–169',label:'Protecting Information Systems: Computer Viruses',set:'lex3'},
+  {id:'l3_rom',page:'169',label:'Types of ROM',set:'lex3'}
  ];
  const $=id=>document.getElementById(id);
  let lexicon=[];
@@ -59,7 +68,7 @@
   $('group').replaceChildren(new Option('Все упражнения','all'));
   for(const sec of SECTIONS){
    if(active!=='all'&&active!==sec.set)continue;
-   const label=(sec.set==='old'?'Старый · ':'Новый · ')+(sec.page?'стр. '+sec.page+' · ':'')+sec.label;
+   const label=(sec.set==='old'?'Старый · ':sec.set==='new'?'Новый · ':'Лексика № 3 · ')+(sec.page?'стр. '+sec.page+' · ':'')+sec.label;
    $('group').append(new Option(label,sec.id));
   }
   $('group').value=[...$('group').options].some(x=>x.value===chosen)?chosen:'all';
@@ -75,7 +84,7 @@
     .sort((a,b)=>a.locations.find(l=>l.group===sec.id).order-b.locations.find(l=>l.group===sec.id).order)
     .filter(x=>!matches||matches.has(x.id));
    if(!rows.length)continue;
-   if(previousSet!==sec.set){$('groups').append(div('collection-label',sec.set==='new'?'НОВЫЙ СЛОВАРЬ':'СТАРЫЙ СЛОВАРЬ'));previousSet=sec.set;}
+   if(previousSet!==sec.set){$('groups').append(div('collection-label',sec.set==='new'?'НОВЫЙ СЛОВАРЬ':sec.set==='old'?'СТАРЫЙ СЛОВАРЬ':'ЛЕКСИКА № 3'));previousSet=sec.set;}
    sectionShown++;shown+=rows.length;
    const section=document.createElement('section');section.className='group';
    const head=div('group-header'),title=div();title.append(div('kicker',sec.page?'СТР. '+sec.page:'УПРАЖНЕНИЕ'));

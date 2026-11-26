@@ -6,7 +6,7 @@ let chosenRole=null;
 let session=null;
 let channel=null;
 let lexicon=[];
-let vocabularySets={all:[],new:[],old:[]};
+let vocabularySets={all:[],new:[],old:[],lex3:[]};
 const lookupSet=(id)=>vocabularySets[$(id)?.value||'all']||lexicon;
 function shownVariant(entry, set){
   if(set==='all')return {ru:entry.ru,pron:entry.pron};
@@ -224,7 +224,7 @@ $('copyCode').addEventListener('click',async()=>{
 
 // Vocabulary lookup. No API calls on input; spellchecking/synonyms use common.js.
 fetch('/dictionary.json').then(r=>{if(!r.ok)throw Error();return r.json();}).then(rows=>{
-  if(Array.isArray(rows)){lexicon=rows;vocabularySets={all:rows,new:rows.filter(x=>x.sets?.includes('new')),old:rows.filter(x=>x.sets?.includes('old'))};}
+  if(Array.isArray(rows)){lexicon=rows;vocabularySets={all:rows,new:rows.filter(x=>x.sets?.includes('new')),old:rows.filter(x=>x.sets?.includes('old')),lex3:rows.filter(x=>x.sets?.includes('lex3'))};}
   text('dictionaryCount',lexicon.length+' УНИКАЛЬНЫХ ВЫРАЖЕНИЙ');
   text('dictionaryCountSide',lexicon.length+' слов и выражений');
   renderSuggestions();renderReceiverSearch();

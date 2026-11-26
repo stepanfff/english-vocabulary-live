@@ -60,14 +60,18 @@
     "en": "involve",
     "pron": "и́нва́лв",
     "ru": "включать в себя, предполагать",
-    "ruVariants": [],
+    "ruVariants": [
+      "включать, вовлекать, затрагивать"
+    ],
     "aliases": [
       "включать в себя",
       "предполагать",
       "состоять из",
       "входить в состав",
       "включать",
-      "включено"
+      "включено",
+      "вовлекать",
+      "затрагивать"
     ],
     "locations": [
       {
@@ -76,11 +80,21 @@
         "group": "ev142",
         "order": 3,
         "set": "new"
+      },
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 6,
+        "set": "lex3",
+        "ruOverride": "включать, вовлекать, затрагивать",
+        "pronOverride": "инво́лв"
       }
     ],
     "speak": "involve",
     "sets": [
-      "new"
+      "new",
+      "lex3"
     ]
   },
   {
@@ -185,14 +199,17 @@
     "en": "identify",
     "pron": "айдэ́нтафа́й",
     "ru": "определять, идентифицировать",
-    "ruVariants": [],
+    "ruVariants": [
+      "определять, распознавать, идентифицировать"
+    ],
     "aliases": [
       "определять",
       "идентифицировать",
       "опознать",
       "идентификация",
       "определить",
-      "узнавать"
+      "узнавать",
+      "распознавать"
     ],
     "locations": [
       {
@@ -201,11 +218,21 @@
         "group": "ev142",
         "order": 7,
         "set": "new"
+      },
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 14,
+        "set": "lex3",
+        "ruOverride": "определять, распознавать, идентифицировать",
+        "pronOverride": "айдэ́нтифай"
       }
     ],
     "speak": "identify",
     "sets": [
-      "new"
+      "new",
+      "lex3"
     ]
   },
   {
@@ -462,7 +489,8 @@
     "pron": "дива́йс",
     "ru": "устройство, прибор",
     "ruVariants": [
-      "устройство"
+      "устройство",
+      "устройство, прибор, аппарат"
     ],
     "aliases": [
       "устройство",
@@ -494,12 +522,22 @@
         "order": 26,
         "set": "old",
         "ruOverride": "устройство"
+      },
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 8,
+        "set": "lex3",
+        "ruOverride": "устройство, прибор, аппарат",
+        "pronOverride": "дива́йс"
       }
     ],
     "speak": "device",
     "sets": [
       "new",
-      "old"
+      "old",
+      "lex3"
     ]
   },
   {
@@ -719,7 +757,9 @@
     "en": "software",
     "pron": "со́фтуэ́р",
     "ru": "программное обеспечение",
-    "ruVariants": [],
+    "ruVariants": [
+      "программное обеспечение, программы"
+    ],
     "aliases": [
       "софт",
       "программы",
@@ -740,11 +780,21 @@
         "group": "ex_computers",
         "order": 23,
         "set": "new"
+      },
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 6,
+        "set": "lex3",
+        "ruOverride": "программное обеспечение, программы",
+        "pronOverride": "со́фтуэр"
       }
     ],
     "speak": "software",
     "sets": [
-      "new"
+      "new",
+      "lex3"
     ]
   },
   {
@@ -753,14 +803,16 @@
     "pron": "ха́рдуэ́р",
     "ru": "аппаратное обеспечение, оборудование",
     "ruVariants": [
-      "аппаратное обеспечение"
+      "аппаратное обеспечение",
+      "аппаратное обеспечение, оборудование, аппаратура"
     ],
     "aliases": [
       "аппаратное обеспечение",
       "оборудование",
       "железо компьютера",
       "аппаратная часть",
-      "аппаратные средства"
+      "аппаратные средства",
+      "аппаратура"
     ],
     "locations": [
       {
@@ -783,11 +835,21 @@
         "group": "ex_hardware",
         "order": 3,
         "set": "new"
+      },
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 5,
+        "set": "lex3",
+        "ruOverride": "аппаратное обеспечение, оборудование, аппаратура",
+        "pronOverride": "ха́рдуэр"
       }
     ],
     "speak": "hardware",
     "sets": [
-      "new"
+      "new",
+      "lex3"
     ]
   },
   {
@@ -2237,10 +2299,13 @@
     "en": "microprocessor",
     "pron": "ма́йкроупро́усэсэр",
     "ru": "микропроцессор",
-    "ruVariants": [],
+    "ruVariants": [
+      "микропроцессор, процессорная микросхема"
+    ],
     "aliases": [
       "микро процессор",
-      "процессор"
+      "процессор",
+      "процессорная микросхема"
     ],
     "locations": [
       {
@@ -2263,12 +2328,22 @@
         "group": "old156_wc",
         "order": 9,
         "set": "old"
+      },
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 5,
+        "set": "lex3",
+        "ruOverride": "микропроцессор, процессорная микросхема",
+        "pronOverride": "ма́йкроупро́сэсэр"
       }
     ],
     "speak": "microprocessor",
     "sets": [
       "new",
-      "old"
+      "old",
+      "lex3"
     ]
   },
   {
@@ -2963,14 +3038,17 @@
     "pron": "кэнтэ́йн",
     "ru": "содержать, включать в себя",
     "ruVariants": [
-      "содержать"
+      "содержать",
+      "содержать, включать, вмещать"
     ],
     "aliases": [
       "содержать",
       "включать в себя",
       "включает",
       "содержимое",
-      "содержит"
+      "содержит",
+      "включать",
+      "вмещать"
     ],
     "locations": [
       {
@@ -2995,12 +3073,22 @@
         "order": 18,
         "set": "old",
         "ruOverride": "содержать"
+      },
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 7,
+        "set": "lex3",
+        "ruOverride": "содержать, включать, вмещать",
+        "pronOverride": "кэнтэ́йн"
       }
     ],
     "speak": "contain",
     "sets": [
       "new",
-      "old"
+      "old",
+      "lex3"
     ]
   },
   {
@@ -6368,8 +6456,14 @@
     "en": "instruction",
     "pron": "инстра́кшэн",
     "ru": "инструкция, команда",
-    "ruVariants": [],
-    "aliases": [],
+    "ruVariants": [
+      "инструкция, команда, указание"
+    ],
+    "aliases": [
+      "инструкция",
+      "команда",
+      "указание"
+    ],
     "locations": [
       {
         "page": "137",
@@ -6377,11 +6471,21 @@
         "group": "old137_nouns",
         "order": 27,
         "set": "old"
+      },
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 4,
+        "set": "lex3",
+        "ruOverride": "инструкция, команда, указание",
+        "pronOverride": "инстра́кшэн"
       }
     ],
     "speak": "instruction",
     "sets": [
-      "old"
+      "old",
+      "lex3"
     ]
   },
   {
@@ -8146,6 +8250,5126 @@
     "speak": "to limit a computer's operating speed",
     "sets": [
       "old"
+    ]
+  },
+  {
+    "id": 332,
+    "en": "Network",
+    "pron": "нэ́туорк",
+    "ru": "сеть, система связей",
+    "ruVariants": [],
+    "aliases": [
+      "сеть",
+      "система связей"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 1,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Network",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 333,
+    "en": "Network classification",
+    "pron": "нэ́туорк клэсификэ́йшэн",
+    "ru": "классификация сетей, разделение сетей по типам",
+    "ruVariants": [],
+    "aliases": [
+      "классификация сетей",
+      "разделение сетей по типам"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 2,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Network classification",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 334,
+    "en": "Connection method",
+    "pron": "кэнэ́кшэн мэ́сэд",
+    "ru": "метод соединения, способ подключения",
+    "ruVariants": [],
+    "aliases": [
+      "метод соединения",
+      "способ подключения"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 3,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Connection method",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 335,
+    "en": "Computer network",
+    "pron": "компью́тэр нэ́туорк",
+    "ru": "компьютерная сеть, сеть ЭВМ",
+    "ruVariants": [],
+    "aliases": [
+      "компьютерная сеть",
+      "сеть ЭВМ"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 4,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Computer network",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 336,
+    "en": "Technology",
+    "pron": "тэкно́лоджи",
+    "ru": "технология, техника, метод",
+    "ruVariants": [],
+    "aliases": [
+      "технология",
+      "техника",
+      "метод"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 7,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Technology",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 337,
+    "en": "Interconnect",
+    "pron": "интэркэнэ́кт",
+    "ru": "соединять, связывать между собой",
+    "ruVariants": [],
+    "aliases": [
+      "соединять",
+      "связывать между собой"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 9,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Interconnect",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 338,
+    "en": "Optical fiber",
+    "pron": "о́птикэл фа́йбэр",
+    "ru": "оптическое волокно, световод",
+    "ruVariants": [],
+    "aliases": [
+      "оптическое волокно",
+      "световод"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 10,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Optical fiber",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 339,
+    "en": "Ethernet",
+    "pron": "и́сэрнэт",
+    "ru": "технология Ethernet, технология проводных сетей",
+    "ruVariants": [],
+    "aliases": [
+      "технология Ethernet",
+      "технология проводных сетей"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 11,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Ethernet",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 340,
+    "en": "Wireless LAN",
+    "pron": "уа́йэрлэс лэн",
+    "ru": "беспроводная локальная сеть, беспроводная ЛВС",
+    "ruVariants": [],
+    "aliases": [
+      "беспроводная локальная сеть",
+      "беспроводная ЛВС"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 12,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Wireless LAN",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 341,
+    "en": "Home PNA",
+    "pron": "хоум пи-эн-эй",
+    "ru": "технология домашней сети, сеть на основе телефонной проводки",
+    "ruVariants": [],
+    "aliases": [
+      "технология домашней сети",
+      "сеть на основе телефонной проводки"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 13,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Home PNA",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 342,
+    "en": "Power line communication",
+    "pron": "па́уэр лайн кэмьюникэ́йшэн",
+    "ru": "связь по линиям электропередачи, передача данных по электросети",
+    "ruVariants": [],
+    "aliases": [
+      "связь по линиям электропередачи",
+      "передача данных по электросети"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 14,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Power line communication",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 343,
+    "en": "Physical wiring",
+    "pron": "фи́зикэл уа́йэринг",
+    "ru": "физическое соединение, кабельная проводка",
+    "ruVariants": [],
+    "aliases": [
+      "физическое соединение",
+      "кабельная проводка"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 15,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Physical wiring",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 344,
+    "en": "Hub",
+    "pron": "хаб",
+    "ru": "концентратор, центральный узел",
+    "ruVariants": [],
+    "aliases": [
+      "концентратор",
+      "центральный узел"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 16,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Hub",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 345,
+    "en": "Switch",
+    "pron": "суич",
+    "ru": "коммутатор, переключатель",
+    "ruVariants": [],
+    "aliases": [
+      "коммутатор",
+      "переключатель"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 17,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Switch",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 346,
+    "en": "Bridge",
+    "pron": "бридж",
+    "ru": "мост, сетевой мост",
+    "ruVariants": [],
+    "aliases": [
+      "мост",
+      "сетевой мост"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 18,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Bridge",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 347,
+    "en": "Router",
+    "pron": "ра́утэр",
+    "ru": "маршрутизатор, роутер",
+    "ruVariants": [],
+    "aliases": [
+      "маршрутизатор",
+      "роутер"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 19,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Router",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 348,
+    "en": "Radio waves",
+    "pron": "рэ́йдиоу уэйвз",
+    "ru": "радиоволны, волны радиочастот",
+    "ruVariants": [],
+    "aliases": [
+      "радиоволны",
+      "волны радиочастот"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 20,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Radio waves",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 349,
+    "en": "Infrared signals",
+    "pron": "инфэррэ́д си́гнэлз",
+    "ru": "инфракрасные сигналы, ИК-сигналы",
+    "ruVariants": [],
+    "aliases": [
+      "инфракрасные сигналы",
+      "ИК-сигналы"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 21,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Infrared signals",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 350,
+    "en": "Transmission medium",
+    "pron": "трэнзми́шэн ми́диэм",
+    "ru": "среда передачи, среда передачи данных",
+    "ruVariants": [],
+    "aliases": [
+      "среда передачи",
+      "среда передачи данных"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 22,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Transmission medium",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 351,
+    "en": "High-speed local area network",
+    "pron": "хай-спид ло́укэл э́риа нэ́туорк",
+    "ru": "высокоскоростная локальная сеть, высокоскоростная ЛВС",
+    "ruVariants": [],
+    "aliases": [
+      "высокоскоростная локальная сеть",
+      "высокоскоростная ЛВС"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 23,
+        "set": "lex3"
+      }
+    ],
+    "speak": "High-speed local area network",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 352,
+    "en": "Wired technologies",
+    "pron": "уа́йэрд тэкно́лоджиз",
+    "ru": "проводные технологии, технологии проводной связи",
+    "ruVariants": [],
+    "aliases": [
+      "проводные технологии",
+      "технологии проводной связи"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 24,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Wired technologies",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 353,
+    "en": "Wireless technologies",
+    "pron": "уа́йэрлэс тэкно́лоджиз",
+    "ru": "беспроводные технологии, технологии беспроводной связи",
+    "ruVariants": [],
+    "aliases": [
+      "беспроводные технологии",
+      "технологии беспроводной связи"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 25,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Wireless technologies",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 354,
+    "en": "Twisted pair",
+    "pron": "туи́стид пэр",
+    "ru": "витая пара, пара скрученных проводов",
+    "ruVariants": [],
+    "aliases": [
+      "витая пара",
+      "пара скрученных проводов"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 26,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Twisted pair",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 355,
+    "en": "Telecommunication",
+    "pron": "тэликэмьюникэ́йшэн",
+    "ru": "телекоммуникация, электросвязь, дальняя связь",
+    "ruVariants": [],
+    "aliases": [
+      "телекоммуникация",
+      "электросвязь",
+      "дальняя связь"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 27,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Telecommunication",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 356,
+    "en": "Insulated copper wire",
+    "pron": "и́нсулэйтид ко́пэр уа́йэр",
+    "ru": "изолированный медный провод, медный провод с изоляцией",
+    "ruVariants": [],
+    "aliases": [
+      "изолированный медный провод",
+      "медный провод с изоляцией"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 28,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Insulated copper wire",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 357,
+    "en": "Voice and data transmission",
+    "pron": "войс энд дэ́йта трэнзми́шэн",
+    "ru": "передача голоса и данных, передача речевой информации и данных",
+    "ruVariants": [],
+    "aliases": [
+      "передача голоса и данных",
+      "передача речевой информации и данных"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 29,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Voice and data transmission",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 358,
+    "en": "Crosstalk",
+    "pron": "кро́сток",
+    "ru": "перекрёстные помехи, взаимные наводки",
+    "ruVariants": [],
+    "aliases": [
+      "перекрёстные помехи",
+      "взаимные наводки"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 30,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Crosstalk",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 359,
+    "en": "Electromagnetic induction",
+    "pron": "илэктроумэгнэ́тик инда́кшэн",
+    "ru": "электромагнитная индукция, электромагнитное наведение",
+    "ruVariants": [],
+    "aliases": [
+      "электромагнитная индукция",
+      "электромагнитное наведение"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 31,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Electromagnetic induction",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 360,
+    "en": "Transmission speed",
+    "pron": "трэнзми́шэн спид",
+    "ru": "скорость передачи, скорость передачи данных",
+    "ruVariants": [],
+    "aliases": [
+      "скорость передачи",
+      "скорость передачи данных"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 32,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Transmission speed",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 361,
+    "en": "Coaxial cable",
+    "pron": "коуэ́ксиэл кэ́йбл",
+    "ru": "коаксиальный кабель, коаксиал",
+    "ruVariants": [],
+    "aliases": [
+      "коаксиальный кабель",
+      "коаксиал"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 33,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Coaxial cable",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 362,
+    "en": "Aluminum wire",
+    "pron": "элу́минэм уа́йэр",
+    "ru": "алюминиевый провод, алюминиевая проволока",
+    "ruVariants": [],
+    "aliases": [
+      "алюминиевый провод",
+      "алюминиевая проволока"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 34,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Aluminum wire",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 363,
+    "en": "Insulating layer",
+    "pron": "и́нсулэйтинг лэ́йэр",
+    "ru": "изоляционный слой, слой изоляции",
+    "ruVariants": [],
+    "aliases": [
+      "изоляционный слой",
+      "слой изоляции"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 35,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Insulating layer",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 364,
+    "en": "Interference",
+    "pron": "интэрфи́рэнс",
+    "ru": "помехи, вмешательство, интерференция",
+    "ruVariants": [],
+    "aliases": [
+      "помехи",
+      "вмешательство",
+      "интерференция"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 36,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Interference",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 365,
+    "en": "Distortion",
+    "pron": "дисто́ршэн",
+    "ru": "искажение, деформация, нарушение формы",
+    "ruVariants": [],
+    "aliases": [
+      "искажение",
+      "деформация",
+      "нарушение формы"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 37,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Distortion",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 366,
+    "en": "Optical fiber cable",
+    "pron": "о́птикэл фа́йбэр кэ́йбл",
+    "ru": "оптоволоконный кабель, волоконно-оптический кабель",
+    "ruVariants": [],
+    "aliases": [
+      "оптоволоконный кабель",
+      "волоконно-оптический кабель"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 38,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Optical fiber cable",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 367,
+    "en": "Protective layers",
+    "pron": "протэ́ктив лэ́йэрз",
+    "ru": "защитные слои, защитные оболочки",
+    "ruVariants": [],
+    "aliases": [
+      "защитные слои",
+      "защитные оболочки"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 39,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Protective layers",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 368,
+    "en": "Signal loss",
+    "pron": "си́гнэл лос",
+    "ru": "потеря сигнала, утрата сигнала",
+    "ruVariants": [],
+    "aliases": [
+      "потеря сигнала",
+      "утрата сигнала"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 40,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Signal loss",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 369,
+    "en": "Electromagnetic radiation",
+    "pron": "илэктроумэгнэ́тик рэйдиэ́йшэн",
+    "ru": "электромагнитное излучение, электромагнитная радиация",
+    "ruVariants": [],
+    "aliases": [
+      "электромагнитное излучение",
+      "электромагнитная радиация"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 41,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Electromagnetic radiation",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 370,
+    "en": "Terrestrial microwave",
+    "pron": "тэрэ́стриэл ма́йкроуэйв",
+    "ru": "наземная микроволновая связь, наземная СВЧ-связь",
+    "ruVariants": [],
+    "aliases": [
+      "наземная микроволновая связь",
+      "наземная СВЧ-связь"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 42,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Terrestrial microwave",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 371,
+    "en": "Transmitter",
+    "pron": "трэнзми́тэр",
+    "ru": "передатчик, передающее устройство",
+    "ruVariants": [],
+    "aliases": [
+      "передатчик",
+      "передающее устройство"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 43,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Transmitter",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 372,
+    "en": "Receiver",
+    "pron": "риси́вэр",
+    "ru": "приёмник, получатель, принимающее устройство",
+    "ruVariants": [],
+    "aliases": [
+      "приёмник",
+      "получатель",
+      "принимающее устройство"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 44,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Receiver",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 373,
+    "en": "Satellite dish",
+    "pron": "сэ́тэлайт диш",
+    "ru": "спутниковая антенна, спутниковая тарелка",
+    "ruVariants": [],
+    "aliases": [
+      "спутниковая антенна",
+      "спутниковая тарелка"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 45,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Satellite dish",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 374,
+    "en": "Low-gigahertz range",
+    "pron": "лоу ги́гэ-хёртс рэйндж",
+    "ru": "нижний гигагерцовый диапазон, диапазон низких гигагерцовых частот",
+    "ruVariants": [],
+    "aliases": [
+      "нижний гигагерцовый диапазон",
+      "диапазон низких гигагерцовых частот"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 46,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Low-gigahertz range",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 375,
+    "en": "Line-of-sight",
+    "pron": "лайн эв сайт",
+    "ru": "прямая видимость, линия прямой видимости",
+    "ruVariants": [],
+    "aliases": [
+      "прямая видимость",
+      "линия прямой видимости"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 47,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Line-of-sight",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 376,
+    "en": "Communication satellite",
+    "pron": "кэмьюникэ́йшэн сэ́тэлайт",
+    "ru": "спутник связи, телекоммуникационный спутник",
+    "ruVariants": [],
+    "aliases": [
+      "спутник связи",
+      "телекоммуникационный спутник"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 48,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Communication satellite",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 377,
+    "en": "Cellular systems",
+    "pron": "сэ́льюлэр си́стэмз",
+    "ru": "сотовые системы, системы мобильной связи",
+    "ruVariants": [],
+    "aliases": [
+      "сотовые системы",
+      "системы мобильной связи"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 49,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Cellular systems",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 378,
+    "en": "Radio relay antenna",
+    "pron": "рэ́йдиоу ри́лэй энтэ́нэ",
+    "ru": "радиорелейная антенна, антенна ретрансляции",
+    "ruVariants": [],
+    "aliases": [
+      "радиорелейная антенна",
+      "антенна ретрансляции"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 50,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Radio relay antenna",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 379,
+    "en": "High-frequency radio technology",
+    "pron": "хай фри́куэнси рэ́йдиоу тэкно́лоджи",
+    "ru": "высокочастотная радиотехнология, технология высокочастотной радиосвязи",
+    "ruVariants": [],
+    "aliases": [
+      "высокочастотная радиотехнология",
+      "технология высокочастотной радиосвязи"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 51,
+        "set": "lex3"
+      }
+    ],
+    "speak": "High-frequency radio technology",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 380,
+    "en": "Low-frequency radio technology",
+    "pron": "лоу фри́куэнси рэ́йдиоу тэкно́лоджи",
+    "ru": "низкочастотная радиотехнология, технология низкочастотной радиосвязи",
+    "ruVariants": [],
+    "aliases": [
+      "низкочастотная радиотехнология",
+      "технология низкочастотной радиосвязи"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 52,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Low-frequency radio technology",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 381,
+    "en": "Spread spectrum technology",
+    "pron": "спрэд спэ́ктрэм тэкно́лоджи",
+    "ru": "технология расширенного спектра, технология расширения спектра",
+    "ruVariants": [],
+    "aliases": [
+      "технология расширенного спектра",
+      "технология расширения спектра"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 53,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Spread spectrum technology",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 382,
+    "en": "Infrared communication",
+    "pron": "инфэррэ́д кэмьюникэ́йшэн",
+    "ru": "инфракрасная связь, связь посредством ИК-сигналов",
+    "ruVariants": [],
+    "aliases": [
+      "инфракрасная связь",
+      "связь посредством ИК-сигналов"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 54,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Infrared communication",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 383,
+    "en": "Peer to peer",
+    "pron": "пир ту пир",
+    "ru": "одноранговая связь, связь между равноправными устройствами",
+    "ruVariants": [],
+    "aliases": [
+      "одноранговая связь",
+      "связь между равноправными устройствами"
+    ],
+    "locations": [
+      {
+        "page": "153–154",
+        "exercise": "Network Classification",
+        "group": "l3_net",
+        "order": 55,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Peer to peer",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 384,
+    "en": "Designed and tested the first Ethernet network",
+    "pron": "диза́йнд энд тэ́стид зэ фёрст и́сэрнэт нэ́туорк",
+    "ru": "разработал и протестировал первую сеть Ethernet, спроектировал и испытал первую сеть Ethernet",
+    "ruVariants": [],
+    "aliases": [
+      "разработал и протестировал первую сеть Ethernet",
+      "спроектировал и испытал первую сеть Ethernet"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 1,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Designed and tested the first Ethernet network",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 385,
+    "en": "Physical method of cabling",
+    "pron": "фи́зикэл мэ́сэд эв кэ́йблинг",
+    "ru": "физический способ соединения, метод кабельного подключения",
+    "ruVariants": [],
+    "aliases": [
+      "физический способ соединения",
+      "метод кабельного подключения"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 2,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Physical method of cabling",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 386,
+    "en": "To govern communication",
+    "pron": "ту га́вэрн кэмьюникэ́йшэн",
+    "ru": "управлять передачей информации, регулировать связь",
+    "ruVariants": [],
+    "aliases": [
+      "управлять передачей информации",
+      "регулировать связь"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 3,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To govern communication",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 387,
+    "en": "Issues involved with Ethernet",
+    "pron": "и́шуз инво́лвд уиз и́сэрнэт",
+    "ru": "вопросы, касающиеся Ethernet, проблемы, связанные с Ethernet",
+    "ruVariants": [],
+    "aliases": [
+      "вопросы",
+      "касающиеся Ethernet",
+      "проблемы",
+      "связанные с Ethernet"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 4,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Issues involved with Ethernet",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 388,
+    "en": "The most widely deployed network technology in the world",
+    "pron": "зэ моуст уа́йдли дипло́йд нэ́туорк тэкно́лоджи ин зэ уорлд",
+    "ru": "наиболее широко используемая в мире сетевая технология, самая распространённая сетевая технология в мире",
+    "ruVariants": [],
+    "aliases": [
+      "наиболее широко используемая в мире сетевая технология",
+      "самая распространённая сетевая технология в мире"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 5,
+        "set": "lex3"
+      }
+    ],
+    "speak": "The most widely deployed network technology in the world",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 389,
+    "en": "To address the issues",
+    "pron": "ту эдрэ́с зи и́шуз",
+    "ru": "решать вопросы, устранять проблемы, рассматривать вопросы",
+    "ruVariants": [],
+    "aliases": [
+      "решать вопросы",
+      "устранять проблемы",
+      "рассматривать вопросы"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 6,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To address the issues",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 390,
+    "en": "To provide a foundation",
+    "pron": "ту прова́йд э фаундэ́йшэн",
+    "ru": "обеспечить основу, заложить фундамент, создать базу",
+    "ruVariants": [],
+    "aliases": [
+      "обеспечить основу",
+      "заложить фундамент",
+      "создать базу"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 7,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To provide a foundation",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 391,
+    "en": "To encompass new technologies",
+    "pron": "ту инка́мпэс нью тэкно́лоджиз",
+    "ru": "охватывать новые технологии, включать новые технологии",
+    "ruVariants": [],
+    "aliases": [
+      "охватывать новые технологии",
+      "включать новые технологии"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 8,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To encompass new technologies",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 392,
+    "en": "Communication over a single cable",
+    "pron": "кэмьюникэ́йшэн о́увэр э си́нгл кэ́йбл",
+    "ru": "передача информации по одному кабелю, связь через единый кабель",
+    "ruVariants": [],
+    "aliases": [
+      "передача информации по одному кабелю",
+      "связь через единый кабель"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 9,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Communication over a single cable",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 393,
+    "en": "Without requiring any modification",
+    "pron": "уиза́ут рикуа́йэринг э́ни модификэ́йшэн",
+    "ru": "не требуя никаких изменений, без необходимости внесения изменений",
+    "ruVariants": [],
+    "aliases": [
+      "не требуя никаких изменений",
+      "без необходимости внесения изменений"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 10,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Without requiring any modification",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 394,
+    "en": "Traditionally operating within a single building",
+    "pron": "трэди́шэнэли о́пэрэйтинг уизи́н э си́нгл би́лдинг",
+    "ru": "традиционно работая в пределах одного здания, обычно функционируя внутри одного здания",
+    "ruVariants": [],
+    "aliases": [
+      "традиционно работая в пределах одного здания",
+      "обычно функционируя внутри одного здания"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 11,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Traditionally operating within a single building",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 395,
+    "en": "Connecting devices in close proximity",
+    "pron": "кэнэ́ктинг дива́йсиз ин клоус прокси́мити",
+    "ru": "соединяя близко расположенные устройства, подключая устройства на небольшом расстоянии",
+    "ruVariants": [],
+    "aliases": [
+      "соединяя близко расположенные устройства",
+      "подключая устройства на небольшом расстоянии"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 12,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Connecting devices in close proximity",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 396,
+    "en": "To increase distances considerably",
+    "pron": "ту инкри́с ди́стэнсиз кэнси́дэрэбли",
+    "ru": "значительно увеличивать расстояния, существенно расширять дальность",
+    "ruVariants": [],
+    "aliases": [
+      "значительно увеличивать расстояния",
+      "существенно расширять дальность"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 13,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To increase distances considerably",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 397,
+    "en": "Modern advancements",
+    "pron": "мо́дэрн эдва́нсмэнтс",
+    "ru": "современные достижения, современное развитие, новейшие усовершенствования",
+    "ruVariants": [],
+    "aliases": [
+      "современные достижения",
+      "современное развитие",
+      "новейшие усовершенствования"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · Ex. 1",
+        "group": "l3_ether_ex1",
+        "order": 14,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Modern advancements",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 398,
+    "en": "Deploy",
+    "pron": "дипло́й",
+    "ru": "развёртывать, внедрять, размещать",
+    "ruVariants": [],
+    "aliases": [
+      "развёртывать",
+      "внедрять",
+      "размещать"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 1,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Deploy",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 399,
+    "en": "Proximity",
+    "pron": "прокси́мити",
+    "ru": "близость, соседство, непосредственная близость",
+    "ruVariants": [],
+    "aliases": [
+      "близость",
+      "соседство",
+      "непосредственная близость"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 2,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Proximity",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 400,
+    "en": "Disperse",
+    "pron": "диспёрс",
+    "ru": "рассеивать, распределять, рассредоточивать",
+    "ruVariants": [],
+    "aliases": [
+      "рассеивать",
+      "распределять",
+      "рассредоточивать"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 3,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Disperse",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 401,
+    "en": "Span",
+    "pron": "спэн",
+    "ru": "охватывать, простираться, перекрывать",
+    "ruVariants": [],
+    "aliases": [
+      "охватывать",
+      "простираться",
+      "перекрывать"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 4,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Span",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 402,
+    "en": "Share",
+    "pron": "шэр",
+    "ru": "делиться, разделять, совместно использовать",
+    "ruVariants": [],
+    "aliases": [
+      "делиться",
+      "разделять",
+      "совместно использовать"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 5,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Share",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 403,
+    "en": "Advancement",
+    "pron": "эдва́нсмэнт",
+    "ru": "развитие, прогресс, продвижение",
+    "ruVariants": [],
+    "aliases": [
+      "развитие",
+      "прогресс",
+      "продвижение"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 7,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Advancement",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 404,
+    "en": "Encompass",
+    "pron": "инка́мпэс",
+    "ru": "охватывать, включать, заключать в себе",
+    "ruVariants": [],
+    "aliases": [
+      "охватывать",
+      "включать",
+      "заключать в себе"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 8,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Encompass",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 405,
+    "en": "Cable",
+    "pron": "кэ́йбл",
+    "ru": "кабель, трос, провод",
+    "ruVariants": [],
+    "aliases": [
+      "кабель",
+      "трос",
+      "провод"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 9,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Cable",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 406,
+    "en": "Impracticable",
+    "pron": "импрэ́ктикэбл",
+    "ru": "невыполнимый, неосуществимый, практически неприменимый",
+    "ruVariants": [],
+    "aliases": [
+      "невыполнимый",
+      "неосуществимый",
+      "практически неприменимый"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 10,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Impracticable",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 407,
+    "en": "Require",
+    "pron": "рикуа́йэр",
+    "ru": "требовать, нуждаться, запрашивать",
+    "ruVariants": [],
+    "aliases": [
+      "требовать",
+      "нуждаться",
+      "запрашивать"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 11,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Require",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 408,
+    "en": "Mature",
+    "pron": "мэчу́р",
+    "ru": "созревать, развиваться, достигать зрелости",
+    "ruVariants": [],
+    "aliases": [
+      "созревать",
+      "развиваться",
+      "достигать зрелости"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 12,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Mature",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 409,
+    "en": "Stem",
+    "pron": "стэм",
+    "ru": "происходить, брать начало, проистекать",
+    "ruVariants": [],
+    "aliases": [
+      "происходить",
+      "брать начало",
+      "проистекать"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 13,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Stem",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 410,
+    "en": "Govern",
+    "pron": "га́вэрн",
+    "ru": "управлять, регулировать, руководить",
+    "ruVariants": [],
+    "aliases": [
+      "управлять",
+      "регулировать",
+      "руководить"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 14,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Govern",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 411,
+    "en": "Accommodate",
+    "pron": "эко́мэдэйт",
+    "ru": "вмещать, размещать, приспосабливать",
+    "ruVariants": [],
+    "aliases": [
+      "вмещать",
+      "размещать",
+      "приспосабливать"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 15,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Accommodate",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 412,
+    "en": "Issue",
+    "pron": "и́шу",
+    "ru": "вопрос, проблема, выпуск, издание",
+    "ruVariants": [],
+    "aliases": [
+      "вопрос",
+      "проблема",
+      "выпуск",
+      "издание"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 16,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Issue",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 413,
+    "en": "Allow",
+    "pron": "эла́у",
+    "ru": "позволять, разрешать, допускать",
+    "ruVariants": [],
+    "aliases": [
+      "позволять",
+      "разрешать",
+      "допускать"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 17,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Allow",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 414,
+    "en": "To work on a way to do something",
+    "pron": "ту уорк он э уэй ту ду са́мсинг",
+    "ru": "работать над способом выполнения чего-либо, разрабатывать метод",
+    "ruVariants": [],
+    "aliases": [
+      "работать над способом выполнения чего-либо",
+      "разрабатывать метод"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 18,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To work on a way to do something",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 415,
+    "en": "To be common to something",
+    "pron": "ту би ко́мэн ту са́мсинг",
+    "ru": "быть общим для чего-либо, быть свойственным чему-либо",
+    "ruVariants": [],
+    "aliases": [
+      "быть общим для чего-либо",
+      "быть свойственным чему-либо"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 19,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To be common to something",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 416,
+    "en": "To have the ability to do something",
+    "pron": "ту хэв зи эби́лити ту ду са́мсинг",
+    "ru": "иметь возможность что-либо делать, быть способным",
+    "ruVariants": [],
+    "aliases": [
+      "иметь возможность что-либо делать",
+      "быть способным"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 20,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To have the ability to do something",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 417,
+    "en": "To make something impracticable",
+    "pron": "ту мэйк са́мсинг импрэ́ктикэбл",
+    "ru": "делать что-либо неосуществимым, делать практически невозможным",
+    "ruVariants": [],
+    "aliases": [
+      "делать что-либо неосуществимым",
+      "делать практически невозможным"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 21,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To make something impracticable",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 418,
+    "en": "Geographically dispersed",
+    "pron": "джиогрэ́фикэли диспёрст",
+    "ru": "географически рассредоточенный, территориально распределённый",
+    "ruVariants": [],
+    "aliases": [
+      "географически рассредоточенный",
+      "территориально распределённый"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 22,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Geographically dispersed",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 419,
+    "en": "Computer networking",
+    "pron": "компью́тэр нэ́туоркинг",
+    "ru": "организация компьютерных сетей, объединение компьютеров в сеть",
+    "ruVariants": [],
+    "aliases": [
+      "организация компьютерных сетей",
+      "объединение компьютеров в сеть"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 23,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Computer networking",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 420,
+    "en": "At most",
+    "pron": "эт моуст",
+    "ru": "максимум, не более, самое большее",
+    "ruVariants": [],
+    "aliases": [
+      "максимум",
+      "не более",
+      "самое большее"
+    ],
+    "locations": [
+      {
+        "page": "159–160",
+        "exercise": "The Ethernet · слова под текстом",
+        "group": "l3_ether_vocab",
+        "order": 24,
+        "set": "lex3"
+      }
+    ],
+    "speak": "At most",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 421,
+    "en": "The same protocols",
+    "pron": "зэ сэйм про́утэколз",
+    "ru": "те же самые протоколы, одинаковые протоколы",
+    "ruVariants": [],
+    "aliases": [
+      "те же самые протоколы",
+      "одинаковые протоколы"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · Ex. 1",
+        "group": "l3_terms_ex1",
+        "order": 1,
+        "set": "lex3"
+      }
+    ],
+    "speak": "The same protocols",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 422,
+    "en": "To follow a simple set of rules",
+    "pron": "ту фо́лоу э си́мпл сэт эв рулз",
+    "ru": "следовать простому набору правил, соблюдать простые правила",
+    "ruVariants": [],
+    "aliases": [
+      "следовать простому набору правил",
+      "соблюдать простые правила"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · Ex. 1",
+        "group": "l3_terms_ex1",
+        "order": 2,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To follow a simple set of rules",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 423,
+    "en": "To provide a path along which the electronic signals will travel",
+    "pron": "ту прова́йд э пас эло́нг уич зи илэктро́ник си́гнэлз уил трэ́вэл",
+    "ru": "обеспечивать маршрут передачи электронных сигналов, предоставлять путь для прохождения электронных сигналов",
+    "ruVariants": [],
+    "aliases": [
+      "обеспечивать маршрут передачи электронных сигналов",
+      "предоставлять путь для прохождения электронных сигналов"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · Ex. 1",
+        "group": "l3_terms_ex1",
+        "order": 3,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To provide a path along which the electronic signals will travel",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 424,
+    "en": "To specify a set of rules",
+    "pron": "ту спэ́сифай э сэт эв рулз",
+    "ru": "определять набор правил, устанавливать правила",
+    "ruVariants": [],
+    "aliases": [
+      "определять набор правил",
+      "устанавливать правила"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · Ex. 1",
+        "group": "l3_terms_ex1",
+        "order": 4,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To specify a set of rules",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 425,
+    "en": "Explicit minimum and maximum lengths for frames",
+    "pron": "икспли́сит ми́нимэм энд мэ́ксимэм лэнгс фор фрэймз",
+    "ru": "точная минимальная и максимальная длина фреймов, чётко установленные пределы длины кадров",
+    "ruVariants": [],
+    "aliases": [
+      "точная минимальная и максимальная длина фреймов",
+      "чётко установленные пределы длины кадров"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · Ex. 1",
+        "group": "l3_terms_ex1",
+        "order": 5,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Explicit minimum and maximum lengths for frames",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 426,
+    "en": "A set of required pieces of information",
+    "pron": "э сэт эв рикуа́йэрд пи́сиз эв информэ́йшэн",
+    "ru": "набор требуемой информации, совокупность необходимых сведений",
+    "ruVariants": [],
+    "aliases": [
+      "набор требуемой информации",
+      "совокупность необходимых сведений"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · Ex. 1",
+        "group": "l3_terms_ex1",
+        "order": 6,
+        "set": "lex3"
+      }
+    ],
+    "speak": "A set of required pieces of information",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 427,
+    "en": "To include both a destination address and a source address",
+    "pron": "ту инклу́д боус э дэстинэ́йшэн эдрэ́с энд э сорс эдрэ́с",
+    "ru": "содержать адрес назначения и исходный адрес, включать адрес получателя и отправителя",
+    "ruVariants": [],
+    "aliases": [
+      "содержать адрес назначения и исходный адрес",
+      "включать адрес получателя и отправителя"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · Ex. 1",
+        "group": "l3_terms_ex1",
+        "order": 7,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To include both a destination address and a source address",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 428,
+    "en": "To identify the recipient of the message",
+    "pron": "ту айдэ́нтифай зэ риси́пиэнт эв зэ мэ́сидж",
+    "ru": "определять получателя сообщения, идентифицировать адресата сообщения",
+    "ruVariants": [],
+    "aliases": [
+      "определять получателя сообщения",
+      "идентифицировать адресата сообщения"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · Ex. 1",
+        "group": "l3_terms_ex1",
+        "order": 8,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To identify the recipient of the message",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 429,
+    "en": "The same address",
+    "pron": "зэ сэйм эдрэ́с",
+    "ru": "тот же самый адрес, одинаковый адрес",
+    "ruVariants": [],
+    "aliases": [
+      "тот же самый адрес",
+      "одинаковый адрес"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · Ex. 1",
+        "group": "l3_terms_ex1",
+        "order": 9,
+        "set": "lex3"
+      }
+    ],
+    "speak": "The same address",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 430,
+    "en": "Analogous",
+    "pron": "эна́лэгэс",
+    "ru": "аналогичный, подобный, сходный",
+    "ruVariants": [],
+    "aliases": [
+      "аналогичный",
+      "подобный",
+      "сходный"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 1,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Analogous",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 431,
+    "en": "Node",
+    "pron": "ноуд",
+    "ru": "узел, точка соединения",
+    "ruVariants": [],
+    "aliases": [
+      "узел",
+      "точка соединения"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 2,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Node",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 432,
+    "en": "Rule",
+    "pron": "рул",
+    "ru": "правило, норма, предписание",
+    "ruVariants": [],
+    "aliases": [
+      "правило",
+      "норма",
+      "предписание"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 3,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Rule",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 433,
+    "en": "Coaxial",
+    "pron": "коуэ́ксиэл",
+    "ru": "коаксиальный, соосный",
+    "ruVariants": [],
+    "aliases": [
+      "коаксиальный",
+      "соосный"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 4,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Coaxial",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 434,
+    "en": "Variable",
+    "pron": "вэ́риэбл",
+    "ru": "переменный, изменяемый, непостоянный",
+    "ruVariants": [],
+    "aliases": [
+      "переменный",
+      "изменяемый",
+      "непостоянный"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 5,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Variable",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 435,
+    "en": "Medium",
+    "pron": "ми́диэм",
+    "ru": "среда, средство, носитель",
+    "ruVariants": [],
+    "aliases": [
+      "среда",
+      "средство",
+      "носитель"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 6,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Medium",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 436,
+    "en": "Explicit",
+    "pron": "икспли́сит",
+    "ru": "явный, точный, недвусмысленный",
+    "ruVariants": [],
+    "aliases": [
+      "явный",
+      "точный",
+      "недвусмысленный"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 8,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Explicit",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 437,
+    "en": "Refer",
+    "pron": "рифёр",
+    "ru": "ссылаться, относиться, упоминать",
+    "ruVariants": [],
+    "aliases": [
+      "ссылаться",
+      "относиться",
+      "упоминать"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 9,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Refer",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 438,
+    "en": "Chunk",
+    "pron": "чанк",
+    "ru": "кусок, часть, фрагмент, блок",
+    "ruVariants": [],
+    "aliases": [
+      "кусок",
+      "часть",
+      "фрагмент",
+      "блок"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 10,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Chunk",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 439,
+    "en": "Path",
+    "pron": "пас",
+    "ru": "путь, маршрут, дорожка",
+    "ruVariants": [],
+    "aliases": [
+      "путь",
+      "маршрут",
+      "дорожка"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 11,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Path",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 440,
+    "en": "Specify",
+    "pron": "спэ́сифай",
+    "ru": "определять, уточнять, указывать",
+    "ruVariants": [],
+    "aliases": [
+      "определять",
+      "уточнять",
+      "указывать"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 12,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Specify",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 441,
+    "en": "Fiber",
+    "pron": "фа́йбэр",
+    "ru": "волокно, нить",
+    "ruVariants": [],
+    "aliases": [
+      "волокно",
+      "нить"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 13,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Fiber",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 442,
+    "en": "Attach",
+    "pron": "этэ́ч",
+    "ru": "присоединять, прикреплять, подключать",
+    "ruVariants": [],
+    "aliases": [
+      "присоединять",
+      "прикреплять",
+      "подключать"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 15,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Attach",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 443,
+    "en": "Predicate",
+    "pron": "прэ́дикэт",
+    "ru": "сказуемое, предикат",
+    "ruVariants": [],
+    "aliases": [
+      "сказуемое",
+      "предикат"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 16,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Predicate",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 444,
+    "en": "Twist",
+    "pron": "туист",
+    "ru": "скручивать, перекручивать, поворачивать",
+    "ruVariants": [],
+    "aliases": [
+      "скручивать",
+      "перекручивать",
+      "поворачивать"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 17,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Twist",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 445,
+    "en": "Destination",
+    "pron": "дэстинэ́йшэн",
+    "ru": "назначение, пункт назначения, конечная точка",
+    "ruVariants": [],
+    "aliases": [
+      "назначение",
+      "пункт назначения",
+      "конечная точка"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 18,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Destination",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 446,
+    "en": "Recipient",
+    "pron": "риси́пиэнт",
+    "ru": "получатель, адресат",
+    "ruVariants": [],
+    "aliases": [
+      "получатель",
+      "адресат"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 19,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Recipient",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 447,
+    "en": "Protocol",
+    "pron": "про́утэкол",
+    "ru": "протокол, набор правил взаимодействия",
+    "ruVariants": [],
+    "aliases": [
+      "протокол",
+      "набор правил взаимодействия"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 20,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Protocol",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 448,
+    "en": "Segment",
+    "pron": "сэ́гмэнт",
+    "ru": "сегмент, участок, часть",
+    "ruVariants": [],
+    "aliases": [
+      "сегмент",
+      "участок",
+      "часть"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 21,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Segment",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 449,
+    "en": "Frame",
+    "pron": "фрэйм",
+    "ru": "кадр, фрейм, рамка, каркас",
+    "ruVariants": [],
+    "aliases": [
+      "кадр",
+      "фрейм",
+      "рамка",
+      "каркас"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 22,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Frame",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 450,
+    "en": "Coaxial copper cable",
+    "pron": "коуэ́ксиэл ко́пэр кэ́йбл",
+    "ru": "коаксиальный медный кабель, медный коаксиальный кабель",
+    "ruVariants": [],
+    "aliases": [
+      "коаксиальный медный кабель",
+      "медный коаксиальный кабель"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 23,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Coaxial copper cable",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 451,
+    "en": "Variably sized chunks of information",
+    "pron": "вэ́риэбли сайзд чанкс эв информэ́йшэн",
+    "ru": "фрагменты информации переменного размера, блоки данных различной длины",
+    "ruVariants": [],
+    "aliases": [
+      "фрагменты информации переменного размера",
+      "блоки данных различной длины"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 24,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Variably sized chunks of information",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 452,
+    "en": "Source address",
+    "pron": "сорс эдрэ́с",
+    "ru": "исходный адрес, адрес источника, адрес отправителя",
+    "ruVariants": [],
+    "aliases": [
+      "исходный адрес",
+      "адрес источника",
+      "адрес отправителя"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 25,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Source address",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 453,
+    "en": "Destination address",
+    "pron": "дэстинэ́йшэн эдрэ́с",
+    "ru": "адрес назначения, адрес получателя",
+    "ruVariants": [],
+    "aliases": [
+      "адрес назначения",
+      "адрес получателя"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 26,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Destination address",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 454,
+    "en": "Uniquely identify the node",
+    "pron": "юни́кли айдэ́нтифай зэ ноуд",
+    "ru": "однозначно идентифицировать узел, точно определять узел",
+    "ruVariants": [],
+    "aliases": [
+      "однозначно идентифицировать узел",
+      "точно определять узел"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 27,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Uniquely identify the node",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 455,
+    "en": "To be analogous to something",
+    "pron": "ту би эна́лэгэс ту са́мсинг",
+    "ru": "быть аналогичным чему-либо, быть подобным, быть похожим",
+    "ruVariants": [],
+    "aliases": [
+      "быть аналогичным чему-либо",
+      "быть подобным",
+      "быть похожим"
+    ],
+    "locations": [
+      {
+        "page": "162–163",
+        "exercise": "Ethernet Terminology · слова под текстом",
+        "group": "l3_terms_vocab",
+        "order": 28,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To be analogous to something",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 456,
+    "en": "Young technology",
+    "pron": "янг тэкно́лоджи",
+    "ru": "молодая технология, относительно новая технология",
+    "ruVariants": [],
+    "aliases": [
+      "молодая технология",
+      "относительно новая технология"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 1,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Young technology",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 457,
+    "en": "To crisscross the globe",
+    "pron": "ту кри́скрос зэ глоуб",
+    "ru": "оплетать земной шар, пересекать весь мир",
+    "ruVariants": [],
+    "aliases": [
+      "оплетать земной шар",
+      "пересекать весь мир"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 2,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To crisscross the globe",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 458,
+    "en": "A system with two main components",
+    "pron": "э си́стэм уиз ту мэйн кэмпо́унэнтс",
+    "ru": "система с двумя основными составляющими, система из двух главных компонентов",
+    "ruVariants": [],
+    "aliases": [
+      "система с двумя основными составляющими",
+      "система из двух главных компонентов"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 3,
+        "set": "lex3"
+      }
+    ],
+    "speak": "A system with two main components",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 459,
+    "en": "To carry terabits of information",
+    "pron": "ту кэ́ри тэ́рэбитс эв информэ́йшэн",
+    "ru": "передавать терабиты информации, переносить терабиты данных",
+    "ruVariants": [],
+    "aliases": [
+      "передавать терабиты информации",
+      "переносить терабиты данных"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 4,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To carry terabits of information",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 460,
+    "en": "To include everything from ... to ...",
+    "pron": "ту инклу́д э́врисинг фром ... ту ...",
+    "ru": "включать в себя всё от … до …, охватывать всё, начиная от … и заканчивая …",
+    "ruVariants": [],
+    "aliases": [
+      "включать в себя всё от … до …",
+      "охватывать всё",
+      "начиная от … и заканчивая …"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 5,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To include everything from ... to ...",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 461,
+    "en": "Malleable system",
+    "pron": "мэ́лиэбл си́стэм",
+    "ru": "гибкая система, изменяемая система",
+    "ruVariants": [],
+    "aliases": [
+      "гибкая система",
+      "изменяемая система"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 6,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Malleable system",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 462,
+    "en": "To make up the backbone of the Internet",
+    "pron": "ту мэйк ап зэ бэ́кбоун эв зи и́нтэрнэт",
+    "ru": "составлять основу Интернета, формировать магистраль Интернета",
+    "ruVariants": [],
+    "aliases": [
+      "составлять основу Интернета",
+      "формировать магистраль Интернета"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 7,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To make up the backbone of the Internet",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 463,
+    "en": "A route of traffic",
+    "pron": "э рут эв трэ́фик",
+    "ru": "маршрут передачи данных, путь сетевого трафика",
+    "ruVariants": [],
+    "aliases": [
+      "маршрут передачи данных",
+      "путь сетевого трафика"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 8,
+        "set": "lex3"
+      }
+    ],
+    "speak": "A route of traffic",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 464,
+    "en": "Transmission lines",
+    "pron": "трэнзми́шэн лайнз",
+    "ru": "линии передачи данных, линии связи",
+    "ruVariants": [],
+    "aliases": [
+      "линии передачи данных",
+      "линии связи"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 9,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Transmission lines",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 465,
+    "en": "To complete tasks",
+    "pron": "ту кэмпли́т тэскс",
+    "ru": "выполнять задачи, завершать задания",
+    "ruVariants": [],
+    "aliases": [
+      "выполнять задачи",
+      "завершать задания"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 10,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To complete tasks",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 466,
+    "en": "Set of rules",
+    "pron": "сэт эв рулз",
+    "ru": "набор правил, свод правил, совокупность инструкций",
+    "ruVariants": [],
+    "aliases": [
+      "набор правил",
+      "свод правил",
+      "совокупность инструкций"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 11,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Set of rules",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 467,
+    "en": "To understand one another",
+    "pron": "ту андэрстэ́нд уан эна́зэр",
+    "ru": "понимать друг друга, достигать взаимопонимания",
+    "ruVariants": [],
+    "aliases": [
+      "понимать друг друга",
+      "достигать взаимопонимания"
+    ],
+    "locations": [
+      {
+        "page": "165–166",
+        "exercise": "How Does the Internet Work? · Ex. 1",
+        "group": "l3_internet_ex1",
+        "order": 12,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To understand one another",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 468,
+    "en": "Backbone",
+    "pron": "бэ́кбоун",
+    "ru": "основа, костяк, магистральная сеть",
+    "ruVariants": [],
+    "aliases": [
+      "основа",
+      "костяк",
+      "магистральная сеть"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 1,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Backbone",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 469,
+    "en": "Client",
+    "pron": "кла́йэнт",
+    "ru": "клиент, заказчик, клиентское устройство",
+    "ruVariants": [],
+    "aliases": [
+      "клиент",
+      "заказчик",
+      "клиентское устройство"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 2,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Client",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 470,
+    "en": "Complete",
+    "pron": "кэмпли́т",
+    "ru": "завершать, выполнять, заканчивать",
+    "ruVariants": [],
+    "aliases": [
+      "завершать",
+      "выполнять",
+      "заканчивать"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 3,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Complete",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 471,
+    "en": "Create",
+    "pron": "криэ́йт",
+    "ru": "создавать, разрабатывать, формировать",
+    "ruVariants": [],
+    "aliases": [
+      "создавать",
+      "разрабатывать",
+      "формировать"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 4,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Create",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 472,
+    "en": "Crisscross",
+    "pron": "кри́скрос",
+    "ru": "пересекать, оплетать, перекрещиваться",
+    "ruVariants": [],
+    "aliases": [
+      "пересекать",
+      "оплетать",
+      "перекрещиваться"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 5,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Crisscross",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 473,
+    "en": "End point",
+    "pron": "энд пойнт",
+    "ru": "конечная точка, конечный пункт, оконечное устройство",
+    "ruVariants": [],
+    "aliases": [
+      "конечная точка",
+      "конечный пункт",
+      "оконечное устройство"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 6,
+        "set": "lex3"
+      }
+    ],
+    "speak": "End point",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 474,
+    "en": "Feature",
+    "pron": "фи́чэр",
+    "ru": "особенность, характеристика, свойство, функция",
+    "ruVariants": [],
+    "aliases": [
+      "особенность",
+      "характеристика",
+      "свойство",
+      "функция"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 7,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Feature",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 475,
+    "en": "Server",
+    "pron": "сёрвэр",
+    "ru": "сервер, обслуживающий компьютер",
+    "ruVariants": [],
+    "aliases": [
+      "сервер",
+      "обслуживающий компьютер"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 8,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Server",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 476,
+    "en": "Support",
+    "pron": "сэпо́рт",
+    "ru": "поддерживать, обеспечивать, поддержка, опора",
+    "ruVariants": [],
+    "aliases": [
+      "поддерживать",
+      "обеспечивать",
+      "поддержка",
+      "опора"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 9,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Support",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 477,
+    "en": "To become part of one's life",
+    "pron": "ту бика́м парт эв уанз лайф",
+    "ru": "становиться частью чьей-либо жизни, входить в жизнь человека",
+    "ruVariants": [],
+    "aliases": [
+      "становиться частью чьей-либо жизни",
+      "входить в жизнь человека"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 10,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To become part of one's life",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 478,
+    "en": "To coin the term",
+    "pron": "ту койн зэ тёрм",
+    "ru": "вводить новый термин, придумывать термин",
+    "ruVariants": [],
+    "aliases": [
+      "вводить новый термин",
+      "придумывать термин"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 11,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To coin the term",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 479,
+    "en": "It's hard to imagine",
+    "pron": "итс хард ту имэ́джин",
+    "ru": "трудно представить, сложно вообразить",
+    "ruVariants": [],
+    "aliases": [
+      "трудно представить",
+      "сложно вообразить"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 12,
+        "set": "lex3"
+      }
+    ],
+    "speak": "It's hard to imagine",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 480,
+    "en": "To support the Internet",
+    "pron": "ту сэпо́рт зи и́нтэрнэт",
+    "ru": "поддерживать Интернет, обеспечивать работу Интернета",
+    "ruVariants": [],
+    "aliases": [
+      "поддерживать Интернет",
+      "обеспечивать работу Интернета"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 13,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To support the Internet",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 481,
+    "en": "To seek on the Internet",
+    "pron": "ту сик он зи и́нтэрнэт",
+    "ru": "искать в Интернете, осуществлять поиск в сети",
+    "ruVariants": [],
+    "aliases": [
+      "искать в Интернете",
+      "осуществлять поиск в сети"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 14,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To seek on the Internet",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 482,
+    "en": "To follow the sets of rules",
+    "pron": "ту фо́лоу зэ сэтс эв рулз",
+    "ru": "следовать наборам правил, соблюдать установленные правила",
+    "ruVariants": [],
+    "aliases": [
+      "следовать наборам правил",
+      "соблюдать установленные правила"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 15,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To follow the sets of rules",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 483,
+    "en": "To store information",
+    "pron": "ту стор информэ́йшэн",
+    "ru": "хранить информацию, сохранять данные",
+    "ruVariants": [],
+    "aliases": [
+      "хранить информацию",
+      "сохранять данные"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 16,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To store information",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 484,
+    "en": "To create a network",
+    "pron": "ту криэ́йт э нэ́туорк",
+    "ru": "создавать сеть, формировать сеть",
+    "ruVariants": [],
+    "aliases": [
+      "создавать сеть",
+      "формировать сеть"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 17,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To create a network",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 485,
+    "en": "To provide both ... and ...",
+    "pron": "ту прова́йд боус ... энд ...",
+    "ru": "обеспечивать как …, так и …, предоставлять и …, и …",
+    "ruVariants": [],
+    "aliases": [
+      "обеспечивать как …",
+      "так и …",
+      "предоставлять и …"
+    ],
+    "locations": [
+      {
+        "page": "166",
+        "exercise": "How Does the Internet Work? · слова под текстом",
+        "group": "l3_internet_vocab",
+        "order": 18,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To provide both ... and ...",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 486,
+    "en": "Protecting information systems",
+    "pron": "протэ́ктинг информэ́йшэн си́стэмз",
+    "ru": "защита информационных систем, обеспечение безопасности информационных систем",
+    "ruVariants": [],
+    "aliases": [
+      "защита информационных систем",
+      "обеспечение безопасности информационных систем"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 1,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Protecting information systems",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 487,
+    "en": "Computer virus",
+    "pron": "компью́тэр ва́йрэс",
+    "ru": "компьютерный вирус, вирусная программа",
+    "ruVariants": [],
+    "aliases": [
+      "компьютерный вирус",
+      "вирусная программа"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 2,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Computer virus",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 488,
+    "en": "Unwanted messages",
+    "pron": "ануо́нтид мэ́сиджиз",
+    "ru": "нежелательные сообщения, непрошеные сообщения",
+    "ruVariants": [],
+    "aliases": [
+      "нежелательные сообщения",
+      "непрошеные сообщения"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 3,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Unwanted messages",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 489,
+    "en": "Commercial advertising",
+    "pron": "кэмёршэл э́двэртайзинг",
+    "ru": "коммерческая реклама, реклама товаров и услуг",
+    "ruVariants": [],
+    "aliases": [
+      "коммерческая реклама",
+      "реклама товаров и услуг"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 4,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Commercial advertising",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 490,
+    "en": "Hidden program",
+    "pron": "хи́дэн про́угрэм",
+    "ru": "скрытая программа, замаскированная программа",
+    "ruVariants": [],
+    "aliases": [
+      "скрытая программа",
+      "замаскированная программа"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 5,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Hidden program",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 491,
+    "en": "Visible program",
+    "pron": "ви́зэбл про́угрэм",
+    "ru": "видимая программа, нескрытая программа",
+    "ruVariants": [],
+    "aliases": [
+      "видимая программа",
+      "нескрытая программа"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 6,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Visible program",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 492,
+    "en": "Accidentally",
+    "pron": "эксидэ́нтэли",
+    "ru": "случайно, нечаянно, непреднамеренно",
+    "ruVariants": [],
+    "aliases": [
+      "случайно",
+      "нечаянно",
+      "непреднамеренно"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 7,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Accidentally",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 493,
+    "en": "Secretly",
+    "pron": "си́крэтли",
+    "ru": "тайно, скрытно, незаметно",
+    "ruVariants": [],
+    "aliases": [
+      "тайно",
+      "скрытно",
+      "незаметно"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 8,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Secretly",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 494,
+    "en": "To attach itself",
+    "pron": "ту этэ́ч итсэ́лф",
+    "ru": "самостоятельно прикрепляться, присоединяться",
+    "ruVariants": [],
+    "aliases": [
+      "самостоятельно прикрепляться",
+      "присоединяться"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 9,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To attach itself",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 495,
+    "en": "To destroy data",
+    "pron": "ту дистро́й дэ́йта",
+    "ru": "уничтожать данные, разрушать информацию",
+    "ruVariants": [],
+    "aliases": [
+      "уничтожать данные",
+      "разрушать информацию"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 10,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To destroy data",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 496,
+    "en": "To delete",
+    "pron": "ту дили́т",
+    "ru": "удалять, стирать, исключать",
+    "ruVariants": [],
+    "aliases": [
+      "удалять",
+      "стирать",
+      "исключать"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 11,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To delete",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 497,
+    "en": "User",
+    "pron": "ю́зэр",
+    "ru": "пользователь, потребитель",
+    "ruVariants": [],
+    "aliases": [
+      "пользователь",
+      "потребитель"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 12,
+        "set": "lex3"
+      }
+    ],
+    "speak": "User",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 498,
+    "en": "Infected software",
+    "pron": "инфэ́ктид со́фтуэр",
+    "ru": "заражённое программное обеспечение, инфицированные программы",
+    "ruVariants": [],
+    "aliases": [
+      "заражённое программное обеспечение",
+      "инфицированные программы"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 13,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Infected software",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 499,
+    "en": "To activate",
+    "pron": "ту э́ктивэйт",
+    "ru": "активировать, запускать, приводить в действие",
+    "ruVariants": [],
+    "aliases": [
+      "активировать",
+      "запускать",
+      "приводить в действие"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 14,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To activate",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 500,
+    "en": "Immediately",
+    "pron": "ими́диэтли",
+    "ru": "немедленно, сразу, незамедлительно",
+    "ruVariants": [],
+    "aliases": [
+      "немедленно",
+      "сразу",
+      "незамедлительно"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 15,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Immediately",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 501,
+    "en": "To remain dormant",
+    "pron": "ту римэ́йн до́рмэнт",
+    "ru": "оставаться неактивным, находиться в спящем состоянии, бездействовать",
+    "ruVariants": [],
+    "aliases": [
+      "оставаться неактивным",
+      "находиться в спящем состоянии",
+      "бездействовать"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 16,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To remain dormant",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 502,
+    "en": "Period of time",
+    "pron": "пи́риэд эв тайм",
+    "ru": "период времени, промежуток времени, временной интервал",
+    "ruVariants": [],
+    "aliases": [
+      "период времени",
+      "промежуток времени",
+      "временной интервал"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 17,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Period of time",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 503,
+    "en": "Macro virus",
+    "pron": "мэ́кроу ва́йрэс",
+    "ru": "макровирус, вирус на основе макросов",
+    "ruVariants": [],
+    "aliases": [
+      "макровирус",
+      "вирус на основе макросов"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 18,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Macro virus",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 504,
+    "en": "Email virus",
+    "pron": "и́мэйл ва́йрэс",
+    "ru": "вирус электронной почты, почтовый вирус",
+    "ruVariants": [],
+    "aliases": [
+      "вирус электронной почты",
+      "почтовый вирус"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 19,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Email virus",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 505,
+    "en": "Logic bomb",
+    "pron": "ло́джик бом",
+    "ru": "логическая бомба, вредоносный код, срабатывающий при определённых условиях",
+    "ruVariants": [],
+    "aliases": [
+      "логическая бомба",
+      "вредоносный код",
+      "срабатывающий при определённых условиях"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 20,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Logic bomb",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 506,
+    "en": "To trigger",
+    "pron": "ту три́гэр",
+    "ru": "запускать, активировать, вызывать срабатывание",
+    "ruVariants": [],
+    "aliases": [
+      "запускать",
+      "активировать",
+      "вызывать срабатывание"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 21,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To trigger",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 507,
+    "en": "Specific conditions",
+    "pron": "спэси́фик кэнди́шэнз",
+    "ru": "определённые условия, конкретные условия, особые условия",
+    "ruVariants": [],
+    "aliases": [
+      "определённые условия",
+      "конкретные условия",
+      "особые условия"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 22,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Specific conditions",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 508,
+    "en": "To infect",
+    "pron": "ту инфэ́кт",
+    "ru": "заражать, инфицировать",
+    "ruVariants": [],
+    "aliases": [
+      "заражать",
+      "инфицировать"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 23,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To infect",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 509,
+    "en": "Document",
+    "pron": "до́кьюмэнт",
+    "ru": "документ, письменный материал",
+    "ruVariants": [],
+    "aliases": [
+      "документ",
+      "письменный материал"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 24,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Document",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 510,
+    "en": "Spreadsheet",
+    "pron": "спрэ́дшит",
+    "ru": "электронная таблица, табличный документ",
+    "ruVariants": [],
+    "aliases": [
+      "электронная таблица",
+      "табличный документ"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 25,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Spreadsheet",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 511,
+    "en": "Mode of transport",
+    "pron": "моуд эв трэ́нспорт",
+    "ru": "способ транспортировки, способ передачи",
+    "ruVariants": [],
+    "aliases": [
+      "способ транспортировки",
+      "способ передачи"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 26,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Mode of transport",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 512,
+    "en": "Digital signature",
+    "pron": "ди́джитэл си́гнэчэр",
+    "ru": "цифровая подпись, цифровая сигнатура",
+    "ruVariants": [],
+    "aliases": [
+      "цифровая подпись",
+      "цифровая сигнатура"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 27,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Digital signature",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 513,
+    "en": "To replicate",
+    "pron": "ту рэ́пликэйт",
+    "ru": "копировать, воспроизводить, размножаться",
+    "ruVariants": [],
+    "aliases": [
+      "копировать",
+      "воспроизводить",
+      "размножаться"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 28,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To replicate",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 514,
+    "en": "To detect",
+    "pron": "ту дитэ́кт",
+    "ru": "обнаруживать, выявлять, распознавать",
+    "ruVariants": [],
+    "aliases": [
+      "обнаруживать",
+      "выявлять",
+      "распознавать"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 29,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To detect",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 515,
+    "en": "Polymorphic virus",
+    "pron": "полимо́рфик ва́йрэс",
+    "ru": "полиморфный вирус, вирус с изменяемым кодом",
+    "ruVariants": [],
+    "aliases": [
+      "полиморфный вирус",
+      "вирус с изменяемым кодом"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 30,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Polymorphic virus",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 516,
+    "en": "Backdoor",
+    "pron": "бэ́кдор",
+    "ru": "бэкдор, скрытый вход, обходной способ доступа",
+    "ruVariants": [],
+    "aliases": [
+      "бэкдор",
+      "скрытый вход",
+      "обходной способ доступа"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 31,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Backdoor",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 517,
+    "en": "Cracker",
+    "pron": "крэ́кэр",
+    "ru": "взломщик, компьютерный злоумышленник",
+    "ruVariants": [],
+    "aliases": [
+      "взломщик",
+      "компьютерный злоумышленник"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 32,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Cracker",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 518,
+    "en": "To gain access",
+    "pron": "ту гэйн э́ксэс",
+    "ru": "получать доступ, приобретать возможность доступа",
+    "ruVariants": [],
+    "aliases": [
+      "получать доступ",
+      "приобретать возможность доступа"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 33,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To gain access",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 519,
+    "en": "Sensitive information",
+    "pron": "сэ́нситив информэ́йшэн",
+    "ru": "конфиденциальная информация, чувствительные данные",
+    "ruVariants": [],
+    "aliases": [
+      "конфиденциальная информация",
+      "чувствительные данные"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 34,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Sensitive information",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 520,
+    "en": "Trojan horse",
+    "pron": "тро́уджэн хорс",
+    "ru": "троянский конь, троянская программа, троян",
+    "ruVariants": [],
+    "aliases": [
+      "троянский конь",
+      "троянская программа",
+      "троян"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 35,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Trojan horse",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 521,
+    "en": "Adware",
+    "pron": "э́дуэр",
+    "ru": "рекламное ПО, рекламная программа",
+    "ruVariants": [],
+    "aliases": [
+      "рекламное ПО",
+      "рекламная программа"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 36,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Adware",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 522,
+    "en": "Worm",
+    "pron": "уорм",
+    "ru": "червь, компьютерный червь, сетевой червь",
+    "ruVariants": [],
+    "aliases": [
+      "червь",
+      "компьютерный червь",
+      "сетевой червь"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 37,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Worm",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 523,
+    "en": "Host file",
+    "pron": "хоуст файл",
+    "ru": "файл-носитель, файл-хозяин",
+    "ruVariants": [],
+    "aliases": [
+      "файл-носитель",
+      "файл-хозяин"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 38,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Host file",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 524,
+    "en": "Self-contained",
+    "pron": "сэлф-кэнтэ́йнд",
+    "ru": "автономный, самостоятельный, самодостаточный",
+    "ruVariants": [],
+    "aliases": [
+      "автономный",
+      "самостоятельный",
+      "самодостаточный"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 39,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Self-contained",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 525,
+    "en": "Malware",
+    "pron": "мэ́луэр",
+    "ru": "вредоносное ПО, вредоносные программы",
+    "ruVariants": [],
+    "aliases": [
+      "вредоносное ПО",
+      "вредоносные программы"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 40,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Malware",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 526,
+    "en": "To protect against computer viruses",
+    "pron": "ту протэ́кт эгэ́нст компью́тэр ва́йрэсыз",
+    "ru": "защищать от компьютерных вирусов, обеспечивать антивирусную защиту",
+    "ruVariants": [],
+    "aliases": [
+      "защищать от компьютерных вирусов",
+      "обеспечивать антивирусную защиту"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 41,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To protect against computer viruses",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 527,
+    "en": "To monitor access",
+    "pron": "ту мо́нитэр э́ксэс",
+    "ru": "контролировать доступ, отслеживать доступ",
+    "ruVariants": [],
+    "aliases": [
+      "контролировать доступ",
+      "отслеживать доступ"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 42,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To monitor access",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 528,
+    "en": "Reliable",
+    "pron": "рила́йэбл",
+    "ru": "надёжный, проверенный, достоверный",
+    "ruVariants": [],
+    "aliases": [
+      "надёжный",
+      "проверенный",
+      "достоверный"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 43,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Reliable",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 529,
+    "en": "Up-to-date",
+    "pron": "ап-ту-дэйт",
+    "ru": "современный, актуальный, обновлённый",
+    "ruVariants": [],
+    "aliases": [
+      "современный",
+      "актуальный",
+      "обновлённый"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 44,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Up-to-date",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 530,
+    "en": "Antivirus software",
+    "pron": "энтива́йрэс со́фтуэр",
+    "ru": "антивирусное программное обеспечение, антивирусные программы",
+    "ruVariants": [],
+    "aliases": [
+      "антивирусное программное обеспечение",
+      "антивирусные программы"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 45,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Antivirus software",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 531,
+    "en": "Anti-malware software",
+    "pron": "энти-мэ́луэр со́фтуэр",
+    "ru": "средства защиты от вредоносных программ, ПО для борьбы с вредоносными программами",
+    "ruVariants": [],
+    "aliases": [
+      "средства защиты от вредоносных программ",
+      "ПО для борьбы с вредоносными программами"
+    ],
+    "locations": [
+      {
+        "page": "168–169",
+        "exercise": "Protecting Information Systems: Computer Viruses",
+        "group": "l3_viruses",
+        "order": 46,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Anti-malware software",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 532,
+    "en": "Read-only memory",
+    "pron": "рид-о́унли мэ́мэри",
+    "ru": "постоянное запоминающее устройство, постоянная память, память только для чтения",
+    "ruVariants": [],
+    "aliases": [
+      "постоянное запоминающее устройство",
+      "постоянная память",
+      "память только для чтения"
+    ],
+    "locations": [
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 1,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Read-only memory",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 533,
+    "en": "ROM chip",
+    "pron": "ром чип",
+    "ru": "микросхема постоянной памяти, чип ПЗУ",
+    "ruVariants": [],
+    "aliases": [
+      "микросхема постоянной памяти",
+      "чип ПЗУ"
+    ],
+    "locations": [
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 2,
+        "set": "lex3"
+      }
+    ],
+    "speak": "ROM chip",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 534,
+    "en": "Motherboard",
+    "pron": "ма́зэрборд",
+    "ru": "материнская плата, системная плата",
+    "ruVariants": [],
+    "aliases": [
+      "материнская плата",
+      "системная плата"
+    ],
+    "locations": [
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 3,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Motherboard",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 535,
+    "en": "Random access memory",
+    "pron": "рэ́ндэм э́ксэс мэ́мэри",
+    "ru": "оперативная память, оперативное запоминающее устройство, память с произвольным доступом",
+    "ruVariants": [],
+    "aliases": [
+      "оперативная память",
+      "оперативное запоминающее устройство",
+      "память с произвольным доступом"
+    ],
+    "locations": [
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 6,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Random access memory",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 536,
+    "en": "To retain contents",
+    "pron": "ту ритэ́йн ко́нтэнтс",
+    "ru": "сохранять содержимое, удерживать данные",
+    "ruVariants": [],
+    "aliases": [
+      "сохранять содержимое",
+      "удерживать данные"
+    ],
+    "locations": [
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 7,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To retain contents",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 537,
+    "en": "Powered down",
+    "pron": "па́уэрд даун",
+    "ru": "выключенный, обесточенный",
+    "ruVariants": [],
+    "aliases": [
+      "выключенный",
+      "обесточенный"
+    ],
+    "locations": [
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 8,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Powered down",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 538,
+    "en": "To erase",
+    "pron": "ту ирэ́йс",
+    "ru": "стирать, удалять, очищать",
+    "ruVariants": [],
+    "aliases": [
+      "стирать",
+      "удалять",
+      "очищать"
+    ],
+    "locations": [
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 9,
+        "set": "lex3"
+      }
+    ],
+    "speak": "To erase",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 539,
+    "en": "Data transfer",
+    "pron": "дэ́йта трэ́нсфёр",
+    "ru": "передача данных, перенос информации",
+    "ruVariants": [],
+    "aliases": [
+      "передача данных",
+      "перенос информации"
+    ],
+    "locations": [
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 10,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Data transfer",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 540,
+    "en": "Disk",
+    "pron": "диск",
+    "ru": "диск, дисковый носитель",
+    "ruVariants": [],
+    "aliases": [
+      "диск",
+      "дисковый носитель"
+    ],
+    "locations": [
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 11,
+        "set": "lex3"
+      }
+    ],
+    "speak": "Disk",
+    "sets": [
+      "lex3"
+    ]
+  },
+  {
+    "id": 541,
+    "en": "BIOS",
+    "pron": "ба́йос",
+    "ru": "базовая система ввода-вывода, системная микропрограмма",
+    "ruVariants": [],
+    "aliases": [
+      "базовая система ввода-вывода",
+      "системная микропрограмма"
+    ],
+    "locations": [
+      {
+        "page": "169",
+        "exercise": "Types of ROM",
+        "group": "l3_rom",
+        "order": 12,
+        "set": "lex3"
+      }
+    ],
+    "speak": "BIOS",
+    "sets": [
+      "lex3"
     ]
   }
 ]
